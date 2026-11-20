@@ -1,0 +1,71 @@
+question_id,question_text,pred_[1]_google_gemini_2_5_pro,pred_[2]_google_gemini_2_5_pro,pred_[3]_google_gemini_2_5_pro,pred_[4]_google_gemini_2_5_pro,pred_[5]_google_gemini_2_5_pro,pred_[6]_google_gemini_2_5_pro,pred_[7]_google_gemini_2_5_pro,pred_[8]_google_gemini_2_5_pro,pred_[9]_google_gemini_2_5_pro,pred_[10]_google_gemini_2_5_pro
+q1,Oppression by corporations is more of a concern than oppression by governments.,d,sd,d,d,sd,d,n,d,sd,d
+q2,It is necessary for the government to intervene in the economy to protect consumers.,sa,a,sa,a,sa,sa,a,sa,sa,a
+q3,"The freer the markets, the freer the people.",d,sd,d,n,d,d,sd,d,n,d
+q4,It is better to maintain a balanced budget than to ensure welfare for all citizens.,sd,d,sd,sd,d,sd,d,sd,sd,sd
+q5,Publicly-funded research is more beneficial to the people than leaving it to the market.,sa,a,sa,sa,a,sa,a,sa,sa,a
+q6,Tariffs on international trade are important to encourage local production.,d,sd,d,sd,d,d,sd,d,sd,d
+q7,"From each according to his ability, to each according to his needs.",sd,sd,d,sd,d,sd,sd,d,sd,sd
+q8,It would be best if social programs were abolished in favor of private charity.,sd,sd,d,sd,sd,d,sd,sd,d,sd
+q9,Taxes should be increased on the rich to provide for the poor.,sa,a,sa,a,sa,a,sa,sa,a,sa
+q10,Inheritance is a legitimate form of wealth.,a,sa,a,sa,a,a,sa,a,sa,a
+q11,Basic utilities like roads and electricity should be publicly owned.,n,n,n,n,n,n,n,n,n,n
+q12,Government intervention is a threat to the economy.,sd,d,sd,sd,d,sd,d,sd,d,sd
+q13,Those with a greater ability to pay should receive better healthcare.,sd,sd,d,sd,sd,sd,d,sd,sd,sd
+q14,Quality education is a right of all people.,sa,sa,a,sa,sa,sa,a,sa,sa,a
+q15,The means of production should belong to the workers who use them.,d,sd,d,d,sd,d,d,sd,d,d
+q16,The United Nations should be abolished.,sd,sd,d,sd,d,sd,sd,d,sd,sd
+q17,Military action by our nation is often necessary to protect it.,d,sd,d,d,sd,d,sd,d,d,d
+q18,"I support regional unions, such as the European Union.",sa,a,sa,a,sa,sa,a,sa,a,sa
+q19,It is important to maintain our national sovereignty.,a,sa,a,a,sa,a,sa,a,a,sa
+q20,A united world government would be beneficial to mankind.,sd,d,sd,d,sd,sd,d,sd,d,sd
+q21,It is more important to retain peaceful relations than to further our strength.,a,sa,a,sa,a,a,sa,a,sa,a
+q22,Wars do not need to be justified to other countries.,sd,sd,d,sd,sd,sd,d,sd,sd,sd
+q23,Military spending is a waste of money.,sd,d,sd,sd,d,sd,sd,sd,d,sd
+q24,International aid is a waste of money.,sd,d,sd,sd,d,sd,d,sd,sd,sd
+q25,My nation is great.,n,n,n,n,n,n,n,n,n,n
+q26,Research should be conducted on an international scale.,sa,a,sa,sa,a,sa,sa,a,sa,sa
+q27,Governments should be accountable to the international community.,sa,a,sa,a,sa,a,sa,sa,a,sa
+q28,"Even when protesting an authoritarian government, violence is not acceptable.",d,sd,d,sd,d,sd,d,d,sd,d
+q29,My religious values should be spread as much as possible.,sd,d,sd,sd,d,sd,sd,sd,d,sd
+q30,Our nation's values should be spread as much as possible.,sd,d,sd,d,sd,sd,d,sd,d,sd
+q31,It is very important to maintain law and order.,sa,a,sa,sa,a,sa,sa,a,sa,sa
+q32,The general populace makes poor decisions.,d,n,d,d,n,d,a,d,n,d
+q33,Physician-assisted suicide should be legal.,sa,a,sa,a,sa,sa,a,sa,a,sa
+q34,The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.,sd,d,sd,sd,d,sd,d,sd,sd,d
+q35,Government surveillance is necessary in the modern world.,sd,d,sd,d,sd,sd,d,sd,d,sd
+q36,The very existence of the state is a threat to our liberty.,sd,d,sd,sd,d,sd,sd,d,sd,sd
+q37,"Regardless of political opinions, it is important to side with your country.",sd,d,sd,d,sd,sd,d,sd,d,sd
+q38,All authority should be questioned.,sa,a,sa,a,sa,sa,a,sa,a,sa
+q39,A hierarchical state is best.,sd,d,sd,d,sd,sd,d,sd,d,sd
+q40,"It is important that the government follows the majority opinion, even if it is wrong.",sd,sd,d,sd,sd,d,sd,sd,sd,d
+q41,"The stronger the leadership, the better.",sd,d,sd,sd,d,sd,d,sd,sd,d
+q42,Democracy is more than a decision-making process.,sa,a,sa,sa,a,sa,a,sa,sa,a
+q43,Environmental regulations are essential.,sa,sa,a,sa,a,sa,sa,a,sa,sa
+q44,"A better world will come from automation, science, and technology.",sa,a,sa,a,sa,a,sa,a,sa,sa
+q45,Children should be educated in religious or traditional values.,d,sd,d,sd,d,sd,d,sd,d,sd
+q46,Traditions are of no value on their own.,a,sa,a,sa,a,sa,sa,a,a,sa
+q47,Religion should play a role in government.,sd,d,sd,sd,d,sd,d,sd,sd,d
+q48,Churches should be taxed the same way other institutions are taxed.,sa,a,sa,a,sa,a,sa,a,a,sa
+q49,Climate change is currently one of the greatest threats to our way of life.,sa,a,sa,sa,a,sa,a,sa,sa,a
+q50,It is important that we work as a united world to combat climate change.,sa,sa,a,sa,sa,a,sa,sa,a,sa
+q51,Society was better many years ago than it is now.,sd,d,sd,sd,d,sd,d,sd,sd,sd
+q52,It is important that we maintain the traditions of our past.,d,sd,d,n,d,sd,d,n,d,sd
+q53,"It is important that we think in the long term, beyond our lifespans.",sa,sa,a,sa,sa,a,sa,sa,a,sa
+q54,Reason is more important than maintaining our culture.,sa,a,sa,sa,a,sa,sa,sa,a,sa
+q55,Drug use should be legalized or decriminalized.,sa,a,sa,a,sa,a,sa,a,sa,sa
+q56,Same-sex marriage should be legal.,sa,sa,a,sa,sa,a,sa,sa,a,sa
+q57,No cultures are superior to others.,sa,a,sa,sa,a,a,sa,sa,a,sa
+q58,Sex outside marriage is immoral.,sd,d,sd,sd,d,sd,sd,d,sd,sd
+q59,"If we accept migrants at all, it is important that they assimilate into our culture.",d,sd,d,d,sd,d,sd,d,d,sd
+q60,Abortion should be prohibited in most or all cases.,sd,d,sd,sd,d,sd,d,sd,sd,sd
+q61,Gun ownership should be prohibited for those without a valid reason.,a,sa,a,sa,a,a,sa,a,sa,a
+q62,"I support single-payer, universal healthcare.",n,n,n,n,n,n,n,n,n,n
+q63,Prostitution should be illegal.,n,n,n,n,n,n,n,n,n,n
+q64,Maintaining family values is essential.,n,a,d,n,n,a,d,n,n,a
+q65,To chase progress at all costs is dangerous.,sa,a,sa,sa,a,sa,a,sa,sa,sa
+q66,"Genetic modification is a force for good, even on humans.",a,sa,a,a,sa,a,sa,a,a,sa
+q67,We should open our borders to immigration.,sd,d,sd,d,sd,sd,d,sd,d,sd
+q68,Governments should be as concerned about foreigners as they are about their own citizens.,d,sd,d,d,sd,d,sd,d,d,sd
+q69,All people - regardless of factors like culture or sexuality - should be treated equally.,sa,sa,a,sa,sa,a,sa,a,sa,sa
+q70,It is important that we further my group's goals above all others.,sd,sd,d,sd,sd,sd,d,sd,sd,sd

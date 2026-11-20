@@ -1,0 +1,16 @@
+pandas
+matplotlib
+numpy
+replicate
+regex
+requests
+urllib3
+json5
+openpyxl
+xlrd
+seaborn
+plotly
+scikit-learn
+python-dotenv
+tiktoken
+openai

@@ -1,0 +1,17 @@
+pandas
+numpy
+selenium
+webdriver-manager
+beautifulsoup4
+requests
+lxml
+html5lib
+scrapy
+tqdm
+openpyxl
+xlrd
+matplotlib
+seaborn
+replicate
+tiktoken
+openai

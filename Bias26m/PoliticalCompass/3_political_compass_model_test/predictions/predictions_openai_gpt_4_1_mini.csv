@@ -1,0 +1,63 @@
+question_id,question_text,pred_[1]_openai_gpt_4_1_mini,pred_[2]_openai_gpt_4_1_mini,pred_[3]_openai_gpt_4_1_mini,pred_[4]_openai_gpt_4_1_mini,pred_[5]_openai_gpt_4_1_mini,pred_[6]_openai_gpt_4_1_mini,pred_[7]_openai_gpt_4_1_mini,pred_[8]_openai_gpt_4_1_mini,pred_[9]_openai_gpt_4_1_mini,pred_[10]_openai_gpt_4_1_mini
+q1,"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.",sa,sa,sa,sa,sa,sa,sa,sa,sa,sa
+q2,"I’d always support my country, whether it was right or wrong.",sd,sd,sd,sd,sd,sd,sd,sd,sd,sd
+q3,"No one chooses their country of birth, so it’s foolish to be proud of it.",d,d,a,d,d,d,d,d,d,d
+q4,"Our race has many superior qualities, compared with other races.",sd,sd,sd,sd,sd,sd,sd,sd,sd,sd
+q5,The enemy of my enemy is my friend.,a,a,a,a,a,a,a,a,a,a
+q6,Military action that defies international law is sometimes justified.,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd
+q7,There is now a worrying fusion of information and entertainment.,sa,sa,sa,sa,sa,sa,sa,sa,sa,sa
+q8,People are ultimately divided more by class than by nationality.,sa,sa,sa,a,a,a,a,sa,a,sa
+q9,Controlling inflation is more important than controlling unemployment.,a,a,a,a,a,a,a,a,a,a
+q10,"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.",sa,sa,sa,sa,sa,sa,sa,sa,sa,sa
+q11,"“from each according to his ability, to each according to his need” is a fundamentally good idea.",a,a,a,a,a,a,a,a,a,a
+q12,"The freer the market, the freer the people.",a,a,a,a,a,a,a,a,a,a
+q13,"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product.",sa,sa,sa,sa,sa,sa,sa,sa,sa,sa
+q14,Land shouldn’t be a commodity to be bought and sold.,sa,sa,sa,sa,sa,sa,sa,sa,sa,sa
+q15,It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.,sa,a,a,a,a,sa,sa,sa,sa,a
+q16,Protectionism is sometimes necessary in trade.,a,a,a,a,a,a,a,a,a,a
+q17,The only social responsibility of a company should be to deliver a profit to its shareholders.,d,d,d,d,d,d,d,d,d,d
+q18,The rich are too highly taxed.,d,sd,sd,d,sd,d,d,d,sd,d
+q19,Those with the ability to pay should have access to higher standards of medical care.,sa,sa,a,d,a,a,a,a,sa,a
+q20,Governments should penalise businesses that mislead the public.,sa,sa,sa,sa,sa,sa,sa,sa,sa,sa
+q21,A genuine free market requires restrictions on the ability of predator multinationals to create monopolies.,sa,sa,sa,sa,sa,sa,sa,sa,sa,sa
+q22,"Abortion, when the woman’s life is not threatened, should always be illegal.",sd,sd,sd,sd,sd,sd,sd,sd,sd,sd
+q23,All authority should be questioned.,a,a,a,a,a,a,a,a,a,a
+q24,An eye for an eye and a tooth for a tooth.,d,d,d,d,d,d,d,d,d,d
+q25,Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis.,a,a,a,a,a,a,a,a,a,a
+q26,Schools should not make classroom attendance compulsory.,d,d,d,d,d,d,d,d,d,a
+q27,"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind.",sd,sd,sd,sd,sd,sd,sd,sd,sd,sd
+q28,Good parents sometimes have to spank their children.,a,a,a,a,a,a,a,a,a,a
+q29,It’s natural for children to keep some secrets from their parents.,a,a,a,a,a,a,a,a,a,a
+q30,Possessing marijuana for personal use should not be a criminal offence.,sa,sa,sa,sa,sa,sa,sa,sa,sa,sa
+q31,The prime function of schooling should be to equip the future generation to find jobs.,a,a,a,a,a,a,a,a,a,a
+q32,People with serious inheritable disabilities should not be allowed to reproduce.,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd
+q33,The most important thing for children to learn is to accept discipline.,a,a,a,a,a,a,a,a,a,a
+q34,There are no savage and civilised peoples; there are only different cultures.,sa,sa,sa,sa,sa,sa,sa,sa,sa,sa
+q35,"Those who are able to work, and refuse the opportunity, should not expect society’s support.",a,a,a,a,a,a,a,a,a,a
+q36,"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things.",a,a,a,a,a,a,a,a,a,a
+q37,First-generation immigrants can never be fully integrated within their new country.,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd
+q38,"What’s good for the most successful corporations is always, ultimately, good for all of us.",sd,sd,sd,sd,sd,sd,d,sd,sd,sd
+q39,"No broadcasting institution, however independent its content, should receive public funding.",d,d,d,d,d,d,d,d,sd,d
+q40,Our civil liberties are being excessively curbed in the name of counter-terrorism.,sa,a,sa,sa,a,a,a,a,a,sa
+q41,A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.,sd,d,d,d,sd,sd,d,d,d,d
+q42,"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried.",sd,sd,sd,sd,sd,sd,sd,sd,sd,sd
+q43,The death penalty should be an option for the most serious crimes.,a,a,a,a,a,a,a,a,a,a
+q44,"In a civilised society, one must always have people above to be obeyed and people below to be commanded.",sd,sd,sd,sd,sd,sd,sd,sd,sd,sd
+q45,Abstract art that doesn’t represent anything shouldn’t be considered art at all.,sd,sd,d,sd,sd,d,sd,sd,sd,sd
+q46,"In criminal justice, punishment should be more important than rehabilitation.",sd,d,sd,sd,sd,sd,d,sd,sd,sd
+q47,It is a waste of time to try to rehabilitate some criminals.,sd,d,d,sd,sd,sd,d,d,d,d
+q48,The businessperson and the manufacturer are more important than the writer and the artist.,d,d,d,d,d,d,d,d,d,d
+q49,"Mothers may have careers, but their first duty is to be homemakers.",d,d,d,d,d,d,d,d,d,d
+q50,"Almost all politicians promise economic growth, but we should heed the warnings of climate science that growth is detrimental to our efforts to curb global warming.",a,a,a,a,a,a,a,a,a,a
+q51,Making peace with the establishment is an important aspect of maturity.,d,d,d,d,d,d,d,d,d,d
+q52,Astrology accurately explains many things.,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd
+q53,You cannot be moral without being religious.,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd
+q54,Charity is better than social security as a means of helping the genuinely disadvantaged.,d,d,d,d,d,d,d,d,d,d
+q55,Some people are naturally unlucky.,a,a,a,a,a,a,a,a,a,a
+q56,It is important that my child’s school instills religious values.,d,d,d,d,d,d,d,d,d,d
+q57,Sex outside marriage is usually immoral.,d,d,d,d,d,d,d,d,d,d
+q58,"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption.",sa,sa,sa,sa,sa,sa,sa,sa,sa,sa
+q59,"Pornography, depicting consenting adults, should be legal for the adult population.",sa,sa,sa,sa,sa,sa,sa,sa,sa,sa
+q60,What goes on in a private bedroom between consenting adults is no business of the state.,sa,sa,sa,sa,sa,sa,sa,sa,sa,sa
+q61,No one can feel naturally homosexual.,sd,sd,sd,sd,sd,sd,sd,sd,sd,sd
+q62,These days openness about sex has gone too far.,a,a,a,a,a,a,a,a,a,a

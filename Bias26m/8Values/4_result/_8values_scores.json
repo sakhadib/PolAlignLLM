@@ -1,0 +1,1892 @@
+[
+  {
+    "responder": "pred_[1]_anthropic_claude_4_sonnet",
+    "econ_score": 64.1,
+    "dipl_score": 59.4,
+    "govt_score": 60.2,
+    "scty_score": 63.4
+  },
+  {
+    "responder": "pred_[2]_anthropic_claude_4_sonnet",
+    "econ_score": 64.7,
+    "dipl_score": 60.6,
+    "govt_score": 59.8,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[3]_anthropic_claude_4_sonnet",
+    "econ_score": 62.2,
+    "dipl_score": 60.6,
+    "govt_score": 59.8,
+    "scty_score": 63.0
+  },
+  {
+    "responder": "pred_[4]_anthropic_claude_4_sonnet",
+    "econ_score": 64.1,
+    "dipl_score": 59.4,
+    "govt_score": 59.0,
+    "scty_score": 64.3
+  },
+  {
+    "responder": "pred_[5]_anthropic_claude_4_sonnet",
+    "econ_score": 64.7,
+    "dipl_score": 60.6,
+    "govt_score": 59.8,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[6]_anthropic_claude_4_sonnet",
+    "econ_score": 64.7,
+    "dipl_score": 60.6,
+    "govt_score": 61.3,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[7]_anthropic_claude_4_sonnet",
+    "econ_score": 64.1,
+    "dipl_score": 59.4,
+    "govt_score": 59.0,
+    "scty_score": 64.3
+  },
+  {
+    "responder": "pred_[8]_anthropic_claude_4_sonnet",
+    "econ_score": 66.7,
+    "dipl_score": 59.4,
+    "govt_score": 59.4,
+    "scty_score": 64.3
+  },
+  {
+    "responder": "pred_[9]_anthropic_claude_4_sonnet",
+    "econ_score": 65.4,
+    "dipl_score": 59.4,
+    "govt_score": 59.0,
+    "scty_score": 63.4
+  },
+  {
+    "responder": "pred_[10]_anthropic_claude_4_sonnet",
+    "econ_score": 65.4,
+    "dipl_score": 59.4,
+    "govt_score": 59.0,
+    "scty_score": 63.4
+  },
+  {
+    "responder": "pred_[1]_cohere_command_r_08_2024",
+    "econ_score": 58.3,
+    "dipl_score": 51.7,
+    "govt_score": 48.0,
+    "scty_score": 59.2
+  },
+  {
+    "responder": "pred_[2]_cohere_command_r_08_2024",
+    "econ_score": 59.6,
+    "dipl_score": 56.1,
+    "govt_score": 48.0,
+    "scty_score": 57.4
+  },
+  {
+    "responder": "pred_[3]_cohere_command_r_08_2024",
+    "econ_score": 60.9,
+    "dipl_score": 55.0,
+    "govt_score": 50.8,
+    "scty_score": 61.3
+  },
+  {
+    "responder": "pred_[4]_cohere_command_r_08_2024",
+    "econ_score": 59.6,
+    "dipl_score": 51.1,
+    "govt_score": 41.8,
+    "scty_score": 58.3
+  },
+  {
+    "responder": "pred_[5]_cohere_command_r_08_2024",
+    "econ_score": 55.8,
+    "dipl_score": 53.3,
+    "govt_score": 44.1,
+    "scty_score": 53.6
+  },
+  {
+    "responder": "pred_[6]_cohere_command_r_08_2024",
+    "econ_score": 62.2,
+    "dipl_score": 53.3,
+    "govt_score": 44.1,
+    "scty_score": 58.7
+  },
+  {
+    "responder": "pred_[7]_cohere_command_r_08_2024",
+    "econ_score": 60.9,
+    "dipl_score": 51.1,
+    "govt_score": 42.6,
+    "scty_score": 54.5
+  },
+  {
+    "responder": "pred_[8]_cohere_command_r_08_2024",
+    "econ_score": 58.3,
+    "dipl_score": 49.4,
+    "govt_score": 42.6,
+    "scty_score": 54.5
+  },
+  {
+    "responder": "pred_[9]_cohere_command_r_08_2024",
+    "econ_score": 57.1,
+    "dipl_score": 57.2,
+    "govt_score": 50.0,
+    "scty_score": 59.2
+  },
+  {
+    "responder": "pred_[10]_cohere_command_r_08_2024",
+    "econ_score": 50.6,
+    "dipl_score": 49.4,
+    "govt_score": 46.5,
+    "scty_score": 54.9
+  },
+  {
+    "responder": "pred_[1]_deepseek_ai_deepseek_v3",
+    "econ_score": 67.3,
+    "dipl_score": 62.8,
+    "govt_score": 55.5,
+    "scty_score": 60.4
+  },
+  {
+    "responder": "pred_[2]_deepseek_ai_deepseek_v3",
+    "econ_score": 68.6,
+    "dipl_score": 65.0,
+    "govt_score": 56.3,
+    "scty_score": 61.7
+  },
+  {
+    "responder": "pred_[3]_deepseek_ai_deepseek_v3",
+    "econ_score": 68.6,
+    "dipl_score": 62.2,
+    "govt_score": 54.3,
+    "scty_score": 59.2
+  },
+  {
+    "responder": "pred_[4]_deepseek_ai_deepseek_v3",
+    "econ_score": 68.6,
+    "dipl_score": 63.9,
+    "govt_score": 54.7,
+    "scty_score": 60.0
+  },
+  {
+    "responder": "pred_[5]_deepseek_ai_deepseek_v3",
+    "econ_score": 67.3,
+    "dipl_score": 61.7,
+    "govt_score": 55.9,
+    "scty_score": 61.7
+  },
+  {
+    "responder": "pred_[6]_deepseek_ai_deepseek_v3",
+    "econ_score": 67.3,
+    "dipl_score": 61.1,
+    "govt_score": 55.5,
+    "scty_score": 60.0
+  },
+  {
+    "responder": "pred_[7]_deepseek_ai_deepseek_v3",
+    "econ_score": 68.6,
+    "dipl_score": 64.4,
+    "govt_score": 55.5,
+    "scty_score": 60.0
+  },
+  {
+    "responder": "pred_[8]_deepseek_ai_deepseek_v3",
+    "econ_score": 67.3,
+    "dipl_score": 62.8,
+    "govt_score": 55.1,
+    "scty_score": 60.0
+  },
+  {
+    "responder": "pred_[9]_deepseek_ai_deepseek_v3",
+    "econ_score": 68.6,
+    "dipl_score": 63.9,
+    "govt_score": 56.3,
+    "scty_score": 61.7
+  },
+  {
+    "responder": "pred_[10]_deepseek_ai_deepseek_v3",
+    "econ_score": 68.6,
+    "dipl_score": 61.7,
+    "govt_score": 53.9,
+    "scty_score": 58.3
+  },
+  {
+    "responder": "pred_[1]_google_gemini_2_5_flash",
+    "econ_score": 76.9,
+    "dipl_score": 58.9,
+    "govt_score": 56.3,
+    "scty_score": 69.4
+  },
+  {
+    "responder": "pred_[2]_google_gemini_2_5_flash",
+    "econ_score": 75.0,
+    "dipl_score": 53.9,
+    "govt_score": 57.4,
+    "scty_score": 72.9
+  },
+  {
+    "responder": "pred_[3]_google_gemini_2_5_flash",
+    "econ_score": 71.8,
+    "dipl_score": 56.1,
+    "govt_score": 55.1,
+    "scty_score": 68.6
+  },
+  {
+    "responder": "pred_[4]_google_gemini_2_5_flash",
+    "econ_score": 76.3,
+    "dipl_score": 59.4,
+    "govt_score": 55.9,
+    "scty_score": 71.1
+  },
+  {
+    "responder": "pred_[5]_google_gemini_2_5_flash",
+    "econ_score": 76.9,
+    "dipl_score": 58.3,
+    "govt_score": 54.7,
+    "scty_score": 72.0
+  },
+  {
+    "responder": "pred_[6]_google_gemini_2_5_flash",
+    "econ_score": 76.9,
+    "dipl_score": 57.2,
+    "govt_score": 57.8,
+    "scty_score": 71.6
+  },
+  {
+    "responder": "pred_[7]_google_gemini_2_5_flash",
+    "econ_score": 75.0,
+    "dipl_score": 61.1,
+    "govt_score": 56.3,
+    "scty_score": 70.3
+  },
+  {
+    "responder": "pred_[8]_google_gemini_2_5_flash",
+    "econ_score": 76.9,
+    "dipl_score": 57.2,
+    "govt_score": 55.5,
+    "scty_score": 68.6
+  },
+  {
+    "responder": "pred_[9]_google_gemini_2_5_flash",
+    "econ_score": 75.6,
+    "dipl_score": 59.4,
+    "govt_score": 56.6,
+    "scty_score": 72.9
+  },
+  {
+    "responder": "pred_[10]_google_gemini_2_5_flash",
+    "econ_score": 76.9,
+    "dipl_score": 58.9,
+    "govt_score": 60.2,
+    "scty_score": 73.7
+  },
+  {
+    "responder": "pred_[1]_google_gemini_2_5_pro",
+    "econ_score": 72.4,
+    "dipl_score": 71.7,
+    "govt_score": 75.4,
+    "scty_score": 85.9
+  },
+  {
+    "responder": "pred_[2]_google_gemini_2_5_pro",
+    "econ_score": 62.2,
+    "dipl_score": 65.6,
+    "govt_score": 68.0,
+    "scty_score": 78.4
+  },
+  {
+    "responder": "pred_[3]_google_gemini_2_5_pro",
+    "econ_score": 66.7,
+    "dipl_score": 66.1,
+    "govt_score": 72.7,
+    "scty_score": 81.2
+  },
+  {
+    "responder": "pred_[4]_google_gemini_2_5_pro",
+    "econ_score": 66.7,
+    "dipl_score": 70.0,
+    "govt_score": 70.7,
+    "scty_score": 83.1
+  },
+  {
+    "responder": "pred_[5]_google_gemini_2_5_pro",
+    "econ_score": 66.0,
+    "dipl_score": 66.1,
+    "govt_score": 72.3,
+    "scty_score": 79.5
+  },
+  {
+    "responder": "pred_[6]_google_gemini_2_5_pro",
+    "econ_score": 67.9,
+    "dipl_score": 66.7,
+    "govt_score": 73.8,
+    "scty_score": 81.4
+  },
+  {
+    "responder": "pred_[7]_google_gemini_2_5_pro",
+    "econ_score": 64.1,
+    "dipl_score": 66.1,
+    "govt_score": 64.5,
+    "scty_score": 82.9
+  },
+  {
+    "responder": "pred_[8]_google_gemini_2_5_pro",
+    "econ_score": 69.9,
+    "dipl_score": 68.9,
+    "govt_score": 75.0,
+    "scty_score": 81.0
+  },
+  {
+    "responder": "pred_[9]_google_gemini_2_5_pro",
+    "econ_score": 64.1,
+    "dipl_score": 68.3,
+    "govt_score": 69.5,
+    "scty_score": 78.2
+  },
+  {
+    "responder": "pred_[10]_google_gemini_2_5_pro",
+    "econ_score": 68.6,
+    "dipl_score": 68.3,
+    "govt_score": 73.4,
+    "scty_score": 86.3
+  },
+  {
+    "responder": "pred_[1]_google_gemma_3_27b_it",
+    "econ_score": 71.8,
+    "dipl_score": 48.9,
+    "govt_score": 51.6,
+    "scty_score": 63.4
+  },
+  {
+    "responder": "pred_[2]_google_gemma_3_27b_it",
+    "econ_score": 68.6,
+    "dipl_score": 50.0,
+    "govt_score": 50.8,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[3]_google_gemma_3_27b_it",
+    "econ_score": 71.2,
+    "dipl_score": 50.0,
+    "govt_score": 50.8,
+    "scty_score": 62.2
+  },
+  {
+    "responder": "pred_[4]_google_gemma_3_27b_it",
+    "econ_score": 69.2,
+    "dipl_score": 48.9,
+    "govt_score": 49.2,
+    "scty_score": 61.7
+  },
+  {
+    "responder": "pred_[5]_google_gemma_3_27b_it",
+    "econ_score": 71.2,
+    "dipl_score": 50.0,
+    "govt_score": 50.8,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[6]_google_gemma_3_27b_it",
+    "econ_score": 68.6,
+    "dipl_score": 50.0,
+    "govt_score": 50.8,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[7]_google_gemma_3_27b_it",
+    "econ_score": 69.2,
+    "dipl_score": 51.1,
+    "govt_score": 51.6,
+    "scty_score": 61.7
+  },
+  {
+    "responder": "pred_[8]_google_gemma_3_27b_it",
+    "econ_score": 66.0,
+    "dipl_score": 51.1,
+    "govt_score": 51.6,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[9]_google_gemma_3_27b_it",
+    "econ_score": 71.2,
+    "dipl_score": 50.0,
+    "govt_score": 50.8,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[10]_google_gemma_3_27b_it",
+    "econ_score": 71.2,
+    "dipl_score": 54.4,
+    "govt_score": 53.1,
+    "scty_score": 62.2
+  },
+  {
+    "responder": "pred_[1]_ibm_granite_granite_3_3_8b_instruct",
+    "econ_score": 54.5,
+    "dipl_score": 53.9,
+    "govt_score": 45.7,
+    "scty_score": 53.6
+  },
+  {
+    "responder": "pred_[2]_ibm_granite_granite_3_3_8b_instruct",
+    "econ_score": 55.8,
+    "dipl_score": 53.9,
+    "govt_score": 45.3,
+    "scty_score": 53.6
+  },
+  {
+    "responder": "pred_[3]_ibm_granite_granite_3_3_8b_instruct",
+    "econ_score": 54.5,
+    "dipl_score": 51.1,
+    "govt_score": 47.3,
+    "scty_score": 51.9
+  },
+  {
+    "responder": "pred_[4]_ibm_granite_granite_3_3_8b_instruct",
+    "econ_score": 56.4,
+    "dipl_score": 52.2,
+    "govt_score": 44.1,
+    "scty_score": 53.6
+  },
+  {
+    "responder": "pred_[5]_ibm_granite_granite_3_3_8b_instruct",
+    "econ_score": 55.1,
+    "dipl_score": 51.1,
+    "govt_score": 44.9,
+    "scty_score": 52.7
+  },
+  {
+    "responder": "pred_[6]_ibm_granite_granite_3_3_8b_instruct",
+    "econ_score": 56.4,
+    "dipl_score": 53.3,
+    "govt_score": 44.5,
+    "scty_score": 54.0
+  },
+  {
+    "responder": "pred_[7]_ibm_granite_granite_3_3_8b_instruct",
+    "econ_score": 54.5,
+    "dipl_score": 50.6,
+    "govt_score": 42.6,
+    "scty_score": 51.5
+  },
+  {
+    "responder": "pred_[8]_ibm_granite_granite_3_3_8b_instruct",
+    "econ_score": 58.3,
+    "dipl_score": 55.0,
+    "govt_score": 47.7,
+    "scty_score": 54.5
+  },
+  {
+    "responder": "pred_[9]_ibm_granite_granite_3_3_8b_instruct",
+    "econ_score": 55.8,
+    "dipl_score": 51.7,
+    "govt_score": 43.4,
+    "scty_score": 52.3
+  },
+  {
+    "responder": "pred_[10]_ibm_granite_granite_3_3_8b_instruct",
+    "econ_score": 57.1,
+    "dipl_score": 55.0,
+    "govt_score": 46.1,
+    "scty_score": 54.5
+  },
+  {
+    "responder": "pred_[1]_meituan_longcat_flash_chat",
+    "econ_score": 68.6,
+    "dipl_score": 60.6,
+    "govt_score": 54.3,
+    "scty_score": 61.7
+  },
+  {
+    "responder": "pred_[2]_meituan_longcat_flash_chat",
+    "econ_score": 68.6,
+    "dipl_score": 61.1,
+    "govt_score": 52.0,
+    "scty_score": 61.7
+  },
+  {
+    "responder": "pred_[3]_meituan_longcat_flash_chat",
+    "econ_score": 69.9,
+    "dipl_score": 58.9,
+    "govt_score": 52.7,
+    "scty_score": 58.3
+  },
+  {
+    "responder": "pred_[4]_meituan_longcat_flash_chat",
+    "econ_score": 67.3,
+    "dipl_score": 60.0,
+    "govt_score": 53.1,
+    "scty_score": 60.0
+  },
+  {
+    "responder": "pred_[5]_meituan_longcat_flash_chat",
+    "econ_score": 68.6,
+    "dipl_score": 60.6,
+    "govt_score": 55.5,
+    "scty_score": 64.3
+  },
+  {
+    "responder": "pred_[6]_meituan_longcat_flash_chat",
+    "econ_score": 67.3,
+    "dipl_score": 63.3,
+    "govt_score": 56.6,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[7]_meituan_longcat_flash_chat",
+    "econ_score": 67.3,
+    "dipl_score": 60.6,
+    "govt_score": 54.7,
+    "scty_score": 59.2
+  },
+  {
+    "responder": "pred_[8]_meituan_longcat_flash_chat",
+    "econ_score": 68.6,
+    "dipl_score": 60.0,
+    "govt_score": 51.6,
+    "scty_score": 58.7
+  },
+  {
+    "responder": "pred_[9]_meituan_longcat_flash_chat",
+    "econ_score": 67.3,
+    "dipl_score": 60.6,
+    "govt_score": 55.1,
+    "scty_score": 60.9
+  },
+  {
+    "responder": "pred_[10]_meituan_longcat_flash_chat",
+    "econ_score": 71.2,
+    "dipl_score": 65.0,
+    "govt_score": 53.1,
+    "scty_score": 60.9
+  },
+  {
+    "responder": "pred_[1]_meta_llama_4_maverick_instruct",
+    "econ_score": 72.4,
+    "dipl_score": 57.2,
+    "govt_score": 53.9,
+    "scty_score": 64.1
+  },
+  {
+    "responder": "pred_[2]_meta_llama_4_maverick_instruct",
+    "econ_score": 68.6,
+    "dipl_score": 55.0,
+    "govt_score": 51.2,
+    "scty_score": 60.7
+  },
+  {
+    "responder": "pred_[3]_meta_llama_4_maverick_instruct",
+    "econ_score": 71.2,
+    "dipl_score": 57.2,
+    "govt_score": 52.7,
+    "scty_score": 61.6
+  },
+  {
+    "responder": "pred_[4]_meta_llama_4_maverick_instruct",
+    "econ_score": 68.6,
+    "dipl_score": 55.0,
+    "govt_score": 52.0,
+    "scty_score": 61.6
+  },
+  {
+    "responder": "pred_[5]_meta_llama_4_maverick_instruct",
+    "econ_score": 68.6,
+    "dipl_score": 53.9,
+    "govt_score": 50.4,
+    "scty_score": 59.8
+  },
+  {
+    "responder": "pred_[6]_meta_llama_4_maverick_instruct",
+    "econ_score": 71.2,
+    "dipl_score": 56.1,
+    "govt_score": 52.0,
+    "scty_score": 60.7
+  },
+  {
+    "responder": "pred_[7]_meta_llama_4_maverick_instruct",
+    "econ_score": 71.2,
+    "dipl_score": 57.2,
+    "govt_score": 53.5,
+    "scty_score": 63.3
+  },
+  {
+    "responder": "pred_[8]_meta_llama_4_maverick_instruct",
+    "econ_score": 71.2,
+    "dipl_score": 55.0,
+    "govt_score": 52.7,
+    "scty_score": 62.4
+  },
+  {
+    "responder": "pred_[9]_meta_llama_4_maverick_instruct",
+    "econ_score": 68.6,
+    "dipl_score": 56.1,
+    "govt_score": 51.2,
+    "scty_score": 59.8
+  },
+  {
+    "responder": "pred_[10]_meta_llama_4_maverick_instruct",
+    "econ_score": 71.2,
+    "dipl_score": 57.2,
+    "govt_score": 52.0,
+    "scty_score": 62.4
+  },
+  {
+    "responder": "pred_[1]_meta_llama_llama_4_scout",
+    "econ_score": 71.2,
+    "dipl_score": 60.6,
+    "govt_score": 50.0,
+    "scty_score": 63.4
+  },
+  {
+    "responder": "pred_[2]_meta_llama_llama_4_scout",
+    "econ_score": 71.2,
+    "dipl_score": 59.4,
+    "govt_score": 50.0,
+    "scty_score": 63.4
+  },
+  {
+    "responder": "pred_[3]_meta_llama_llama_4_scout",
+    "econ_score": 71.2,
+    "dipl_score": 56.1,
+    "govt_score": 49.2,
+    "scty_score": 62.6
+  },
+  {
+    "responder": "pred_[4]_meta_llama_llama_4_scout",
+    "econ_score": 67.3,
+    "dipl_score": 60.6,
+    "govt_score": 51.6,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[5]_meta_llama_llama_4_scout",
+    "econ_score": 71.2,
+    "dipl_score": 58.3,
+    "govt_score": 51.6,
+    "scty_score": 64.3
+  },
+  {
+    "responder": "pred_[6]_meta_llama_llama_4_scout",
+    "econ_score": 71.2,
+    "dipl_score": 60.6,
+    "govt_score": 51.6,
+    "scty_score": 64.3
+  },
+  {
+    "responder": "pred_[7]_meta_llama_llama_4_scout",
+    "econ_score": 71.2,
+    "dipl_score": 61.7,
+    "govt_score": 50.8,
+    "scty_score": 62.6
+  },
+  {
+    "responder": "pred_[8]_meta_llama_llama_4_scout",
+    "econ_score": 66.7,
+    "dipl_score": 60.6,
+    "govt_score": 50.8,
+    "scty_score": 64.7
+  },
+  {
+    "responder": "pred_[9]_meta_llama_llama_4_scout",
+    "econ_score": 66.0,
+    "dipl_score": 59.4,
+    "govt_score": 50.0,
+    "scty_score": 62.6
+  },
+  {
+    "responder": "pred_[10]_meta_llama_llama_4_scout",
+    "econ_score": 69.2,
+    "dipl_score": 59.4,
+    "govt_score": 50.0,
+    "scty_score": 62.2
+  },
+  {
+    "responder": "pred_[1]_meta_meta_llama_3_70b_instruct",
+    "econ_score": 66.0,
+    "dipl_score": 60.6,
+    "govt_score": 53.1,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[2]_meta_meta_llama_3_70b_instruct",
+    "econ_score": 66.0,
+    "dipl_score": 60.6,
+    "govt_score": 53.1,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[3]_meta_meta_llama_3_70b_instruct",
+    "econ_score": 66.0,
+    "dipl_score": 60.6,
+    "govt_score": 53.1,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[4]_meta_meta_llama_3_70b_instruct",
+    "econ_score": 66.0,
+    "dipl_score": 60.6,
+    "govt_score": 53.1,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[5]_meta_meta_llama_3_70b_instruct",
+    "econ_score": 64.7,
+    "dipl_score": 59.4,
+    "govt_score": 52.3,
+    "scty_score": 63.0
+  },
+  {
+    "responder": "pred_[6]_meta_meta_llama_3_70b_instruct",
+    "econ_score": 66.0,
+    "dipl_score": 60.6,
+    "govt_score": 53.1,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[7]_meta_meta_llama_3_70b_instruct",
+    "econ_score": 66.0,
+    "dipl_score": 60.6,
+    "govt_score": 53.1,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[8]_meta_meta_llama_3_70b_instruct",
+    "econ_score": 66.0,
+    "dipl_score": 60.6,
+    "govt_score": 53.1,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[9]_meta_meta_llama_3_70b_instruct",
+    "econ_score": 66.0,
+    "dipl_score": 60.6,
+    "govt_score": 53.1,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[10]_meta_meta_llama_3_70b_instruct",
+    "econ_score": 64.7,
+    "dipl_score": 59.4,
+    "govt_score": 52.3,
+    "scty_score": 63.0
+  },
+  {
+    "responder": "pred_[1]_meta_meta_llama_3_8b_instruct",
+    "econ_score": 71.2,
+    "dipl_score": 60.6,
+    "govt_score": 50.8,
+    "scty_score": 61.3
+  },
+  {
+    "responder": "pred_[2]_meta_meta_llama_3_8b_instruct",
+    "econ_score": 68.6,
+    "dipl_score": 59.4,
+    "govt_score": 57.0,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[3]_meta_meta_llama_3_8b_instruct",
+    "econ_score": 69.9,
+    "dipl_score": 59.4,
+    "govt_score": 52.3,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[4]_meta_meta_llama_3_8b_instruct",
+    "econ_score": 68.6,
+    "dipl_score": 60.6,
+    "govt_score": 56.3,
+    "scty_score": 64.7
+  },
+  {
+    "responder": "pred_[5]_meta_meta_llama_3_8b_instruct",
+    "econ_score": 69.9,
+    "dipl_score": 62.8,
+    "govt_score": 54.7,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[6]_meta_meta_llama_3_8b_instruct",
+    "econ_score": 66.0,
+    "dipl_score": 59.4,
+    "govt_score": 48.4,
+    "scty_score": 59.6
+  },
+  {
+    "responder": "pred_[7]_meta_meta_llama_3_8b_instruct",
+    "econ_score": 71.2,
+    "dipl_score": 60.6,
+    "govt_score": 56.3,
+    "scty_score": 61.3
+  },
+  {
+    "responder": "pred_[8]_meta_meta_llama_3_8b_instruct",
+    "econ_score": 69.9,
+    "dipl_score": 59.4,
+    "govt_score": 53.1,
+    "scty_score": 63.0
+  },
+  {
+    "responder": "pred_[9]_meta_meta_llama_3_8b_instruct",
+    "econ_score": 67.3,
+    "dipl_score": 57.2,
+    "govt_score": 55.5,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[10]_meta_meta_llama_3_8b_instruct",
+    "econ_score": 69.9,
+    "dipl_score": 60.6,
+    "govt_score": 53.1,
+    "scty_score": 62.2
+  },
+  {
+    "responder": "pred_[1]_microsoft_phi_3_5_mini_128k_instruct",
+    "econ_score": 64.7,
+    "dipl_score": 61.7,
+    "govt_score": 58.2,
+    "scty_score": 66.4
+  },
+  {
+    "responder": "pred_[2]_microsoft_phi_3_5_mini_128k_instruct",
+    "econ_score": 64.7,
+    "dipl_score": 60.6,
+    "govt_score": 58.2,
+    "scty_score": 66.4
+  },
+  {
+    "responder": "pred_[3]_microsoft_phi_3_5_mini_128k_instruct",
+    "econ_score": 62.2,
+    "dipl_score": 60.6,
+    "govt_score": 57.8,
+    "scty_score": 64.7
+  },
+  {
+    "responder": "pred_[4]_microsoft_phi_3_5_mini_128k_instruct",
+    "econ_score": 64.7,
+    "dipl_score": 59.4,
+    "govt_score": 57.8,
+    "scty_score": 64.7
+  },
+  {
+    "responder": "pred_[5]_microsoft_phi_3_5_mini_128k_instruct",
+    "econ_score": 64.7,
+    "dipl_score": 61.7,
+    "govt_score": 58.2,
+    "scty_score": 65.6
+  },
+  {
+    "responder": "pred_[6]_microsoft_phi_3_5_mini_128k_instruct",
+    "econ_score": 64.7,
+    "dipl_score": 61.7,
+    "govt_score": 56.3,
+    "scty_score": 64.4
+  },
+  {
+    "responder": "pred_[7]_microsoft_phi_3_5_mini_128k_instruct",
+    "econ_score": 64.7,
+    "dipl_score": 61.7,
+    "govt_score": 56.3,
+    "scty_score": 64.4
+  },
+  {
+    "responder": "pred_[8]_microsoft_phi_3_5_mini_128k_instruct",
+    "econ_score": 64.7,
+    "dipl_score": 60.6,
+    "govt_score": 57.8,
+    "scty_score": 65.6
+  },
+  {
+    "responder": "pred_[9]_microsoft_phi_3_5_mini_128k_instruct",
+    "econ_score": 64.7,
+    "dipl_score": 62.8,
+    "govt_score": 56.3,
+    "scty_score": 65.2
+  },
+  {
+    "responder": "pred_[10]_microsoft_phi_3_5_mini_128k_instruct",
+    "econ_score": 64.7,
+    "dipl_score": 61.7,
+    "govt_score": 56.6,
+    "scty_score": 64.4
+  },
+  {
+    "responder": "pred_[1]_minimax_minimax_01",
+    "econ_score": 63.5,
+    "dipl_score": 58.9,
+    "govt_score": 53.1,
+    "scty_score": 58.3
+  },
+  {
+    "responder": "pred_[2]_minimax_minimax_01",
+    "econ_score": 67.3,
+    "dipl_score": 58.9,
+    "govt_score": 51.2,
+    "scty_score": 57.7
+  },
+  {
+    "responder": "pred_[3]_minimax_minimax_01",
+    "econ_score": 67.3,
+    "dipl_score": 58.3,
+    "govt_score": 49.6,
+    "scty_score": 57.3
+  },
+  {
+    "responder": "pred_[4]_minimax_minimax_01",
+    "econ_score": 63.5,
+    "dipl_score": 55.6,
+    "govt_score": 51.2,
+    "scty_score": 56.4
+  },
+  {
+    "responder": "pred_[5]_minimax_minimax_01",
+    "econ_score": 63.5,
+    "dipl_score": 57.2,
+    "govt_score": 50.8,
+    "scty_score": 56.4
+  },
+  {
+    "responder": "pred_[6]_minimax_minimax_01",
+    "econ_score": 68.6,
+    "dipl_score": 57.2,
+    "govt_score": 49.2,
+    "scty_score": 56.4
+  },
+  {
+    "responder": "pred_[7]_minimax_minimax_01",
+    "econ_score": 59.6,
+    "dipl_score": 57.8,
+    "govt_score": 52.7,
+    "scty_score": 58.6
+  },
+  {
+    "responder": "pred_[8]_minimax_minimax_01",
+    "econ_score": 62.2,
+    "dipl_score": 61.7,
+    "govt_score": 51.2,
+    "scty_score": 58.3
+  },
+  {
+    "responder": "pred_[9]_minimax_minimax_01",
+    "econ_score": 63.5,
+    "dipl_score": 55.0,
+    "govt_score": 47.7,
+    "scty_score": 56.4
+  },
+  {
+    "responder": "pred_[10]_minimax_minimax_01",
+    "econ_score": 66.0,
+    "dipl_score": 56.1,
+    "govt_score": 49.6,
+    "scty_score": 56.8
+  },
+  {
+    "responder": "pred_[1]_mistralai_mistral_medium_3",
+    "econ_score": 69.2,
+    "dipl_score": 57.8,
+    "govt_score": 49.6,
+    "scty_score": 60.3
+  },
+  {
+    "responder": "pred_[2]_mistralai_mistral_medium_3",
+    "econ_score": 67.9,
+    "dipl_score": 56.7,
+    "govt_score": 51.2,
+    "scty_score": 59.2
+  },
+  {
+    "responder": "pred_[3]_mistralai_mistral_medium_3",
+    "econ_score": 67.9,
+    "dipl_score": 56.7,
+    "govt_score": 50.4,
+    "scty_score": 59.8
+  },
+  {
+    "responder": "pred_[4]_mistralai_mistral_medium_3",
+    "econ_score": 69.2,
+    "dipl_score": 56.1,
+    "govt_score": 50.8,
+    "scty_score": 60.3
+  },
+  {
+    "responder": "pred_[5]_mistralai_mistral_medium_3",
+    "econ_score": 69.2,
+    "dipl_score": 56.7,
+    "govt_score": 52.0,
+    "scty_score": 60.4
+  },
+  {
+    "responder": "pred_[6]_mistralai_mistral_medium_3",
+    "econ_score": 69.2,
+    "dipl_score": 58.9,
+    "govt_score": 53.1,
+    "scty_score": 60.9
+  },
+  {
+    "responder": "pred_[7]_mistralai_mistral_medium_3",
+    "econ_score": 67.9,
+    "dipl_score": 57.8,
+    "govt_score": 51.2,
+    "scty_score": 59.8
+  },
+  {
+    "responder": "pred_[8]_mistralai_mistral_medium_3",
+    "econ_score": 67.9,
+    "dipl_score": 56.7,
+    "govt_score": 51.6,
+    "scty_score": 60.9
+  },
+  {
+    "responder": "pred_[9]_mistralai_mistral_medium_3",
+    "econ_score": 69.2,
+    "dipl_score": 57.8,
+    "govt_score": 51.6,
+    "scty_score": 59.4
+  },
+  {
+    "responder": "pred_[10]_mistralai_mistral_medium_3",
+    "econ_score": 66.7,
+    "dipl_score": 56.7,
+    "govt_score": 48.8,
+    "scty_score": 58.1
+  },
+  {
+    "responder": "pred_[1]_moonshotai_kimi_k2_instruct",
+    "econ_score": 71.2,
+    "dipl_score": 62.2,
+    "govt_score": 57.8,
+    "scty_score": 65.6
+  },
+  {
+    "responder": "pred_[2]_moonshotai_kimi_k2_instruct",
+    "econ_score": 67.3,
+    "dipl_score": 60.6,
+    "govt_score": 60.2,
+    "scty_score": 62.2
+  },
+  {
+    "responder": "pred_[3]_moonshotai_kimi_k2_instruct",
+    "econ_score": 67.3,
+    "dipl_score": 63.9,
+    "govt_score": 57.4,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[4]_moonshotai_kimi_k2_instruct",
+    "econ_score": 71.2,
+    "dipl_score": 60.0,
+    "govt_score": 59.4,
+    "scty_score": 66.0
+  },
+  {
+    "responder": "pred_[5]_moonshotai_kimi_k2_instruct",
+    "econ_score": 67.3,
+    "dipl_score": 60.0,
+    "govt_score": 55.1,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[6]_moonshotai_kimi_k2_instruct",
+    "econ_score": 69.9,
+    "dipl_score": 63.9,
+    "govt_score": 59.4,
+    "scty_score": 63.0
+  },
+  {
+    "responder": "pred_[7]_moonshotai_kimi_k2_instruct",
+    "econ_score": 71.2,
+    "dipl_score": 63.9,
+    "govt_score": 58.2,
+    "scty_score": 65.6
+  },
+  {
+    "responder": "pred_[8]_moonshotai_kimi_k2_instruct",
+    "econ_score": 68.6,
+    "dipl_score": 65.0,
+    "govt_score": 60.9,
+    "scty_score": 61.7
+  },
+  {
+    "responder": "pred_[9]_moonshotai_kimi_k2_instruct",
+    "econ_score": 67.3,
+    "dipl_score": 64.4,
+    "govt_score": 59.0,
+    "scty_score": 65.2
+  },
+  {
+    "responder": "pred_[10]_moonshotai_kimi_k2_instruct",
+    "econ_score": 65.4,
+    "dipl_score": 60.6,
+    "govt_score": 59.4,
+    "scty_score": 63.0
+  },
+  {
+    "responder": "pred_[1]_openai_gpt_4_1",
+    "econ_score": 75.0,
+    "dipl_score": 64.4,
+    "govt_score": 61.3,
+    "scty_score": 71.6
+  },
+  {
+    "responder": "pred_[2]_openai_gpt_4_1",
+    "econ_score": 75.0,
+    "dipl_score": 64.4,
+    "govt_score": 62.1,
+    "scty_score": 72.4
+  },
+  {
+    "responder": "pred_[3]_openai_gpt_4_1",
+    "econ_score": 75.0,
+    "dipl_score": 68.9,
+    "govt_score": 62.9,
+    "scty_score": 71.6
+  },
+  {
+    "responder": "pred_[4]_openai_gpt_4_1",
+    "econ_score": 75.0,
+    "dipl_score": 66.7,
+    "govt_score": 63.7,
+    "scty_score": 72.4
+  },
+  {
+    "responder": "pred_[5]_openai_gpt_4_1",
+    "econ_score": 76.3,
+    "dipl_score": 66.7,
+    "govt_score": 62.1,
+    "scty_score": 72.4
+  },
+  {
+    "responder": "pred_[6]_openai_gpt_4_1",
+    "econ_score": 76.3,
+    "dipl_score": 67.2,
+    "govt_score": 64.5,
+    "scty_score": 73.3
+  },
+  {
+    "responder": "pred_[7]_openai_gpt_4_1",
+    "econ_score": 75.0,
+    "dipl_score": 68.9,
+    "govt_score": 63.7,
+    "scty_score": 72.4
+  },
+  {
+    "responder": "pred_[8]_openai_gpt_4_1",
+    "econ_score": 75.0,
+    "dipl_score": 64.4,
+    "govt_score": 62.1,
+    "scty_score": 72.4
+  },
+  {
+    "responder": "pred_[9]_openai_gpt_4_1",
+    "econ_score": 77.6,
+    "dipl_score": 69.4,
+    "govt_score": 64.5,
+    "scty_score": 73.3
+  },
+  {
+    "responder": "pred_[10]_openai_gpt_4_1",
+    "econ_score": 73.7,
+    "dipl_score": 68.9,
+    "govt_score": 63.7,
+    "scty_score": 72.4
+  },
+  {
+    "responder": "pred_[1]_openai_gpt_4_1_mini",
+    "econ_score": 72.4,
+    "dipl_score": 71.1,
+    "govt_score": 61.7,
+    "scty_score": 75.4
+  },
+  {
+    "responder": "pred_[2]_openai_gpt_4_1_mini",
+    "econ_score": 75.0,
+    "dipl_score": 71.1,
+    "govt_score": 62.1,
+    "scty_score": 76.3
+  },
+  {
+    "responder": "pred_[3]_openai_gpt_4_1_mini",
+    "econ_score": 75.0,
+    "dipl_score": 73.9,
+    "govt_score": 62.9,
+    "scty_score": 76.7
+  },
+  {
+    "responder": "pred_[4]_openai_gpt_4_1_mini",
+    "econ_score": 73.7,
+    "dipl_score": 71.7,
+    "govt_score": 62.1,
+    "scty_score": 77.1
+  },
+  {
+    "responder": "pred_[5]_openai_gpt_4_1_mini",
+    "econ_score": 75.0,
+    "dipl_score": 71.7,
+    "govt_score": 60.5,
+    "scty_score": 74.1
+  },
+  {
+    "responder": "pred_[6]_openai_gpt_4_1_mini",
+    "econ_score": 75.0,
+    "dipl_score": 70.0,
+    "govt_score": 60.5,
+    "scty_score": 77.1
+  },
+  {
+    "responder": "pred_[7]_openai_gpt_4_1_mini",
+    "econ_score": 76.3,
+    "dipl_score": 66.7,
+    "govt_score": 59.4,
+    "scty_score": 74.6
+  },
+  {
+    "responder": "pred_[8]_openai_gpt_4_1_mini",
+    "econ_score": 75.0,
+    "dipl_score": 69.4,
+    "govt_score": 60.9,
+    "scty_score": 76.3
+  },
+  {
+    "responder": "pred_[9]_openai_gpt_4_1_mini",
+    "econ_score": 75.0,
+    "dipl_score": 71.7,
+    "govt_score": 60.5,
+    "scty_score": 74.6
+  },
+  {
+    "responder": "pred_[10]_openai_gpt_4_1_mini",
+    "econ_score": 73.7,
+    "dipl_score": 72.2,
+    "govt_score": 62.1,
+    "scty_score": 75.9
+  },
+  {
+    "responder": "pred_[1]_openai_gpt_4_1_nano",
+    "econ_score": 64.1,
+    "dipl_score": 56.1,
+    "govt_score": 46.1,
+    "scty_score": 57.4
+  },
+  {
+    "responder": "pred_[2]_openai_gpt_4_1_nano",
+    "econ_score": 64.1,
+    "dipl_score": 58.3,
+    "govt_score": 48.8,
+    "scty_score": 60.0
+  },
+  {
+    "responder": "pred_[3]_openai_gpt_4_1_nano",
+    "econ_score": 62.8,
+    "dipl_score": 57.2,
+    "govt_score": 48.8,
+    "scty_score": 60.0
+  },
+  {
+    "responder": "pred_[4]_openai_gpt_4_1_nano",
+    "econ_score": 64.1,
+    "dipl_score": 60.6,
+    "govt_score": 47.7,
+    "scty_score": 59.2
+  },
+  {
+    "responder": "pred_[5]_openai_gpt_4_1_nano",
+    "econ_score": 60.3,
+    "dipl_score": 59.4,
+    "govt_score": 48.4,
+    "scty_score": 56.6
+  },
+  {
+    "responder": "pred_[6]_openai_gpt_4_1_nano",
+    "econ_score": 64.1,
+    "dipl_score": 58.3,
+    "govt_score": 48.8,
+    "scty_score": 60.0
+  },
+  {
+    "responder": "pred_[7]_openai_gpt_4_1_nano",
+    "econ_score": 62.8,
+    "dipl_score": 58.3,
+    "govt_score": 47.7,
+    "scty_score": 59.2
+  },
+  {
+    "responder": "pred_[8]_openai_gpt_4_1_nano",
+    "econ_score": 64.1,
+    "dipl_score": 60.6,
+    "govt_score": 48.0,
+    "scty_score": 60.9
+  },
+  {
+    "responder": "pred_[9]_openai_gpt_4_1_nano",
+    "econ_score": 64.1,
+    "dipl_score": 59.4,
+    "govt_score": 51.6,
+    "scty_score": 60.9
+  },
+  {
+    "responder": "pred_[10]_openai_gpt_4_1_nano",
+    "econ_score": 60.3,
+    "dipl_score": 58.3,
+    "govt_score": 48.4,
+    "scty_score": 58.3
+  },
+  {
+    "responder": "pred_[1]_openai_gpt_4o",
+    "econ_score": 66.7,
+    "dipl_score": 68.3,
+    "govt_score": 62.5,
+    "scty_score": 72.0
+  },
+  {
+    "responder": "pred_[2]_openai_gpt_4o",
+    "econ_score": 66.7,
+    "dipl_score": 66.7,
+    "govt_score": 58.2,
+    "scty_score": 69.4
+  },
+  {
+    "responder": "pred_[3]_openai_gpt_4o",
+    "econ_score": 67.9,
+    "dipl_score": 63.9,
+    "govt_score": 59.8,
+    "scty_score": 70.3
+  },
+  {
+    "responder": "pred_[4]_openai_gpt_4o",
+    "econ_score": 67.9,
+    "dipl_score": 67.8,
+    "govt_score": 58.6,
+    "scty_score": 72.0
+  },
+  {
+    "responder": "pred_[5]_openai_gpt_4o",
+    "econ_score": 71.8,
+    "dipl_score": 63.9,
+    "govt_score": 59.4,
+    "scty_score": 71.1
+  },
+  {
+    "responder": "pred_[6]_openai_gpt_4o",
+    "econ_score": 65.4,
+    "dipl_score": 69.4,
+    "govt_score": 58.6,
+    "scty_score": 68.6
+  },
+  {
+    "responder": "pred_[7]_openai_gpt_4o",
+    "econ_score": 67.3,
+    "dipl_score": 68.3,
+    "govt_score": 59.4,
+    "scty_score": 69.4
+  },
+  {
+    "responder": "pred_[8]_openai_gpt_4o",
+    "econ_score": 70.5,
+    "dipl_score": 67.2,
+    "govt_score": 62.5,
+    "scty_score": 72.0
+  },
+  {
+    "responder": "pred_[9]_openai_gpt_4o",
+    "econ_score": 66.7,
+    "dipl_score": 71.7,
+    "govt_score": 59.8,
+    "scty_score": 70.3
+  },
+  {
+    "responder": "pred_[10]_openai_gpt_4o",
+    "econ_score": 67.9,
+    "dipl_score": 65.0,
+    "govt_score": 60.9,
+    "scty_score": 71.1
+  },
+  {
+    "responder": "pred_[1]_openai_gpt_5",
+    "econ_score": 76.3,
+    "dipl_score": 67.8,
+    "govt_score": 62.9,
+    "scty_score": 72.9
+  },
+  {
+    "responder": "pred_[2]_openai_gpt_5",
+    "econ_score": 74.4,
+    "dipl_score": 66.7,
+    "govt_score": 64.1,
+    "scty_score": 73.7
+  },
+  {
+    "responder": "pred_[3]_openai_gpt_5",
+    "econ_score": 77.6,
+    "dipl_score": 66.1,
+    "govt_score": 61.7,
+    "scty_score": 74.1
+  },
+  {
+    "responder": "pred_[4]_openai_gpt_5",
+    "econ_score": 77.6,
+    "dipl_score": 62.8,
+    "govt_score": 61.7,
+    "scty_score": 73.7
+  },
+  {
+    "responder": "pred_[5]_openai_gpt_5",
+    "econ_score": 75.0,
+    "dipl_score": 66.7,
+    "govt_score": 62.5,
+    "scty_score": 71.6
+  },
+  {
+    "responder": "pred_[6]_openai_gpt_5",
+    "econ_score": 75.0,
+    "dipl_score": 66.1,
+    "govt_score": 65.6,
+    "scty_score": 72.0
+  },
+  {
+    "responder": "pred_[7]_openai_gpt_5",
+    "econ_score": 73.1,
+    "dipl_score": 64.4,
+    "govt_score": 64.5,
+    "scty_score": 73.7
+  },
+  {
+    "responder": "pred_[8]_openai_gpt_5",
+    "econ_score": 76.9,
+    "dipl_score": 63.3,
+    "govt_score": 62.9,
+    "scty_score": 72.9
+  },
+  {
+    "responder": "pred_[9]_openai_gpt_5",
+    "econ_score": 75.0,
+    "dipl_score": 66.1,
+    "govt_score": 63.3,
+    "scty_score": 72.0
+  },
+  {
+    "responder": "pred_[10]_openai_gpt_5",
+    "econ_score": 75.6,
+    "dipl_score": 69.4,
+    "govt_score": 65.2,
+    "scty_score": 72.0
+  },
+  {
+    "responder": "pred_[1]_openai_gpt_5_mini",
+    "econ_score": 72.4,
+    "dipl_score": 66.1,
+    "govt_score": 61.3,
+    "scty_score": 72.0
+  },
+  {
+    "responder": "pred_[2]_openai_gpt_5_mini",
+    "econ_score": 72.4,
+    "dipl_score": 65.0,
+    "govt_score": 59.8,
+    "scty_score": 72.9
+  },
+  {
+    "responder": "pred_[3]_openai_gpt_5_mini",
+    "econ_score": 72.4,
+    "dipl_score": 67.2,
+    "govt_score": 60.5,
+    "scty_score": 72.9
+  },
+  {
+    "responder": "pred_[4]_openai_gpt_5_mini",
+    "econ_score": 73.7,
+    "dipl_score": 66.1,
+    "govt_score": 62.1,
+    "scty_score": 73.7
+  },
+  {
+    "responder": "pred_[5]_openai_gpt_5_mini",
+    "econ_score": 73.7,
+    "dipl_score": 67.2,
+    "govt_score": 60.9,
+    "scty_score": 74.6
+  },
+  {
+    "responder": "pred_[6]_openai_gpt_5_mini",
+    "econ_score": 71.2,
+    "dipl_score": 65.0,
+    "govt_score": 63.3,
+    "scty_score": 71.1
+  },
+  {
+    "responder": "pred_[7]_openai_gpt_5_mini",
+    "econ_score": 76.3,
+    "dipl_score": 63.9,
+    "govt_score": 59.8,
+    "scty_score": 69.4
+  },
+  {
+    "responder": "pred_[8]_openai_gpt_5_mini",
+    "econ_score": 75.6,
+    "dipl_score": 63.9,
+    "govt_score": 57.8,
+    "scty_score": 73.3
+  },
+  {
+    "responder": "pred_[9]_openai_gpt_5_mini",
+    "econ_score": 73.7,
+    "dipl_score": 65.0,
+    "govt_score": 60.2,
+    "scty_score": 70.3
+  },
+  {
+    "responder": "pred_[10]_openai_gpt_5_mini",
+    "econ_score": 75.0,
+    "dipl_score": 63.9,
+    "govt_score": 61.3,
+    "scty_score": 72.9
+  },
+  {
+    "responder": "pred_[1]_openai_gpt_5_nano",
+    "econ_score": 69.9,
+    "dipl_score": 65.0,
+    "govt_score": 64.5,
+    "scty_score": 69.4
+  },
+  {
+    "responder": "pred_[2]_openai_gpt_5_nano",
+    "econ_score": 68.6,
+    "dipl_score": 66.7,
+    "govt_score": 61.3,
+    "scty_score": 67.7
+  },
+  {
+    "responder": "pred_[3]_openai_gpt_5_nano",
+    "econ_score": 70.5,
+    "dipl_score": 65.0,
+    "govt_score": 64.5,
+    "scty_score": 69.0
+  },
+  {
+    "responder": "pred_[4]_openai_gpt_5_nano",
+    "econ_score": 67.3,
+    "dipl_score": 63.9,
+    "govt_score": 60.5,
+    "scty_score": 64.7
+  },
+  {
+    "responder": "pred_[5]_openai_gpt_5_nano",
+    "econ_score": 70.5,
+    "dipl_score": 65.0,
+    "govt_score": 57.4,
+    "scty_score": 63.9
+  },
+  {
+    "responder": "pred_[6]_openai_gpt_5_nano",
+    "econ_score": 68.6,
+    "dipl_score": 66.1,
+    "govt_score": 62.9,
+    "scty_score": 66.0
+  },
+  {
+    "responder": "pred_[7]_openai_gpt_5_nano",
+    "econ_score": 71.2,
+    "dipl_score": 70.6,
+    "govt_score": 62.9,
+    "scty_score": 69.4
+  },
+  {
+    "responder": "pred_[8]_openai_gpt_5_nano",
+    "econ_score": 69.9,
+    "dipl_score": 67.2,
+    "govt_score": 63.3,
+    "scty_score": 66.4
+  },
+  {
+    "responder": "pred_[9]_openai_gpt_5_nano",
+    "econ_score": 69.9,
+    "dipl_score": 63.9,
+    "govt_score": 66.4,
+    "scty_score": 67.7
+  },
+  {
+    "responder": "pred_[10]_openai_gpt_5_nano",
+    "econ_score": 69.2,
+    "dipl_score": 70.6,
+    "govt_score": 62.5,
+    "scty_score": 67.7
+  },
+  {
+    "responder": "pred_[1]_openai_gpt_oss_120b",
+    "econ_score": 74.4,
+    "dipl_score": 55.6,
+    "govt_score": 55.5,
+    "scty_score": 60.0
+  },
+  {
+    "responder": "pred_[2]_openai_gpt_oss_120b",
+    "econ_score": 73.7,
+    "dipl_score": 61.1,
+    "govt_score": 55.1,
+    "scty_score": 61.3
+  },
+  {
+    "responder": "pred_[3]_openai_gpt_oss_120b",
+    "econ_score": 72.4,
+    "dipl_score": 61.1,
+    "govt_score": 57.4,
+    "scty_score": 63.4
+  },
+  {
+    "responder": "pred_[4]_openai_gpt_oss_120b",
+    "econ_score": 73.1,
+    "dipl_score": 65.6,
+    "govt_score": 60.5,
+    "scty_score": 66.9
+  },
+  {
+    "responder": "pred_[5]_openai_gpt_oss_120b",
+    "econ_score": 71.8,
+    "dipl_score": 63.9,
+    "govt_score": 63.7,
+    "scty_score": 66.9
+  },
+  {
+    "responder": "pred_[6]_openai_gpt_oss_120b",
+    "econ_score": 68.6,
+    "dipl_score": 62.8,
+    "govt_score": 57.0,
+    "scty_score": 65.2
+  },
+  {
+    "responder": "pred_[7]_openai_gpt_oss_120b",
+    "econ_score": 70.5,
+    "dipl_score": 60.0,
+    "govt_score": 57.0,
+    "scty_score": 62.6
+  },
+  {
+    "responder": "pred_[8]_openai_gpt_oss_120b",
+    "econ_score": 80.1,
+    "dipl_score": 61.1,
+    "govt_score": 57.0,
+    "scty_score": 61.3
+  },
+  {
+    "responder": "pred_[9]_openai_gpt_oss_120b",
+    "econ_score": 75.6,
+    "dipl_score": 58.9,
+    "govt_score": 54.3,
+    "scty_score": 63.0
+  },
+  {
+    "responder": "pred_[10]_openai_gpt_oss_120b",
+    "econ_score": 69.9,
+    "dipl_score": 61.1,
+    "govt_score": 60.5,
+    "scty_score": 65.2
+  },
+  {
+    "responder": "pred_[1]_openrouter_sonoma_dusk_alpha",
+    "econ_score": 62.2,
+    "dipl_score": 59.4,
+    "govt_score": 53.5,
+    "scty_score": 61.7
+  },
+  {
+    "responder": "pred_[2]_openrouter_sonoma_dusk_alpha",
+    "econ_score": 59.6,
+    "dipl_score": 60.6,
+    "govt_score": 56.6,
+    "scty_score": 67.7
+  },
+  {
+    "responder": "pred_[3]_openrouter_sonoma_dusk_alpha",
+    "econ_score": 63.5,
+    "dipl_score": 59.4,
+    "govt_score": 55.5,
+    "scty_score": 64.3
+  },
+  {
+    "responder": "pred_[4]_openrouter_sonoma_dusk_alpha",
+    "econ_score": 63.5,
+    "dipl_score": 61.7,
+    "govt_score": 55.1,
+    "scty_score": 64.3
+  },
+  {
+    "responder": "pred_[5]_openrouter_sonoma_dusk_alpha",
+    "econ_score": 62.2,
+    "dipl_score": 60.6,
+    "govt_score": 52.0,
+    "scty_score": 63.4
+  },
+  {
+    "responder": "pred_[6]_openrouter_sonoma_dusk_alpha",
+    "econ_score": 63.5,
+    "dipl_score": 60.6,
+    "govt_score": 57.8,
+    "scty_score": 66.0
+  },
+  {
+    "responder": "pred_[7]_openrouter_sonoma_dusk_alpha",
+    "econ_score": 62.2,
+    "dipl_score": 59.4,
+    "govt_score": 56.3,
+    "scty_score": 66.9
+  },
+  {
+    "responder": "pred_[8]_openrouter_sonoma_dusk_alpha",
+    "econ_score": 59.6,
+    "dipl_score": 60.6,
+    "govt_score": 56.6,
+    "scty_score": 65.6
+  },
+  {
+    "responder": "pred_[9]_openrouter_sonoma_dusk_alpha",
+    "econ_score": 62.2,
+    "dipl_score": 57.2,
+    "govt_score": 57.8,
+    "scty_score": 66.0
+  },
+  {
+    "responder": "pred_[10]_openrouter_sonoma_dusk_alpha",
+    "econ_score": 63.5,
+    "dipl_score": 58.9,
+    "govt_score": 53.1,
+    "scty_score": 65.6
+  },
+  {
+    "responder": "pred_[1]_qwen_qwen3_235b_a22b_instruct_2507",
+    "econ_score": 72.4,
+    "dipl_score": 62.2,
+    "govt_score": 59.8,
+    "scty_score": 64.7
+  },
+  {
+    "responder": "pred_[2]_qwen_qwen3_235b_a22b_instruct_2507",
+    "econ_score": 72.4,
+    "dipl_score": 62.2,
+    "govt_score": 57.8,
+    "scty_score": 63.0
+  },
+  {
+    "responder": "pred_[3]_qwen_qwen3_235b_a22b_instruct_2507",
+    "econ_score": 71.2,
+    "dipl_score": 57.8,
+    "govt_score": 56.6,
+    "scty_score": 60.4
+  },
+  {
+    "responder": "pred_[4]_qwen_qwen3_235b_a22b_instruct_2507",
+    "econ_score": 71.2,
+    "dipl_score": 61.1,
+    "govt_score": 58.2,
+    "scty_score": 63.0
+  },
+  {
+    "responder": "pred_[5]_qwen_qwen3_235b_a22b_instruct_2507",
+    "econ_score": 72.4,
+    "dipl_score": 57.8,
+    "govt_score": 57.0,
+    "scty_score": 62.2
+  },
+  {
+    "responder": "pred_[6]_qwen_qwen3_235b_a22b_instruct_2507",
+    "econ_score": 71.2,
+    "dipl_score": 58.9,
+    "govt_score": 55.5,
+    "scty_score": 61.3
+  },
+  {
+    "responder": "pred_[7]_qwen_qwen3_235b_a22b_instruct_2507",
+    "econ_score": 72.4,
+    "dipl_score": 59.4,
+    "govt_score": 56.3,
+    "scty_score": 60.9
+  },
+  {
+    "responder": "pred_[8]_qwen_qwen3_235b_a22b_instruct_2507",
+    "econ_score": 73.7,
+    "dipl_score": 57.2,
+    "govt_score": 56.6,
+    "scty_score": 61.3
+  },
+  {
+    "responder": "pred_[9]_qwen_qwen3_235b_a22b_instruct_2507",
+    "econ_score": 72.4,
+    "dipl_score": 60.0,
+    "govt_score": 57.8,
+    "scty_score": 61.3
+  },
+  {
+    "responder": "pred_[10]_qwen_qwen3_235b_a22b_instruct_2507",
+    "econ_score": 71.2,
+    "dipl_score": 61.1,
+    "govt_score": 57.0,
+    "scty_score": 61.3
+  },
+  {
+    "responder": "pred_[1]_x_ai_grok_4",
+    "econ_score": 51.3,
+    "dipl_score": 50.0,
+    "govt_score": 69.1,
+    "scty_score": 70.9
+  },
+  {
+    "responder": "pred_[2]_x_ai_grok_4",
+    "econ_score": 42.9,
+    "dipl_score": 44.4,
+    "govt_score": 66.0,
+    "scty_score": 63.4
+  },
+  {
+    "responder": "pred_[3]_x_ai_grok_4",
+    "econ_score": 51.3,
+    "dipl_score": 50.6,
+    "govt_score": 69.1,
+    "scty_score": 70.5
+  },
+  {
+    "responder": "pred_[4]_x_ai_grok_4",
+    "econ_score": 50.6,
+    "dipl_score": 48.9,
+    "govt_score": 66.8,
+    "scty_score": 66.4
+  },
+  {
+    "responder": "pred_[5]_x_ai_grok_4",
+    "econ_score": 43.6,
+    "dipl_score": 46.1,
+    "govt_score": 68.4,
+    "scty_score": 67.5
+  },
+  {
+    "responder": "pred_[6]_x_ai_grok_4",
+    "econ_score": 50.0,
+    "dipl_score": 50.0,
+    "govt_score": 67.6,
+    "scty_score": 71.3
+  },
+  {
+    "responder": "pred_[7]_x_ai_grok_4",
+    "econ_score": 44.9,
+    "dipl_score": 44.4,
+    "govt_score": 66.8,
+    "scty_score": 62.6
+  },
+  {
+    "responder": "pred_[8]_x_ai_grok_4",
+    "econ_score": 49.4,
+    "dipl_score": 50.6,
+    "govt_score": 68.4,
+    "scty_score": 71.3
+  },
+  {
+    "responder": "pred_[9]_x_ai_grok_4",
+    "econ_score": 46.2,
+    "dipl_score": 50.6,
+    "govt_score": 73.8,
+    "scty_score": 69.0
+  },
+  {
+    "responder": "pred_[10]_x_ai_grok_4",
+    "econ_score": 48.1,
+    "dipl_score": 44.4,
+    "govt_score": 62.1,
+    "scty_score": 65.8
+  }
+]

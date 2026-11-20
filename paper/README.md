@@ -1,4 +1,4 @@
-# Many Scales, One Axis — MultiDems @ EACL 2027 submission
+# Political Alignment in Large Language Models: A Multidimensional Audit of Psychometric Identity and Behavioral Bias — MultiDems @ EACL 2027 submission
 
 Self-contained paper directory. Everything in the PDF is regenerated from `data/`.
 

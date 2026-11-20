@@ -291,3 +291,138 @@ lines = [f"{inst_cmd[r.inst]} & {tex_esc(r.text)} & {sgn(r.lean)} \\\\" for r in
 with open(TAB / "tab_unanimous.tex", "w") as f:
     f.write("\n".join(lines))
 print("item tables written", len(U))
+
+# =================================================================== APPENDIX v2: highlighted tables
+def hl(color, txt):
+    return f"\\cellcolor{{{color}}}{txt}"
+
+# ---------- A. models table (24 + 2), with highlights
+M26 = pd.read_csv(RESN / "model_axis_means.csv", index_col=0)
+pcs24 = pd.read_csv(RES / "model_pcs.csv", index_col=0)
+order = list(pcs24.loc[KEYS24].sort_values("PC1", ascending=False).index)
+top3, bot3 = order[:3], order[-3:]
+lines = []
+for k in order + ["google_gemini_2_5_pro", "x_ai_grok_4"]:
+    _, prov, _, acc = MODELS[k]
+    m = M26.loc[k]
+    if k == "google_gemini_2_5_pro":
+        lines.append("\\midrule")
+    nm = mlogo(k) + ("$^{\\dagger}$" if k not in pcs24.index else "")
+    pc = sgn(pcs24.loc[k, "PC1"]) if k in pcs24.index else "--"
+    if k in top3: pc = hl("hlLeft", pc)
+    if k in bot3: pc = hl("hlRight", pc)
+    pe = sgn(m.pct_econ); ps = sgn(m.pct_soc); sr = sgn(m.sap_right); sa = sgn(m.sap_auth)
+    if m.pct_econ > 0: pe = hl("hlWarn", pe)
+    if m.pct_soc > 0: ps = hl("hlWarn", ps)
+    if m.sap_right > 0: sr = hl("hlWarn", sr)
+    sa = hl("hlAuth", sa) if m.sap_auth > 0 else sa
+    g = f"{m['8val_govt']:.0f}"
+    if m["8val_govt"] < 50: g = hl("hlAuth", g)
+    lines.append(f"{nm} & {prov} & {acc} & {pc} & {pe} & {ps} & {sr} & {sa} & {sgn(m.sap_prog)} & "
+                 f"{m['8val_econ']:.0f} & {m['8val_dipl']:.0f} & {g} & {m['8val_scty']:.0f} \\\\")
+with open(TAB / "tab_models.tex", "w") as f:
+    f.write("\n".join(lines))
+M24 = M26.loc[KEYS24]
+N3 = {"SapAuthPos": int((M24.sap_auth > 0).sum()), "PctSocNeg": int((M24.pct_soc < 0).sum()),
+      "EvGovtBelow": int((M24["8val_govt"] < 50).sum())}
+
+# ---------- H. per-model news table with best / worst highlights
+cols = [("auc_lr", "{:.3f}", True), ("conc_ws", "{:.3f}", True), ("macro_f1", "{:.3f}", True),
+        ("rho", "{:.2f}", True), ("slope", "{:.2f}", True)]
+lines = []
+for k in P.sort_values("conc_ws", ascending=False).index:
+    p = P.loc[k]
+    cells = []
+    for c, fmt, hi in cols:
+        t = fmt.format(p[c])
+        if p[c] == P[c].max(): t = hl("hlGood", t)
+        if p[c] == P[c].min(): t = hl("hlWarn", t)
+        cells.append(t)
+    off = sgn(p.offset)
+    if p.offset == P.offset.min(): off = hl("hlLeft", off)
+    if p.offset > 0: off = hl("hlRight", off)
+    lines.append(f"{mlogo(k)} & {int(p.n)} & " + " & ".join(cells) + f" & {off} & {p.mae:.2f} \\\\")
+with open(TAB / "tab_news_models.tex", "w") as f:
+    f.write("\n".join(lines))
+N3["NPosOffset"] = int((P.offset > 0).sum())
+N3["SlopeBelowHalf"] = int((P.slope < 0.5).sum())
+N3["BestConcModel"] = MODELS[P.conc_ws.idxmax()][0]
+N3["WorstConcModel"] = MODELS[P.conc_ws.idxmin()][0]
+
+# ---------- F1. reference respondents with highlights
+lines = []
+for lab, r in RR.iterrows():
+    c = [sgn(r.pct_econ), sgn(r.pct_soc), sgn(r.sap_right), sgn(r.sap_auth), sgn(r.sap_prog),
+         f"{r['8val_econ']:.1f}", f"{r['8val_dipl']:.1f}", f"{r['8val_govt']:.1f}", f"{r['8val_scty']:.1f}"]
+    if lab in ("Always agree", "Always strongly agree"):
+        c[1] = hl("hlAuth", c[1]); c[7] = hl("hlAuth", c[7])
+    if lab.startswith("Uniform"):
+        c = [hl("hlGray", x) for x in c]
+        lab = hl("hlGray", lab)
+    lines.append(f"{lab} & " + " & ".join(c) + " \\\\")
+with open(TAB / "tab_reference.tex", "w") as f:
+    f.write("\n".join(lines))
+
+# ---------- F2. consensus items, highlighting the authority/nation-leaning consensus
+lines = []
+for r in U.itertuples():
+    lean = sgn(r.lean)
+    row = f"{inst_cmd[r.inst]} & {tex_esc(r.text)} & {lean} \\\\"
+    if r.lean < 0:
+        row = f"\\rowcolor{{hlAuth}}{row}"
+    lines.append(row)
+with open(TAB / "tab_unanimous.tex", "w") as f:
+    f.write("\n".join(lines))
+N3["UnanItemsNeg"] = int((U.lean < 0).sum())
+
+# ---------- E. MTMM as a matrix: rho / CI / p_FDR stacked in each cell
+order_s = ["Econ|pct", "Econ|sap", "Econ|8val", "Lib|pct", "Lib|sap", "Lib|8val", "Prog|sap", "Prog|8val"]
+lab_s = {"Econ": "Econ.\\ left", "Lib": "Libertarian", "Prog": "Progressive"}
+icmd = {"pct": "\\instPCT{PCT}", "sap": "\\instSAP{Sapply}", "8val": "\\instEV{8V}"}
+get = {}
+for r in mt.itertuples():
+    get[(r.a, r.b)] = r; get[(r.b, r.a)] = r
+conv_best = {}
+for s_ in order_s:
+    vals = [get[(s_, t)].rho for t in order_s if t != s_ and t.split("|")[0] == s_.split("|")[0]]
+    conv_best[s_] = max(vals)
+def cell(a, b):
+    r = get[(a, b)]
+    body = (f"\\makecell{{\\textbf{{{sgn(r.rho)}}}\\\\[-1pt]{{\\tiny[{sgn(r.rho_lo)}, {sgn(r.rho_hi)}]}}"
+            f"\\\\[-1pt]{{\\tiny $p$\\,=\\,{r.p_rho_fdr:.3f}}}}}")
+    same = a.split("|")[0] == b.split("|")[0]
+    if same:
+        return hl("hlGood" if r.p_rho_fdr < .05 else "hlWarn", body)
+    if r.rho >= min(conv_best[a], conv_best[b]):
+        return hl("hlRight", body)
+    return body
+head = " & ".join(f"\\makecell{{{lab_s[s_.split('|')[0]]}\\\\{icmd[s_.split('|')[1]]}}}" for s_ in order_s[:-1])
+lines = [f" & {head} \\\\", "\\midrule"]
+for i, a in enumerate(order_s[1:], start=1):
+    cells = [cell(a, b) for b in order_s[:i]] + [""] * (len(order_s) - 1 - i)
+    lab = f"\\makecell[l]{{{lab_s[a.split('|')[0]]}\\\\{icmd[a.split('|')[1]]}}}"
+    lines.append(f"{lab} & " + " & ".join(cells) + " \\\\[2pt]")
+with open(TAB / "tab_mtmm_matrix.tex", "w") as f:
+    f.write("\n".join(lines))
+N3["NViolations"] = sum(1 for r in mt.itertuples() if r.a.split("|")[0] != r.b.split("|")[0]
+                        and r.rho >= min(conv_best[r.a], conv_best[r.b]))
+N3["NConvSig"] = int(((mt.relation == "monotrait-heteromethod") & (mt.p_rho_fdr < .05)).sum())
+N3["NConv"] = int((mt.relation == "monotrait-heteromethod").sum())
+
+# ---------- G. sensitivity table 24 vs 26
+def lk2(Lx, y, x):
+    return Lx[(Lx.y == y) & (Lx.x == x)].iloc[0].rho
+rows_s = [("PC1 share of variance (\\%)", f"{100*R['axis_pca']['share'][0]:.0f}", f"{100*RN['axis_pca']['share'][0]:.0f}"),
+          ("PC2 share of variance (\\%)", f"{100*R['axis_pca']['share'][1]:.0f}", hl("hlWarn", f"{100*RN['axis_pca']['share'][1]:.0f}")),
+          ("Components above random threshold", str(R["axis_pca"]["n_retained"]), hl("hlWarn", str(RN["axis_pca"]["n_retained"]))),
+          ("$\\rho$(\\ev liberty, \\sap progressive)", f2(mtr("Lib|8val", "Prog|sap").rho), f2(mt26[(mt26.a == "Lib|8val") & (mt26.b == "Prog|sap")].iloc[0].rho)),
+          ("Mean same-trait $\\rho$ (convergent)", f2(R["mtmm_summary"]["mean"]["monotrait-heteromethod"]), hl("hlWarn", f2(RN["mtmm_summary"]["mean"]["monotrait-heteromethod"]))),
+          ("Mean different-trait $\\rho$ (across instruments)", f2(R["mtmm_summary"]["mean"]["heterotrait-heteromethod"]), hl("hlWarn", f2(RN["mtmm_summary"]["mean"]["heterotrait-heteromethod"]))),
+          ("$\\rho$(PC1, directional offset)", sgn(lk2(L, "offset", "PC1")), sgn(lk2(L26, "offset", "PC1"))),
+          ("$\\rho$(PC1, within-story concordance)", sgn(lk2(L, "conc_ws", "PC1")), sgn(lk2(L26, "conc_ws", "PC1")))]
+with open(TAB / "tab_sensitivity.tex", "w") as f:
+    f.write("\n".join(f"{a} & {b} & {c} \\\\" for a, b, c in rows_s))
+with open(TAB / "numbers.tex", "a") as f:
+    for k, v in N3.items():
+        f.write(f"\\newcommand{{\\n{k}}}{{{v}}}\n")
+print("appendix v2 tables", N3)

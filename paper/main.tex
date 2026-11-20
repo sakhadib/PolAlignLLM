@@ -17,6 +17,15 @@
 \usepackage{xspace}
 \usepackage{float}
 \usepackage{placeins}
+\usepackage{colortbl}
+\usepackage{makecell}
+\definecolor{hlLeft}{HTML}{DCE7F5}   % toward left / libertarian / progressive
+\definecolor{hlRight}{HTML}{F6DADB}  % toward right / authoritarian / conservative; validity violation
+\definecolor{hlAuth}{HTML}{F6DADB}
+\definecolor{hlGood}{HTML}{D7EFEA}   % best value / criterion met
+\definecolor{hlWarn}{HTML}{FCEBCB}   % worst value / criterion failed / exception
+\definecolor{hlGray}{HTML}{EEEEEE}   % reference
+\newcommand{\swatch}[1]{\fcolorbox{gray!50}{#1}{\rule{0pt}{4pt}\rule{6pt}{0pt}}}
 
 \input{tables/numbers.tex}
 \makeatletter\newcommand{\tabinput}[1]{\@@input #1 }\makeatother
@@ -85,7 +94,7 @@ Media-bias detection has a long history in NLP \citep{kiesel-etal-2019-semeval,b
 \label{sec:setup}
 
 \paragraph{Models.}
-We evaluate \nNModelsAll{} instruction-tuned LLMs from 14 developers, released in 2024--2025 and all queried through one API gateway (OpenRouter) in 2025 (Table~\ref{tab:models}). For two of them (Grok~4 and Gemini~2.5 Pro), the questionnaires were collected under a different protocol: they were asked for their ``own beliefs'' and returned all ten ratings in one call at temperature 1.0. Because the elicitation protocol can change answers \citep{rottger-etal-2024-political}, we exclude these two models from all questionnaire analyses. The main questionnaire cohort is therefore \nNModels{} models (\nNClosed{} closed, \nNOpen{} open-weight). The news task used one protocol for all \nNModelsAll{} models. Results for the full 26 are reported as a sensitivity analysis (Appendix~\ref{app:sensitivity}) and lead to the same conclusions.
+We evaluate \nNModelsAll{} instruction-tuned LLMs from 14 developers, released in 2024--2025 and all queried through one API gateway (OpenRouter) in 2025 (Table~\ref{tab:models}). For two of them (Grok~4 and Gemini~2.5 Pro), the questionnaires were collected under a different protocol: they were asked for their ``own beliefs'' and returned all ten ratings in one call at temperature 1.0. Because the elicitation protocol can change answers \citep{rottger-etal-2024-political}, we exclude these two models from all questionnaire analyses. The main questionnaire cohort is therefore \nNModels{} models (\nNClosed{} closed, \nNOpen{} open-weight). The news task used one protocol for all \nNModelsAll{} models. Results for the full 26 are reported as a sensitivity analysis (Appendix~\ref{app:sensitivity}); they support the same conclusions, with two minor qualifications.
 
 \paragraph{Questionnaires.}
 \pct (62 items; economic and social axes), \sap (46 items; right, authority, progressive) and \ev (70 items; equality, globalism, liberty, progress) together give \nNItems{} items and nine axes. Each item is presented in a separate call with a fixed instruction framing the task as a standardised survey for academic research. The instruction asks the model to rate the statement as a neutral rater with exactly one Likert option (four for \pct, five for the others), returned as JSON. The default temperature is 0.6; reasoning models that rejected these settings used fallback configurations. Each model answers every item \nNRuns{} times, independently, and the answers are scored with the instruments' public scoring implementations. Neutral answers are rare (\nNeutralSap\% on \sap, \nNeutralEight\% on \ev). Prompts are given in Appendix~\ref{app:prompts}. We also re-implemented each instrument's scoring function from its public source code. Re-scoring all \nRescoreN{} run--axis scores reproduces the recorded values to within \nRescoreMaxDiff\% of the axis range, which lets us score hypothetical respondents and decompose scores item by item (\S\ref{sec:location}).
@@ -312,9 +321,13 @@ We characterise model behaviour and do not take positions on which political vie
 % =====================================================================
 \appendix
 \onecolumn
+\raggedbottom
+\setlength{\parskip}{3pt}
 
-\section{Models and Questionnaire Scores}
+\section{Models and Their Questionnaire Scores}
 \label{app:models}
+
+Table~\ref{tab:models} lists every model with its mean score on each questionnaire axis, averaged over 10 runs. \emph{PC1} is the model's score on the shared ideology dimension of \S\ref{sec:dimensionality} (positive = more progressive, egalitarian and libertarian). PCT and \sap axes run from $-10$ to $+10$, where positive means economically right (\emph{Econ}, \emph{Right}), authoritarian (\emph{Soc}, \emph{Auth}) or progressive (\emph{Prog}). \ev axes run from 0 to 100, where higher means more equality, globalism, liberty or progress. \emph{Access} distinguishes open-weight from API-only models.
 
 \begin{table}[H]
 \centering
@@ -328,9 +341,11 @@ We characterise model behaviour and do not take positions on which political vie
 \tabinput{tables/tab_models.tex}
 \bottomrule
 \end{tabular}
-\caption{The \nNModelsAll{} models, ordered by their score on the ideology dimension (PC1, computed over the \nNModels{} same-protocol models), with mean scores over 10 runs on each axis. $^\dagger$Questionnaires collected under a different protocol (``own beliefs'', ten ratings per call, temperature 1.0); used in the news analyses and in Appendix~\ref{app:sensitivity} only. PCT and SapplyValues axes range from $-10$ to $+10$; 8Values axes from 0 to 100 (higher = equality, globalism, liberty, progress).}
+\caption{Models ordered by PC1 (computed over the \nNModels{} same-protocol models). \swatch{hlLeft}/\swatch{hlRight}: the three highest/lowest PC1 scores. \swatch{hlWarn}: the only scores on the economic right or the authoritarian half of PCT. \swatch{hlAuth}: scores on the authoritarian side of \sap authority or below the midpoint of \ev liberty. $^\dagger$Collected under a different prompt; used only for the news task and Appendix~\ref{app:sensitivity}.}
 \label{tab:models}
 \end{table}
+
+\paragraph{What the table shows.} Every same-protocol model is economically left on all three instruments, and \nPctSocNeg{} of \nNModels{} are libertarian on PCT social (Command~R is the exception). Yet \nSapAuthPos{} of the same \nNModels{} models fall on the \emph{authoritarian} side of \sap's authority axis, and \nEvGovtBelow{} fall below the midpoint of \ev liberty. The same model is therefore ``libertarian'' or ``authoritarian'' depending on which instrument is asked, which is the convergence failure that \S\ref{sec:mtmm} quantifies. The seven highest PC1 scores all belong to closed models from OpenAI and Google, while the bottom of the ranking mixes open-weight models (Granite~3.3, Command~R, MiniMax-01) with closed ones (Mistral Medium~3, GPT-4.1~nano).
 
 \section{Prompts}
 \label{app:prompts}
@@ -374,39 +389,48 @@ Assign a precise score from -3.0 to +3.0.
 
 \section{Paraphrase Robustness}
 \label{app:paraphrase}
-The paraphrase study (Table~\ref{tab:reliability}, right) fits a two-way ANOVA, score $\sim$ model + prompt, separately for each axis over 7 models $\times$ 10 prompts. No prompt effect survives FDR correction on any axis (all $p_{\text{FDR}}>0.40$; the smallest unadjusted value is $p=0.045$, for \ev progress, with $\eta^2_{\text{prompt}}=0.02$). The only axis with a non-trivial prompt share is \sap authority, where model identity also explains far less variance than on the other axes. In this study, one model (Qwen~3.5 Flash) chose the neutral option for the majority of \ev and \sap items. This illustrates a response style that forced-choice scoring maps to the centre of the scale, and is one reason we analyse the main cohort, where neutral answers are rare.
+
+The paraphrase columns of Table~\ref{tab:reliability} come from a two-way ANOVA (score $\sim$ model + prompt), fitted separately for each axis over 7 models $\times$ 10 prompt prefixes. $\eta^2_{\text{model}}$ and $\eta^2_{\text{prompt}}$ are the shares of variance explained by model identity and by the prompt.
+
+\paragraph{What we learn.} No prompt effect survives FDR correction on any axis (all $p_{\text{FDR}}>0.40$; the smallest unadjusted value is $p=0.045$, for \ev progress, with $\eta^2_{\text{prompt}}=0.02$). \sap authority is again the outlier: prompts explain \nPromptEtaSapAuth{} of its variance and model identity only \nModelEtaSapAuth{}, against at least \nModelEtaMinOther{} on every other axis. In this study one model (Qwen~3.5 Flash) chose the neutral option for most \ev and \sap items. Forced-choice scoring maps such answers to the centre of the scale; this is one reason we analyse the main cohort, where neutral answers are rare.
 
 \section{Item-Level Structure}
 \label{app:items}
 
+The item-level PCA (Figure~\ref{fig:items}) uses the $\nNModels\times\nNItems$ matrix of mean responses on the $-2$ to $+2$ scale (items with zero variance removed), standardised by column. The permutation null permutes each column independently (500 times).
 
+\paragraph{What we learn.} The first component explains \nItemPCOne\% of the variance, against \nItemPerm\% expected by chance; the second explains \nItemPCTwo\%. \nItemNRetained{} components exceed the null in total, so the items carry finer structure than the nine named axes. However, the first item-level component correlates $r=\nItemRAxis$ with the axis-level PC1, so the dominant signal is the same at both levels. \nConsUnan{} of the \nNItems{} items receive the same direction of answer from all \nNModels{} models.
 
-\noindent The item-level PCA uses the $\nNModels\times\nNItems$ matrix of mean responses (items with zero variance removed), standardised by column. The permutation null permutes each column independently (500 times). The first component explains \nItemPCOne\% of the variance (null 95th percentile \nItemPerm\%), the second \nItemPCTwo\%. Of the \nNItems{} items, \nConsUnan{} receive the same direction of answer from all \nNModels{} models.
-
-\section{Full MTMM Table}
+\section{The Multitrait--Multimethod Matrix}
 \label{app:mtmm}
+
+Table~\ref{tab:mtmm_full} shows the full MTMM matrix behind Figure~\ref{fig:mtmm}. Rows and columns are the eight trait-oriented scales: three traits (economic left, libertarian, progressive), each measured by up to three instruments. Each cell gives Spearman's $\rho$ across the \nNModels{} models (bold), its 95\% bootstrap confidence interval, and the FDR-adjusted $p$-value.
 
 \begin{table}[H]
 \centering
-\small
-\begin{tabular}{@{}llcccc@{}}
+\scriptsize
+\setlength{\tabcolsep}{2.6pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{@{}l*{7}{c}@{}}
 \toprule
-\textbf{Scale A} & \textbf{Scale B} & \textbf{Relation} & $\rho$ & \textbf{95\% CI} & $p_{\text{FDR}}$ \\
-\midrule
-\tabinput{tables/tab_mtmm_full.tex}
+\tabinput{tables/tab_mtmm_matrix.tex}
 \bottomrule
 \end{tabular}
-\caption{All pairwise correlations between trait-oriented scales (\nNModels{} models). MT-HM: same trait, different instrument (convergent); HT-HM: different trait and instrument; HT-MM: different trait, same instrument. Econ = economic left, Lib = libertarian, Prog = progressive.}
+\caption{Multitrait--multimethod matrix (\nNModels{} models). \swatch{hlGood}~same trait, significant agreement (convergent validity met). \swatch{hlWarn}~same trait, agreement not significant (convergent validity failed). \swatch{hlRight}~different traits that correlate at least as strongly as one of the two scales does with its best same-trait counterpart (discriminant validity violated).}
 \label{tab:mtmm_full}
 \end{table}
+
+\paragraph{What we learn.} Only \nNConvSig{} of the \nNConv{} same-trait pairs agree significantly: the two progressivism scales, PCT-social with \ev-liberty, and PCT- with \ev-economic. \sap's economic and authority scales agree with none of their counterparts. Meanwhile \nNViolations{} different-trait pairs reach or exceed a same-trait benchmark. The strongest are \ev-liberty with both progressivism scales ($\rho=\nRhoLibProgSap$ and \nRhoLibProgEight), and PCT-social with \ev-progress ($\rho=\nRhoLibPctProgEight$). The block of red cells in the lower right is the conflation of liberty and progressivism described in \S\ref{sec:mtmm}.
 
 \section{Reference Respondents and Consensus Items}
 \label{app:location}
 
+Table~\ref{tab:reference} applies the re-implemented scoring functions (\S\ref{sec:setup}) to hypothetical respondents who give the same answer to every item, and to 10{,}000 simulated respondents who answer uniformly at random. Columns are the same axes as in Table~\ref{tab:models}.
+
 \begin{table}[H]
 \centering
 \small
-\setlength{\tabcolsep}{3.2pt}
+\setlength{\tabcolsep}{3.4pt}
 \begin{tabular}{@{}lrr|rrr|rrrr@{}}
 \toprule
 & \multicolumn{2}{c|}{\pct} & \multicolumn{3}{c|}{\sap} & \multicolumn{4}{c}{\ev} \\
@@ -415,30 +439,35 @@ The paraphrase study (Table~\ref{tab:reliability}, right) fits a two-way ANOVA, 
 \tabinput{tables/tab_reference.tex}
 \bottomrule
 \end{tabular}
-\caption{Scores of hypothetical respondents under the re-implemented scoring functions. ``Uniform random'' averages 10{,}000 simulated respondents. The PCT has no neutral option. A respondent who always agrees is scored authoritarian on PCT and less libertarian on \ev, because these axes are keyed unevenly.}
+\caption{Scores of hypothetical respondents. \swatch{hlGray}~the random baseline. \swatch{hlAuth}~an agreeing respondent pushed toward the authoritarian side by unevenly keyed axes. The PCT has no neutral option.}
 \label{tab:reference}
 \end{table}
+
+\paragraph{What we learn.} A random respondent lands at the centre of every axis, so no instrument has a built-in libertarian-left tilt. A respondent who agrees with everything is pushed toward \emph{authority} on PCT social and \ev liberty. These two axes are keyed so that only \nKeyBalPctSoc\% and \nKeyBalEvGovt\% of their item weight, respectively, rewards agreement with the libertarian pole. Since the models agree often, their libertarian placement is reached \emph{against} the pull of response style, not because of it.
+
+\medskip
+Table~\ref{tab:unanimous} lists the \nNUnanItems{} items on which all \nNModels{} models answer on the same side. \emph{Lean} is the item's push on its most heavily weighted axis, from $-1$ (all the way to the right/authoritarian/conservative pole) to $+1$ (left/libertarian/progressive), relative to a random respondent (\S\ref{sec:location}).
 
 \begin{table}[H]
 \centering
 \small
-\begin{tabular}{@{}lp{0.74\textwidth}r@{}}
+\begin{tabular}{@{}lp{0.76\textwidth}r@{}}
 \toprule
-\textbf{Inst.} & \textbf{Item (answered on the same side by all \nNModels{} models)} & \textbf{Lean} \\
+\textbf{Inst.} & \textbf{Item} & \textbf{Lean} \\
 \midrule
 \tabinput{tables/tab_unanimous.tex}
 \bottomrule
 \end{tabular}
-\caption{All \nNUnanItems{} consensus items, sorted by lean (shown for the item's most heavily weighted axis). Positive lean moves the score toward the left/libertarian/progressive pole; negative toward the right/authoritarian/conservative pole.}
+\caption{The \nNUnanItems{} consensus items, sorted by lean. \swatch{hlAuth}~consensus items whose shared answer pushes the score toward the right/authoritarian/conservative pole.}
 \label{tab:unanimous}
 \end{table}
 
-\section{Sensitivity: All 26 Models}
-\label{app:sensitivity}
-Re-running every questionnaire analysis on all \nNModelsAll{} models, including Grok~4 and Gemini~2.5 Pro despite their different elicitation protocol, leaves all conclusions unchanged. PC1 explains \nSPCOne\% of the variance. A second component (\nSPCTwo\%) now passes the threshold, but it is driven almost entirely by Grok~4, the only economically right-of-centre model. \ev-liberty and \sap-progressive correlate at $\rho=\nSRhoLibProgSap$, and same-trait cross-instrument correlations ($\bar\rho=\nSMeanMono$) are barely higher than different-trait ones ($\bar\rho=\nSMeanHH$), so the MTMM criteria still fail. Ideology PC1 is unrelated to the directional offset ($\rho=\nSRhoOff$) and positively related to within-story concordance ($\rho=\nSRhoConc$, $p_{\text{FDR}}=\nSPConc$).
+\paragraph{What we learn.} The strongest consensus items concern equal treatment, racial superiority, sexuality, religious freedom and scientific consensus (astrology, climate change). The models' shared answer coincides with the left/libertarian/progressive pole on all of them. But the consensus is not one-sided: \nUnanItemsNeg{} items (highlighted) are endorsed by every model and pull the scores toward the other pole. These include law and order, national sovereignty, military defence, tradition, institutional structure and surveillance against terrorism.
 
 \section{Per-Model News Rating Results}
 \label{app:news}
+
+Table~\ref{tab:news_models} gives each model's news-rating metrics (\S\ref{sec:news}). $n$ is the number of valid ratings out of \nNArticles. \emph{AUC} measures how well the rating separates left-labelled from right-labelled articles (Center excluded; 0.5 = chance). \emph{Within-story conc.}\ is the share of same-story article pairs with different labels that the model orders like their labels (0.5 = chance). \emph{Macro-F1} is computed over left/centre/right, with ratings beyond $\pm0.5$ counted as left or right (majority baseline \nFOneMaj). $\rho$ is the Spearman correlation between rating and label. \emph{Slope} and \emph{offset} come from a linear fit of rating on label: a perfectly calibrated rater would have slope 1 and offset 0. \emph{MAE} is the mean absolute error, which depends heavily on the compression of the scale.
 
 \begin{table}[H]
 \centering
@@ -446,13 +475,36 @@ Re-running every questionnaire analysis on all \nNModelsAll{} models, including 
 \setlength{\tabcolsep}{5pt}
 \begin{tabular}{@{}lrcccccrc@{}}
 \toprule
-\textbf{Model} & $n$ & \textbf{AUC} (L vs.\ R) & \textbf{Within-story conc.} & \textbf{Macro-F1} & $\rho$ & \textbf{Slope} & \textbf{Offset} & \textbf{MAE} \\
+\textbf{Model} & $n$ & \textbf{AUC} & \textbf{Within-story conc.} & \textbf{Macro-F1} & $\rho$ & \textbf{Slope} & \textbf{Offset} & \textbf{MAE} \\
 \midrule
 \tabinput{tables/tab_news_models.tex}
 \bottomrule
 \end{tabular}
-\caption{News slant rating per model, sorted by within-story concordance. $n$: valid ratings out of \nNArticles. AUC separates left-labelled from right-labelled articles (Center excluded). Macro-F1 uses three classes with thresholds at $\pm0.5$ (majority baseline \nFOneMaj). $\rho$: Spearman correlation with the outlet label. Slope and offset come from a per-model linear fit of rating on label. MAE is shown for completeness but depends on the scale's compression.}
+\caption{News slant rating per model, sorted by within-story concordance. \swatch{hlGood}/\swatch{hlWarn}: best/worst value in each column. \swatch{hlLeft}: largest leftward offset. \swatch{hlRight}: the only models with a rightward offset.}
 \label{tab:news_models}
 \end{table}
+
+\paragraph{What we learn.} \nBestConcModel{} ranks same-story outlets best and \nWorstConcModel{} worst, barely above chance. \nSlopeBelowHalf{} of \nNModelsAll{} models have a slope below 0.5, so compression is universal, not a property of a few weak models. Offsets are small and leftward for all but \nNPosOffset{} models. Phi-3.5~mini is a clear outlier: its large leftward offset comes with weak discrimination, which suggests difficulty with the task, not a distinct political stance.
+
+\section{Sensitivity: All 26 Models}
+\label{app:sensitivity}
+
+Table~\ref{tab:sensitivity} repeats the key questionnaire analyses with Grok~4 and Gemini~2.5 Pro included, even though their questionnaires were collected under a different prompt.
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Quantity} & \textbf{24 same-protocol models} & \textbf{All 26 models} \\
+\midrule
+\tabinput{tables/tab_sensitivity.tex}
+\bottomrule
+\end{tabular}
+\caption{Main results with and without the two differently prompted models. \swatch{hlWarn}~values that change qualitatively.}
+\label{tab:sensitivity}
+\end{table}
+
+\paragraph{What we learn.} The conclusions hold, with two qualifications. First, a second component now passes the random-data threshold. It is driven almost entirely by Grok~4, the only economically right-of-centre model in the cohort, and so reflects one model, not a second ideological dimension shared across models. Second, the average same-trait correlation becomes slightly higher than the average different-trait one (\nSMeanMono{} vs.\ \nSMeanHH), whereas it is lower in the main cohort. The gap remains small, and the liberty--progressivism correlation ($\rho=\nSRhoLibProgSap$) still exceeds every same-trait correlation in the matrix, so discriminant validity still fails. The decoupling between questionnaire position and news-rating direction is unchanged.
 
 \end{document}

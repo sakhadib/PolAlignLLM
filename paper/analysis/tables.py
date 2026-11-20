@@ -545,3 +545,45 @@ with open(TAB / "numbers.tex", "a") as f:
     for k, v in N6.items():
         f.write(f"\\newcommand{{\\n{k}}}{{{v}}}\n")
 print("tsne macros", N6)
+SM = json.load(open(RES / "similarity.json"))
+ins_ = SM["inst"]
+L_ = []
+L_.append("\\multicolumn{4}{@{}l}{\\textit{Cosine similarity of answer vectors}} \\\\")
+for lab, key in [("Models, raw answers", "raw_between"), ("Models, item-centred", "centred_between"),
+                 ("Runs of the same model", "runs_within"), ("Runs of different models", "runs_between")]:
+    vals = [f2(ins_[i][key]) for i in ["pct", "sap", "8val"]]
+    if key == "raw_between": vals = [hl("hlWarn", v) for v in vals]
+    if key == "runs_within": vals = [hl("hlGood", v) for v in vals]
+    L_.append(f"\\quad {lab} & " + " & ".join(v.replace("-", "$-$") for v in vals) + " \\\\")
+L_.append("\\midrule")
+L_.append("\\multicolumn{4}{@{}l}{\\textit{Agreement between instruments on model similarity (RSA)}} \\\\")
+rs = SM["rsa"]
+for lab, key, good in [("PCT vs.\\ Sapply", "pct~sap", False), ("PCT vs.\\ 8V", "pct~8val", False), ("Sapply vs.\\ 8V", "sap~8val", True)]:
+    v = f"{f2(rs[key]['rho'])} ($p<0.001$)" if rs[key]["p"] < 0.001 else f"{f2(rs[key]['rho'])} ($p={rs[key]['p']:.3f}$)"
+    L_.append(f"\\quad {lab} & \\multicolumn{{3}}{{c}}{{{hl('hlGood', v) if good else v}}} \\\\")
+L_.append("\\midrule")
+L_.append("\\multicolumn{4}{@{}l}{\\textit{Same-developer excess similarity (all items)}} \\\\")
+def lrow(lab, d, warn=False):
+    v = f"{d['excess']:+.3f}".replace("-", "$-$") + f" ($p={d['p']:.3f}$)"
+    if warn: v = hl("hlWarn", v)
+    return f"\\quad {lab} & \\multicolumn{{3}}{{c}}{{{v}}} \\\\"
+L_.append(lrow("All developers", SM["lineage"]["all"]))
+L_.append(lrow("Without OpenAI", SM["lineage_lodo"]["OpenAI"], warn=True))
+L_.append(lrow("Without Meta", SM["lineage_lodo"]["Meta"]))
+L_.append(lrow("Without Google", SM["lineage_lodo"]["Google"]))
+L_.append(lrow("Controlling for $|\\Delta$PC1$|$", SM["lineage_ctrl"], warn=True))
+with open(TAB / "tab_similarity.tex", "w") as f:
+    f.write("\n".join(L_))
+N7 = {"SimRaw": f2(SM["all_raw_between"]), "SimRunsWithinLo": f2(min(ins_[i]["runs_within"] for i in ins_)),
+      "SimRunsWithinHi": f2(max(ins_[i]["runs_within"] for i in ins_)),
+      "RsaPctSap": f2(rs["pct~sap"]["rho"]), "RsaPctEv": f2(rs["pct~8val"]["rho"]), "RsaSapEv": f2(rs["sap~8val"]["rho"]),
+      "LinAll": f"{SM['lineage']['all']['excess']:.2f}", "LinAllP": f"{SM['lineage']['all']['p']:.3f}",
+      "LinNoOAI": f"{SM['lineage_lodo']['OpenAI']['excess']:.2f}", "LinNoOAIP": f"{SM['lineage_lodo']['OpenAI']['p']:.2f}",
+      "LinCtrl": f"{SM['lineage_ctrl']['excess']:.2f}", "LinCtrlP": f"{SM['lineage_ctrl']['p']:.3f}",
+      "NSameDev": SM["n_same_dev_pairs"], "NOAIPairs": SM["n_openai_pairs"],
+      "HubLo": f2(min(SM["hubness_cross_inst_rho"])), "HubHi": f2(max(SM["hubness_cross_inst_rho"])),
+      "HubAbsPC": f2(SM["hubness_abs_pc1_rho"])}
+with open(TAB / "numbers.tex", "a") as f:
+    for k, v in N7.items():
+        f.write(f"\\newcommand{{\\n{k}}}{{{v}}}\n")
+print("similarity tables", N7)

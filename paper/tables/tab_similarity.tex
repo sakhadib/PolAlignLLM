@@ -1,0 +1,17 @@
+\multicolumn{4}{@{}l}{\textit{Cosine similarity of answer vectors}} \\
+\quad Models, raw answers & \cellcolor{hlWarn}0.68 & \cellcolor{hlWarn}0.60 & \cellcolor{hlWarn}0.70 \\
+\quad Models, item-centred & $-$0.04 & $-$0.04 & $-$0.04 \\
+\quad Runs of the same model & \cellcolor{hlGood}0.73 & \cellcolor{hlGood}0.77 & \cellcolor{hlGood}0.72 \\
+\quad Runs of different models & $-$0.03 & $-$0.03 & $-$0.03 \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Agreement between instruments on model similarity (RSA)}} \\
+\quad PCT vs.\ Sapply & \multicolumn{3}{c}{0.25 ($p<0.001$)} \\
+\quad PCT vs.\ 8V & \multicolumn{3}{c}{0.33 ($p<0.001$)} \\
+\quad Sapply vs.\ 8V & \multicolumn{3}{c}{\cellcolor{hlGood}0.66 ($p<0.001$)} \\
+\midrule
+\multicolumn{4}{@{}l}{\textit{Same-developer excess similarity (all items)}} \\
+\quad All developers & \multicolumn{3}{c}{+0.103 ($p=0.007$)} \\
+\quad Without OpenAI & \multicolumn{3}{c}{\cellcolor{hlWarn}+0.010 ($p=0.401$)} \\
+\quad Without Meta & \multicolumn{3}{c}{+0.115 ($p=0.011$)} \\
+\quad Without Google & \multicolumn{3}{c}{+0.104 ($p=0.007$)} \\
+\quad Controlling for $|\Delta$PC1$|$ & \multicolumn{3}{c}{\cellcolor{hlWarn}+0.054 ($p=0.050$)} \\

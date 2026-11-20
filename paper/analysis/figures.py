@@ -405,3 +405,35 @@ for name, title in [("axes", "nine axis scores"), ("items", "raw answers to 178 
     fig.savefig(FIG / f"fig_tsne_{name}.pdf", bbox_inches="tight", pad_inches=0.02)
     plt.close(fig)
 print("tsne figures written")
+
+# ===================================================================== key-free similarity matrix (appendix)
+Ssim = pd.read_csv(RES / "similarity_all.csv", index_col=0)
+dev_ = pd.Series({k: MODELS[k][1] for k in Ssim.index})
+order_dev = dev_.value_counts().index.tolist()
+ordr = sorted(Ssim.index, key=lambda k: (order_dev.index(dev_[k]), -pcs.loc[k, "PC1"]))
+Sm = Ssim.loc[ordr, ordr].values.copy()
+np.fill_diagonal(Sm, np.nan)
+fig, ax = plt.subplots(figsize=(3.15, 3.0))
+vm = np.nanmax(np.abs(Sm))
+cm_ = LinearSegmentedColormap.from_list("sim", ["#A7A7A7", "#FFFFFF", "#2F3E57"])
+im = ax.imshow(Sm, cmap=cm_, vmin=-vm, vmax=vm, interpolation="nearest")
+ax.set_xticks([]); ax.set_yticks([])
+for i, kk in enumerate(ordr):
+    ax.add_artist(AnnotationBbox(OffsetImage(logo(kk), zoom=0.017), (-1.0, i), xycoords="data", frameon=False, annotation_clip=False))
+    ax.add_artist(AnnotationBbox(OffsetImage(logo(kk), zoom=0.017), (i, len(ordr) + 0.0), xycoords="data", frameon=False, annotation_clip=False))
+# developer blocks
+start = 0
+for d in order_dev:
+    cnt = int((dev_[ordr] == d).sum())
+    if cnt >= 2:
+        ax.add_patch(Rectangle((start - .5, start - .5), cnt, cnt, fill=False, ec=PAL["right"] if d == "OpenAI" else PAL["ink"], lw=1.0))
+        ax.text(start + cnt - .5 + 0.4, start - .9, d, fontsize=5.8, color=PAL["right"] if d == "OpenAI" else PAL["ink"], va="bottom")
+    start += cnt
+for s_ in ax.spines.values():
+    s_.set_visible(False)
+ax.set_xlim(-1.7, len(ordr) - .5); ax.set_ylim(len(ordr) + .7, -1.5)
+cb = fig.colorbar(im, ax=ax, fraction=0.04, pad=0.02)
+cb.set_label("centred cosine similarity", fontsize=6.5); cb.ax.tick_params(labelsize=6)
+fig.savefig(FIG / "fig_similarity.pdf", bbox_inches="tight", pad_inches=0.02)
+plt.close(fig)
+print("similarity figure written")

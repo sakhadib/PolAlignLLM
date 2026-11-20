@@ -17,7 +17,7 @@ main.tex custom.bib acl.sty acl_natbib.bst
 
 Rebuild:
 ```
-python analysis/analyze.py && COHORT=24 python analysis/analyze.py && COHORT=24 python analysis/items_deep.py && COHORT=24 python analysis/tsne.py
+python analysis/analyze.py && COHORT=24 python analysis/analyze.py && COHORT=24 python analysis/items_deep.py && COHORT=24 python analysis/tsne.py && COHORT=24 python analysis/similarity.py
 python analysis/tables.py && python analysis/figures.py
 latexmk -pdf main.tex
 ```

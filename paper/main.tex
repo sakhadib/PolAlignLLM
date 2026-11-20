@@ -132,7 +132,7 @@ Because repeated runs and prompt variants of one model are not independent, ever
 \tabinput{tables/tab_reliability.tex}
 \bottomrule
 \end{tabular}}
-\caption{Reliability. \emph{Repeated runs}: \nNModels{} models $\times$ 10 runs under one prompt. \emph{Paraphrases}: two-way ANOVA over 7 further models $\times$ 10 paraphrased instructions from \citet{rottger-etal-2024-political} (Appendix~\ref{app:paraphrase}). \emph{Item agr.}: mean share of runs giving a model's modal answer to an item.}
+\caption{Reliability. \emph{Repeated runs}: \nNModels{} models $\times$ 10 runs under one prompt. \emph{Paraphrases}: two-way ANOVA over 7 further models $\times$ 10 paraphrased instructions from \citet{rottger-etal-2024-political} (Appendix~\ref{app:paraphrase}). \emph{Item agr.}: mean share of runs giving a model's modal answer to an item. \swatch{hlWarn}~\sap authority, the only axis that is unreliable both across runs and under paraphrase.}
 \label{tab:reliability}
 \vspace{-3mm}
 \end{table}
@@ -283,7 +283,7 @@ At the Center label the pooled prediction is \nMixInt{} [\nMixIntLo, \nMixIntHi]
 \tabinput{tables/tab_link.tex}
 \bottomrule
 \end{tabular}}
-\caption{Spearman correlations between questionnaire scores and news-rating behaviour ($n=\nNModels$ models). Bold$^\ast$: $p_{\text{FDR}}<.05$. \emph{Center}: mean rating of Center-labelled articles. Bootstrap CIs are in the text and in released files.}
+\caption{Spearman correlations between questionnaire scores and news-rating behaviour ($n=\nNModels$ models). \swatch{hlGood}~$p_{\text{FDR}}<.05$ (all in the discrimination columns). \swatch{hlGray}~the headline null: ideology does not predict the direction of a model's lean. \emph{Center}: mean rating of Center-labelled articles. Bootstrap CIs are in the text and in released files.}
 \label{tab:link}
 \vspace{-3mm}
 \end{table}

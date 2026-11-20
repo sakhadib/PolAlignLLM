@@ -166,7 +166,10 @@ for inst, a, nm in AX:
     lab_ = f"\\multirow{{{cnt}}}{{*}}{{{INST[inst]}}}" if first else ""
     agr = f"\\multirow{{{cnt}}}{{*}}{{{100*R['item_agreement'][inst]['mean']:.1f}}}" if first else ""
     p = pr[a]
-    lines.append(f"{lab_} & {nm} & {rel[a]['eta2']:.2f} & {rel[a]['icc1']:.2f} & {p['eta_model']:.2f} & {p['eta_prompt']:.3f} & {agr} \\\\")
+    c = [nm, f"{rel[a]['eta2']:.2f}", f"{rel[a]['icc1']:.2f}", f"{p['eta_model']:.2f}", f"{p['eta_prompt']:.3f}"]
+    if a == "sap_auth":
+        c = [f"\\cellcolor{{hlWarn}}{x}" for x in c]
+    lines.append(f"{lab_} & " + " & ".join(c) + f" & {agr} \\\\")
     prev = inst
 with open(TAB / "tab_reliability.tex", "w") as f:
     f.write("\n".join(lines))
@@ -184,7 +187,9 @@ for x in ["PC1", "PC2", "pct_econ", "pct_soc", "sap_prog", "8val_scty"]:
         star = "$^{\\ast}$" if r.p_fdr < .05 else ""
         txt = f"{sgn(r.rho)}{star}"
         if r.p_fdr < .05:
-            txt = f"\\textbf{{{txt}}}"
+            txt = f"\\cellcolor{{hlGood}}\\textbf{{{txt}}}"
+        elif x == "PC1" and y == "offset":
+            txt = f"\\cellcolor{{hlGray}}\\textbf{{{txt}}}"
         cells.append(txt)
     lines.append(f"{names[x]} & " + " & ".join(cells) + " \\\\")
 with open(TAB / "tab_link.tex", "w") as f:

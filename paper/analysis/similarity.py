@@ -59,6 +59,9 @@ Mall = Vall.groupby(level=0).mean().loc[KEYS].values
 S["all"] = cos(Mall - Mall.mean(0))
 R["all_raw_between"] = float(cos(Mall)[off].mean())
 pd.DataFrame(S["all"], index=KEYS, columns=KEYS).to_csv(OUT / "similarity_all.csv")
+pairs = pd.DataFrame([dict(a=KEYS[i], b=KEYS[j], all=S["all"][i, j], pct=S["pct"][i, j], sap=S["sap"][i, j], ev=S["8val"][i, j])
+                      for i, j in zip(*np.triu_indices(len(KEYS), 1))])
+pairs.to_csv(OUT / "similarity_pairs.csv", index=False)
 
 # RSA with a permutation (Mantel) test
 def mantel(A, B, n_perm=5000):

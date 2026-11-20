@@ -555,6 +555,8 @@ All analyses so far rely on the instruments' scoring keys. Here we use none. Eac
 \end{itemize}
 A hubness measure from cross-lingual embedding alignment (CSLS; mean similarity to a model's five nearest neighbours) was unstable across instruments ($\rho=\nHubLo$--\nHubHi) and tracked distance from the centre of PC1 ($\rho=\nHubAbsPC$), so with \nNModels{} models it reflects membership of a tight cluster, not typicality. We do not interpret it further.
 
+Table~\ref{tab:simpairs} lists every model pair. Only \nTopTenSameDev{} of the ten most similar pairs share a developer. GPT-5 is as close to Claude Sonnet~4 ($+0.52$) as to GPT-4.1 ($+0.52$), and Command~R and Granite~3.3, the two lowest models on PC1, form the closest pair outside the OpenAI--Anthropic group ($+0.44$). The most dissimilar pair is GPT-5 and Command~R ($-0.59$), from opposite ends of PC1. Similarity of answers therefore follows position on the shared ideological gradient more than it follows lineage.
+
 \section{Reference Respondents and Consensus Items}
 \label{app:location}
 
@@ -694,6 +696,92 @@ Tables~\ref{tab:items_pct}--\ref{tab:items_8val} list every statement of the thr
 \bottomrule
 \end{tabular}
 \captionsetup{list=false}\caption*{8Values statements (continued from Table~\ref{tab:items_8val}).}
+\end{table*}
+
+
+\begin{table*}[p]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.0}
+\begin{tabular}{@{}rllrrrrr@{}}
+\toprule
+& & & & \multicolumn{4}{c}{\textbf{Item-centred cosine similarity}} \\
+\cmidrule(l){5-8}
+\textbf{\#} & \textbf{Model A} & \textbf{Model B} & \textbf{Same developer} & \textbf{All items} & \pct & \sap & \ev \\
+\midrule
+\tabinput{tables/tab_simpairs_1.tex}
+\bottomrule
+\end{tabular}
+\caption{All \nNPairsSim{} model pairs, sorted by item-centred cosine similarity over all \nNItems{} items (the values in Figure~\ref{fig:similarity}), with the same similarity computed within each instrument. \swatch{catD}~pairs from the same developer. Bold: $|$similarity$|\geq0.40$.\label{tab:simpairs}}
+\end{table*}
+
+\begin{table*}[p]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.0}
+\begin{tabular}{@{}rllrrrrr@{}}
+\toprule
+& & & & \multicolumn{4}{c}{\textbf{Item-centred cosine similarity}} \\
+\cmidrule(l){5-8}
+\textbf{\#} & \textbf{Model A} & \textbf{Model B} & \textbf{Same developer} & \textbf{All items} & \pct & \sap & \ev \\
+\midrule
+\tabinput{tables/tab_simpairs_2.tex}
+\bottomrule
+\end{tabular}
+\caption*{All model pairs by similarity (continued from Table~\ref{tab:simpairs}).}
+\end{table*}
+
+\begin{table*}[p]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.0}
+\begin{tabular}{@{}rllrrrrr@{}}
+\toprule
+& & & & \multicolumn{4}{c}{\textbf{Item-centred cosine similarity}} \\
+\cmidrule(l){5-8}
+\textbf{\#} & \textbf{Model A} & \textbf{Model B} & \textbf{Same developer} & \textbf{All items} & \pct & \sap & \ev \\
+\midrule
+\tabinput{tables/tab_simpairs_3.tex}
+\bottomrule
+\end{tabular}
+\caption*{All model pairs by similarity (continued from Table~\ref{tab:simpairs}).}
+\end{table*}
+
+\begin{table*}[p]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.0}
+\begin{tabular}{@{}rllrrrrr@{}}
+\toprule
+& & & & \multicolumn{4}{c}{\textbf{Item-centred cosine similarity}} \\
+\cmidrule(l){5-8}
+\textbf{\#} & \textbf{Model A} & \textbf{Model B} & \textbf{Same developer} & \textbf{All items} & \pct & \sap & \ev \\
+\midrule
+\tabinput{tables/tab_simpairs_4.tex}
+\bottomrule
+\end{tabular}
+\caption*{All model pairs by similarity (continued from Table~\ref{tab:simpairs}).}
+\end{table*}
+
+\begin{table*}[p]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.0}
+\begin{tabular}{@{}rllrrrrr@{}}
+\toprule
+& & & & \multicolumn{4}{c}{\textbf{Item-centred cosine similarity}} \\
+\cmidrule(l){5-8}
+\textbf{\#} & \textbf{Model A} & \textbf{Model B} & \textbf{Same developer} & \textbf{All items} & \pct & \sap & \ev \\
+\midrule
+\tabinput{tables/tab_simpairs_5.tex}
+\bottomrule
+\end{tabular}
+\caption*{All model pairs by similarity (continued from Table~\ref{tab:simpairs}).}
 \end{table*}
 
 \end{document}

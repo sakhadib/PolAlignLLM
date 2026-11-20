@@ -587,3 +587,26 @@ with open(TAB / "numbers.tex", "a") as f:
     for k, v in N7.items():
         f.write(f"\\newcommand{{\\n{k}}}{{{v}}}\n")
 print("similarity tables", N7)
+
+# ---------- all model pairs, key-free similarity (chunked full-width tables)
+PR = pd.read_csv(RES / "similarity_pairs.csv").sort_values("all", ascending=False).reset_index(drop=True)
+def simfmt(v, bold=False):
+    t = "0.00" if abs(v) < 0.005 else f"{v:+.2f}".replace("-", "$-$")
+    return f"\\textbf{{{t}}}" if bold else t
+rows_p = []
+for i, r in PR.iterrows():
+    same = MODELS[r.a][1] == MODELS[r.b][1]
+    dev_txt = MODELS[r.a][1] if same else ""
+    row = (f"{i+1} & {mlogo(r.a)} & {mlogo(r.b)} & {dev_txt} & {simfmt(r['all'], abs(r['all']) >= 0.4)} & "
+           f"{simfmt(r.pct)} & {simfmt(r.sap)} & {simfmt(r.ev)} \\\\")
+    rows_p.append(("\\rowcolor{catD}" if same else "") + row)
+CH = 56
+nchunks = -(-len(rows_p) // CH)
+for j in range(nchunks):
+    with open(TAB / f"tab_simpairs_{j+1}.tex", "w") as f:
+        f.write("\n".join(rows_p[j * CH:(j + 1) * CH]))
+with open(TAB / "numbers.tex", "a") as f:
+    f.write(f"\\newcommand{{\\nNPairsSim}}{{{len(PR)}}}\n\\newcommand{{\\nSimChunks}}{{{nchunks}}}\n")
+    top_same = sum(1 for _, r in PR.head(10).iterrows() if MODELS[r.a][1] == MODELS[r.b][1])
+    f.write(f"\\newcommand{{\\nTopTenSameDev}}{{{top_same}}}\n")
+print("sim pair chunks", nchunks, "top10 same-dev", top_same)

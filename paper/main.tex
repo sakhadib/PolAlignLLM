@@ -177,7 +177,7 @@ The three instruments were designed to separate distinct ideological dimensions:
 They do not (Figure~\ref{fig:scree}). A principal component analysis of the standardised axis means finds one component carrying \nPCOneShare\% of the variance (95\% bootstrap CI \nPCOneLo--\nPCOneHi\%). It is the only component above the parallel-analysis threshold \citep{horn1965rationale}; the second explains \nPCTwoShare\%. All nine axes load on PC1 in the same direction (Figure~\ref{fig:loadings}): models that are more economically egalitarian are also more culturally progressive, more globalist and more libertarian (Figure~\ref{fig:ranking} orders the models on this dimension). Adding the two models collected under a different protocol leaves PC1 dominant (\nSPCOne\%), and adds a second component (\nSPCTwo\%) that is due almost entirely to Grok~4, the only model on the economic right (Appendix~\ref{app:sensitivity}).
 
 \paragraph{The same holds at the item level.}
-Axis scores are weighted sums of items, so the collapse might come from the instruments' scoring keys rather than the answers themselves. We therefore repeat the analysis on the $\nNModels\times\nNItems$ matrix of mean item responses, ignoring the scoring keys altogether. The first item-level component explains \nItemPCOne\% of the variance, \nItemRatio$\times$ what a permutation null produces (\nItemPerm\%), and correlates $r=\nItemRAxis$ with the axis-level PC1. The item level does show finer structure: \nItemNRetained{} weaker components also exceed the null (Figure~\ref{fig:items}; Appendix~\ref{app:items}). This is expected with \nNItems{} heterogeneous items, but none of that structure appears at the level of the instruments' named axes. But the dominant way in which LLMs differ is a single progressive-to-conservative gradient that every instrument picks up, whatever its axes are called. Closed models sit higher on this gradient than open-weight ones (Mann--Whitney $p=\nOCp$; Table~\ref{tab:models}).
+Axis scores are weighted sums of items, so the collapse might come from the instruments' scoring keys rather than the answers themselves. We therefore repeat the analysis on the $\nNModels\times\nNItems$ matrix of mean item responses, ignoring the scoring keys altogether. The first item-level component explains \nItemPCOne\% of the variance, \nItemRatio$\times$ what a permutation null produces (\nItemPerm\%), and correlates $r=\nItemRAxis$ with the axis-level PC1. The item level does show finer structure: \nItemNRetained{} weaker components also exceed the null (Figure~\ref{fig:items}; Appendix~\ref{app:items}). This is expected with \nNItems{} heterogeneous items, but none of that structure appears at the level of the instruments' named axes. A non-linear t-SNE embedding of the individual runs recovers the same ordering of models ($|\rho|=\nTsneRhoAxes$ with PC1; Appendix~\ref{app:tsne}). But the dominant way in which LLMs differ is a single progressive-to-conservative gradient that every instrument picks up, whatever its axes are called. Closed models sit higher on this gradient than open-weight ones (Mann--Whitney $p=\nOCp$; Table~\ref{tab:models}).
 
 % =====================================================================
 \begin{figure*}[t]
@@ -472,6 +472,28 @@ The paraphrase columns of Table~\ref{tab:reliability} come from a two-way ANOVA 
 The item-level PCA (Figure~\ref{fig:items}) uses the $\nNModels\times\nNItems$ matrix of mean responses on the $-2$ to $+2$ scale (items with zero variance removed), standardised by column. The permutation null permutes each column independently (500 times).
 
 \paragraph{What we learn.} The first component explains \nItemPCOne\% of the variance, against \nItemPerm\% expected by chance; the second explains \nItemPCTwo\%. \nItemNRetained{} components exceed the null in total, so the items carry finer structure than the nine named axes. However, the first item-level component correlates $r=\nItemRAxis$ with the axis-level PC1, so the dominant signal is the same at both levels. \nConsUnan{} of the \nNItems{} items receive the same direction of answer from all \nNModels{} models.
+
+
+\section{t-SNE: A Non-Linear Check}
+\label{app:tsne}
+
+The principal component analysis of \S\ref{sec:dimensionality} is linear: it could miss structure that is curved or clustered. As a non-linear check we embed all \nTsneN{} individual runs (\nNModels{} models $\times$ 10 runs) with t-SNE, using two feature sets. The first is the nine axis scores (standardised). The second is the raw answers to all \nNItems{} items on the $-2$ to $+2$ scale, which uses no scoring keys at all. Figures~\ref{fig:tsne_axes} and~\ref{fig:tsne_items} show 2-D embeddings (perplexity 30). Each dot is one run, coloured by its model's PC1 score, and each logo sits at its model's centroid. t-SNE preserves local neighbourhoods but not global distances, so we read the maps quantitatively with two statistics, each averaged over five random seeds and two perplexities (10 and 30). \emph{Neighbour purity} is the share of each run's five nearest neighbours in the 2-D map that come from the same model (chance: \nTsnePurChance\%). \emph{Ordering agreement} is the absolute Spearman correlation between a 1-D t-SNE embedding of the model centroids and their PC1 scores.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig_tsne_axes.pdf}
+\caption{t-SNE of \nTsneN{} runs described by their nine axis scores. Runs are coloured by their model's PC1 score (blue: progressive, egalitarian, libertarian; red: the opposite). The models line up along a single diagonal gradient.}
+\label{fig:tsne_axes}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig_tsne_items.pdf}
+\caption{t-SNE of the same runs described by their raw answers to all \nNItems{} items, without scoring keys. Each model forms a tight cluster of its own, and the PC1 colour gradient runs across the clusters.}
+\label{fig:tsne_items}
+\end{figure}
+
+\paragraph{What we learn.} With axis scores, \nTsnePurAxes\% of each run's neighbours come from the same model, and the 1-D ordering of models agrees with PC1 at $|\rho|=\nTsneRhoAxes$ (range \nTsneRhoAxesLo--\nTsneRhoAxesHi\ across seeds and perplexities). A non-linear method therefore recovers the same single gradient as the linear one, and finds no separate cluster structure that PCA missed. With raw item answers, same-model purity rises to \nTsnePurItems\%: a model's answers act as a stable fingerprint even across runs at temperature 0.6. The ordering still follows PC1 ($|\rho|=\nTsneRhoItems$, range \nTsneRhoItemsLo--\nTsneRhoItemsHi). The lower agreement reflects model-specific detail in the raw answers beyond the shared gradient, consistent with the additional weak components in the item-level PCA (Appendix~\ref{app:items}).
 
 \section{The Multitrait--Multimethod Matrix}
 \label{app:mtmm}

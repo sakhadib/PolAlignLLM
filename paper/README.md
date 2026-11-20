@@ -7,7 +7,7 @@ data/        instruments/ (scoring source of PCT, SapplyValues, 8Values)
              questionnaire runs (26 models x 10 runs, item level + scores), news predictions,
              7-model prompt-paraphrase study
 analysis/    common.py (models, palette, loaders) · analyze.py (all statistics)
-             keys.py (instrument keys + exact scoring re-implementations) · items_deep.py (RQ4)
+             keys.py (instrument keys + exact scoring re-implementations) · items_deep.py (RQ4) · tsne.py (App. E)
              figures.py (all figures) · tables.py (LaTeX tables + tables/numbers.tex macros)
 results/     outputs for all 26 models (news analyses, sensitivity)
 results24/   outputs for the 24 same-protocol models (main questionnaire analyses)
@@ -17,7 +17,7 @@ main.tex custom.bib acl.sty acl_natbib.bst
 
 Rebuild:
 ```
-python analysis/analyze.py && COHORT=24 python analysis/analyze.py && COHORT=24 python analysis/items_deep.py
+python analysis/analyze.py && COHORT=24 python analysis/analyze.py && COHORT=24 python analysis/items_deep.py && COHORT=24 python analysis/tsne.py
 python analysis/tables.py && python analysis/figures.py
 latexmk -pdf main.tex
 ```

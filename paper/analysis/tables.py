@@ -534,3 +534,14 @@ for inst, kf, cf in [("pct", pct_key, pct_cat), ("sap", sap_key, sap_cat), ("8va
         with open(TAB / f"tab_items_{inst}_{j}.tex", "w") as f:
             f.write("\n".join(rows_[a_:b_]))
 print("item chunks done")
+TS = json.load(open(RES / "tsne.json"))
+N6 = {"TsnePurAxes": f"{100*TS['axes']['purity_mean']:.0f}", "TsnePurItems": f"{100*TS['items']['purity_mean']:.1f}",
+      "TsnePurChance": f"{100*TS['chance_purity']:.0f}",
+      "TsneRhoAxes": f2(TS["axes"]["rho1d_mean"]), "TsneRhoAxesLo": f2(TS["axes"]["rho1d_min"]), "TsneRhoAxesHi": f2(TS["axes"]["rho1d_max"]),
+      "TsneRhoItems": f2(TS["items"]["rho1d_mean"]), "TsneRhoItemsLo": f2(TS["items"]["rho1d_min"]), "TsneRhoItemsHi": f2(TS["items"]["rho1d_max"]),
+      "TsnePurRawAxes": f"{100*TS['axes']['purity_raw']:.0f}", "TsnePurRawItems": f"{100*TS['items']['purity_raw']:.0f}",
+      "TsneN": TS["n_points"]}
+with open(TAB / "numbers.tex", "a") as f:
+    for k, v in N6.items():
+        f.write(f"\\newcommand{{\\n{k}}}{{{v}}}\n")
+print("tsne macros", N6)

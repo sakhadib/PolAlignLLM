@@ -382,3 +382,26 @@ ax.legend(frameon=False, loc="upper left", fontsize=6, handletextpad=0.1, marker
 fig.savefig(FIG / "fig_itemmap.pdf", bbox_inches="tight", pad_inches=0.02)
 plt.close(fig)
 print("item map written")
+
+# ===================================================================== t-SNE figures (appendix)
+from matplotlib.colors import TwoSlopeNorm
+for name, title in [("axes", "nine axis scores"), ("items", "raw answers to 178 items")]:
+    E = pd.read_csv(RES / f"tsne2d_{name}.csv")
+    fig, ax = plt.subplots(figsize=(3.1, 2.75))
+    pc = E.model_name.map(pcs.PC1)
+    norm = TwoSlopeNorm(vcenter=0, vmin=pcs.PC1.min(), vmax=pcs.PC1.max())
+    cmap = LinearSegmentedColormap.from_list("pc", [PAL["right"], "#EDEDED", PAL["left"]])
+    sc = ax.scatter(E.t1, E.t2, c=pc, cmap=cmap, norm=norm, s=7, lw=0, alpha=0.85, zorder=2)
+    cen = E.groupby("model_name")[["t1", "t2"]].mean()
+    for kk, r in cen.iterrows():
+        put_logo(ax, r.t1, r.t2, kk, zoom=0.024, z=5)
+    ax.set_xticks([]); ax.set_yticks([])
+    ax.set_xlabel("t-SNE 1"); ax.set_ylabel("t-SNE 2")
+    for s_ in ["top", "right"]:
+        ax.spines[s_].set_visible(False)
+    cb = fig.colorbar(sc, ax=ax, fraction=0.04, pad=0.02)
+    cb.set_label("model PC1 (→ progressive)", fontsize=6.5)
+    cb.ax.tick_params(labelsize=6)
+    fig.savefig(FIG / f"fig_tsne_{name}.pdf", bbox_inches="tight", pad_inches=0.02)
+    plt.close(fig)
+print("tsne figures written")

@@ -520,3 +520,12 @@ with open(TAB / "numbers.tex", "a") as f:
     for k, v in N5.items():
         f.write(f"\\newcommand{{\\n{k}}}{{{v}}}\n")
 print(N5)
+
+# ---------- full-width chunks of the item tables
+CHUNKS = {"pct": [(0, 31), (31, 62)], "sap": [(0, 46)], "8val": [(0, 35), (35, 70)]}
+for inst, kf, cf in [("pct", pct_key, pct_cat), ("sap", sap_key, sap_cat), ("8val", ev_key, ev_cat)]:
+    rows_ = item_rows(inst, kf, cf)
+    for j, (a_, b_) in enumerate(CHUNKS[inst], start=1):
+        with open(TAB / f"tab_items_{inst}_{j}.tex", "w") as f:
+            f.write("\n".join(rows_[a_:b_]))
+print("item chunks done")

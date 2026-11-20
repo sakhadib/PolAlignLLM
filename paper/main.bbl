@@ -1,0 +1,144 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Baly et~al.(2020)Baly, Da~San~Martino, Glass, and
+  Nakov}]{baly-etal-2020-detect}
+Ramy Baly, Giovanni Da~San~Martino, James Glass, and Preslav Nakov. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.emnlp-main.404} {We can
+  detect your bias: Predicting the political ideology of news articles}.
+\newblock In \emph{Proceedings of the 2020 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 4982--4991.
+
+\bibitem[{Benjamini and Hochberg(1995)}]{benjamini1995controlling}
+Yoav Benjamini and Yosef Hochberg. 1995.
+\newblock Controlling the false discovery rate: a practical and powerful
+  approach to multiple testing.
+\newblock \emph{Journal of the Royal Statistical Society: Series B
+  (Methodological)}, 57(1):289--300.
+
+\bibitem[{Campbell and Fiske(1959)}]{campbell1959convergent}
+Donald~T. Campbell and Donald~W. Fiske. 1959.
+\newblock \href {https://doi.org/10.1037/h0046016} {Convergent and discriminant
+  validation by the multitrait-multimethod matrix}.
+\newblock \emph{Psychological Bulletin}, 56(2):81--105.
+
+\bibitem[{Ceron et~al.(2024)Ceron, Falk, Bari{\'c}, Nikolaev, and
+  Pad{\'o}}]{ceron-etal-2024-beyond}
+Tanise Ceron, Neele Falk, Ana Bari{\'c}, Dmitry Nikolaev, and Sebastian
+  Pad{\'o}. 2024.
+\newblock \href {https://doi.org/10.1162/tacl_a_00710} {Beyond prompt
+  brittleness: Evaluating the reliability and consistency of political
+  worldviews in {LLM}s}.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  12:1378--1400.
+
+\bibitem[{Dominguez-Olmedo et~al.(2024)Dominguez-Olmedo, Hardt, and
+  Mendler-D{\"u}nner}]{dominguez2024questioning}
+Ricardo Dominguez-Olmedo, Moritz Hardt, and Celestine Mendler-D{\"u}nner. 2024.
+\newblock Questioning the survey responses of large language models.
+\newblock In \emph{Advances in Neural Information Processing Systems}.
+
+\bibitem[{Durmus et~al.(2023)Durmus, Nguyen, Liao, Schiefer, Askell
+  et~al.}]{durmus2023towards}
+Esin Durmus, Karina Nguyen, Thomas~I. Liao, Nicholas Schiefer, Amanda Askell,
+  and 1 others. 2023.
+\newblock Towards measuring the representation of subjective global opinions in
+  language models.
+\newblock \emph{arXiv preprint arXiv:2306.16388}.
+
+\bibitem[{Feng et~al.(2023)Feng, Park, Liu, and
+  Tsvetkov}]{feng-etal-2023-pretraining}
+Shangbin Feng, Chan~Young Park, Yuhan Liu, and Yulia Tsvetkov. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.acl-long.656} {From
+  pretraining data to language models to downstream tasks: Tracking the trails
+  of political biases leading to unfair {NLP} models}.
+\newblock In \emph{Proceedings of the 61st Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 11737--11762.
+
+\bibitem[{Hartmann et~al.(2023)Hartmann, Schwenzow, and
+  Witte}]{hartmann2023political}
+Jochen Hartmann, Jasper Schwenzow, and Maximilian Witte. 2023.
+\newblock The political ideology of conversational {AI}: Converging evidence on
+  {ChatGPT}'s pro-environmental, left-libertarian orientation.
+\newblock \emph{arXiv preprint arXiv:2301.01768}.
+
+\bibitem[{Horn(1965)}]{horn1965rationale}
+John~L. Horn. 1965.
+\newblock \href {https://doi.org/10.1007/BF02289447} {A rationale and test for
+  the number of factors in factor analysis}.
+\newblock \emph{Psychometrika}, 30(2):179--185.
+
+\bibitem[{Kiesel et~al.(2019)Kiesel, Mestre, Shukla, Vincent, Adineh, Corney,
+  Stein, and Potthast}]{kiesel-etal-2019-semeval}
+Johannes Kiesel, Maria Mestre, Rishabh Shukla, Emmanuel Vincent, Payam Adineh,
+  David Corney, Benno Stein, and Martin Potthast. 2019.
+\newblock \href {https://doi.org/10.18653/v1/S19-2145} {{S}em{E}val-2019 task
+  4: Hyperpartisan news detection}.
+\newblock In \emph{Proceedings of the 13th International Workshop on Semantic
+  Evaluation}, pages 829--839.
+
+\bibitem[{Moore et~al.(2024)Moore, Deshpande, and Yang}]{moore-etal-2024-large}
+Jared Moore, Tanvi Deshpande, and Diyi Yang. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.findings-emnlp.891} {Are
+  large language models consistent over value-laden questions?}
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2024}.
+
+\bibitem[{Motoki et~al.(2024)Motoki, Pinho~Neto, and
+  Rodrigues}]{motoki2024more}
+Fabio Motoki, Valdemar Pinho~Neto, and Victor Rodrigues. 2024.
+\newblock \href {https://doi.org/10.1007/s11127-023-01097-2} {More human than
+  human: measuring {ChatGPT} political bias}.
+\newblock \emph{Public Choice}, 198:3--23.
+
+\bibitem[{Prama and Islam(2025)}]{prama-islam-2025-evaluating}
+Tabia~Tanzin Prama and Md.~Saiful Islam. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.acl-srw.42} {Evaluating
+  credibility and political bias in {LLM}s for news outlets in {B}angladesh}.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association
+  for Computational Linguistics (Volume 4: Student Research Workshop)}, pages
+  665--677, Vienna, Austria. Association for Computational Linguistics.
+
+\bibitem[{R\"{o}nnback et~al.(2025)R\"{o}nnback, Emmery, and
+  Brighton}]{Rnnback2025}
+Ronja R\"{o}nnback, Chris Emmery, and Henry Brighton. 2025.
+\newblock \href {https://doi.org/10.1371/journal.pone.0321418} {Automatic
+  large-scale political bias detection of news outlets}.
+\newblock \emph{PLOS One}, 20(5):e0321418.
+
+\bibitem[{R{\"o}ttger et~al.(2024)R{\"o}ttger, Hofmann, Pyatkin, Hinck, Kirk,
+  Schuetze, and Hovy}]{rottger-etal-2024-political}
+Paul R{\"o}ttger, Valentin Hofmann, Valentina Pyatkin, Musashi Hinck, Hannah
+  Kirk, Hinrich Schuetze, and Dirk Hovy. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.acl-long.816} {Political
+  compass or spinning arrow? towards more meaningful evaluations for values and
+  opinions in large language models}.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 15295--15311,
+  Bangkok, Thailand. Association for Computational Linguistics.
+
+\bibitem[{Rozado(2024)}]{10.1371/journal.pone.0306621}
+David Rozado. 2024.
+\newblock \href {https://doi.org/10.1371/journal.pone.0306621} {The political
+  preferences of llms}.
+\newblock \emph{PLOS ONE}, 19(7):1--15.
+
+\bibitem[{Santurkar et~al.(2023)Santurkar, Durmus, Ladhak, Lee, Liang, and
+  Hashimoto}]{santurkar2023whose}
+Shibani Santurkar, Esin Durmus, Faisal Ladhak, Cinoo Lee, Percy Liang, and
+  Tatsunori Hashimoto. 2023.
+\newblock Whose opinions do language models reflect?
+\newblock In \emph{Proceedings of the 40th International Conference on Machine
+  Learning}.
+
+\bibitem[{Spinde et~al.(2024)Spinde, Hinterreiter, Haak, Ruas, Giese, Meuschke,
+  and Gipp}]{spinde2024media}
+Timo Spinde, Smi Hinterreiter, Fabian Haak, Terry Ruas, Helge Giese, Norman
+  Meuschke, and Bela Gipp. 2024.
+\newblock \href {https://arxiv.org/abs/2312.16148} {The media bias taxonomy: A
+  systematic literature review on the forms and automated detection of media
+  bias}.
+\newblock \emph{arXiv preprint arXiv:2312.16148}.
+\newblock Version 3, 10 January 2024.
+
+\end{thebibliography}

@@ -19,6 +19,13 @@
 \usepackage{placeins}
 \usepackage{colortbl}
 \usepackage{makecell}
+\usepackage{longtable}
+\definecolor{catA}{HTML}{E9EEF7}  % economy
+\definecolor{catB}{HTML}{E8F3EC}  % authority / liberty, personal-social values
+\definecolor{catC}{HTML}{FBF2DF}  % progress / tradition, wider society
+\definecolor{catD}{HTML}{F0E9F7}  % country and world / diplomacy
+\definecolor{catE}{HTML}{E4F3F5}  % religion
+\definecolor{catF}{HTML}{F9E7E5}  % sexual ethics
 \definecolor{hlLeft}{HTML}{DCE7F5}   % toward left / libertarian / progressive
 \definecolor{hlRight}{HTML}{F6DADB}  % toward right / authoritarian / conservative; validity violation
 \definecolor{hlAuth}{HTML}{F6DADB}
@@ -506,5 +513,79 @@ Table~\ref{tab:sensitivity} repeats the key questionnaire analyses with Grok~4 a
 \end{table}
 
 \paragraph{What we learn.} The conclusions hold, with two qualifications. First, a second component now passes the random-data threshold. It is driven almost entirely by Grok~4, the only economically right-of-centre model in the cohort, and so reflects one model, not a second ideological dimension shared across models. Second, the average same-trait correlation becomes slightly higher than the average different-trait one (\nSMeanMono{} vs.\ \nSMeanHH), whereas it is lower in the main cohort. The gap remains small, and the liberty--progressivism correlation ($\rho=\nSRhoLibProgSap$) still exceeds every same-trait correlation in the matrix, so discriminant validity still fails. The decoupling between questionnaire position and news-rating direction is unchanged.
+
+
+\section{The Questionnaire Items}
+\label{app:allitems}
+
+Tables~\ref{tab:items_pct}--\ref{tab:items_8val} list every statement of the three instruments in their original order, with the instrument's own thematic grouping shown by row colour (a shared colour marks the same theme across instruments). \emph{Agree $\rightarrow$} gives the pole toward which agreeing moves the score, read from the instrument's scoring key: \emph{Left/Right}, \emph{Lib./Auth.} (libertarian/authoritarian), \emph{Prog./Cons.} or \emph{Prog./Trad.} (progressive/conservative or traditional), \emph{Equal./Mkt.} (equality/markets) and \emph{Glob./Nat.} (globalist/nationalist). Several \ev items move more than one axis. \emph{Mean} is the \nNModels{} models' average answer on a $-2$ (strongly disagree) to $+2$ (strongly agree) scale; the PCT has no neutral option. \emph{Cons.}\ is the share of models whose average answer falls on the majority side, and $\bigstar$ marks items on which all \nNModels{} models agree in direction.
+
+{\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{longtable}{@{}r p{0.60\textwidth} p{0.11\textwidth} r r@{}}
+\caption{The 62 Political Compass statements. Rows are coloured by the test's own six thematic blocks: \swatch{catD}~country and world, \swatch{catA}~economy, \swatch{catB}~personal social values, \swatch{catC}~wider society, \swatch{catE}~religion and \swatch{catF}~sex. Item 21 has no effect on either score in the scoring code (\emph{unscored}).}\label{tab:items_pct}\\
+\toprule
+\textbf{\#} & \textbf{Political Compass statement} & \textbf{Agree $\rightarrow$} & \textbf{Mean} & \textbf{Cons.} \\
+\midrule
+\endfirsthead
+\multicolumn{5}{l}{\textit{\tablename~\thetable{} (continued)}}\\
+\toprule
+\textbf{\#} & \textbf{Political Compass statement} & \textbf{Agree $\rightarrow$} & \textbf{Mean} & \textbf{Cons.} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{5}{r}{\textit{continued on next page}}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\tabinput{tables/tab_items_pct.tex}
+\end{longtable}}
+
+{\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{longtable}{@{}r p{0.60\textwidth} p{0.11\textwidth} r r@{}}
+\caption{The 46 SapplyValues statements, coloured by axis: \swatch{catA}~economic (left/right), \swatch{catB}~authority (libertarian/authoritarian) and \swatch{catC}~progressivism (progressive/conservative).}\label{tab:items_sap}\\
+\toprule
+\textbf{\#} & \textbf{SapplyValues statement} & \textbf{Agree $\rightarrow$} & \textbf{Mean} & \textbf{Cons.} \\
+\midrule
+\endfirsthead
+\multicolumn{5}{l}{\textit{\tablename~\thetable{} (continued)}}\\
+\toprule
+\textbf{\#} & \textbf{SapplyValues statement} & \textbf{Agree $\rightarrow$} & \textbf{Mean} & \textbf{Cons.} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{5}{r}{\textit{continued on next page}}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\tabinput{tables/tab_items_sap.tex}
+\end{longtable}}
+
+{\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{longtable}{@{}r p{0.60\textwidth} p{0.11\textwidth} r r@{}}
+\caption{The 70 8Values statements, coloured by the axis each item weights most heavily: \swatch{catA}~economic (equality/markets), \swatch{catD}~diplomatic (globalism/nationalism), \swatch{catB}~civil (liberty/authority) and \swatch{catC}~societal (progress/tradition).}\label{tab:items_8val}\\
+\toprule
+\textbf{\#} & \textbf{8Values statement} & \textbf{Agree $\rightarrow$} & \textbf{Mean} & \textbf{Cons.} \\
+\midrule
+\endfirsthead
+\multicolumn{5}{l}{\textit{\tablename~\thetable{} (continued)}}\\
+\toprule
+\textbf{\#} & \textbf{8Values statement} & \textbf{Agree $\rightarrow$} & \textbf{Mean} & \textbf{Cons.} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{5}{r}{\textit{continued on next page}}\\
+\endfoot
+\bottomrule
+\endlastfoot
+\tabinput{tables/tab_items_8val.tex}
+\end{longtable}}
+
+\paragraph{What we learn.} Models agree with \nItemsAgreeShare\% of the \nNItems{} statements on average. Their answers are strong in both directions: \nItemsStrongAgree{} statements receive a mean of at least $+1$ and \nItemsStrongDisagree{} a mean of at most $-1$. The tables make the patterns of \S\ref{sec:location} visible item by item. The models agree with qualified statements whichever pole they point to; for example, they support both ``the freer the markets, the freer the people'' and government intervention to protect consumers (\ev items 3 and 2). They reject absolute or discriminatory claims. The \emph{Agree $\rightarrow$} column also shows the keying imbalance: most PCT social items are worded so that agreeing is authoritarian, so the models' libertarian placement comes mostly from \emph{disagreeing}.
 
 \end{document}

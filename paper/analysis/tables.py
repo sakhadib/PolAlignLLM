@@ -426,3 +426,97 @@ with open(TAB / "numbers.tex", "a") as f:
     for k, v in N3.items():
         f.write(f"\\newcommand{{\\n{k}}}{{{v}}}\n")
 print("appendix v2 tables", N3)
+
+# =================================================================== Appendix: full item tables (colour-coded)
+import sys as _sys
+_sys.path.insert(0, str(ROOT / "analysis"))
+import keys as KK
+from common import load_items
+qs_, econv_, socv_, e0_, s0_ = KK.pct_keys()
+et_, ee_ = KK.ev_keys()
+st_, se_ = KK.sap_keys()
+itm = {i: load_items(i) for i in ["pct", "sap", "8val"]}
+DATAP = ROOT / "data"
+
+
+def item_stats(inst):
+    d = itm[inst]
+    mm = d.groupby(["model", "item"]).value.mean().unstack().loc[KEYS24]
+    mean = mm.mean()
+    cons = mm.apply(lambda c: max((c > 0).mean(), (c < 0).mean()))
+    return mean, cons
+
+
+def fmt_ans(v):
+    return "0.0" if abs(v) < 0.05 else sgn(v, 1)
+
+
+def item_rows(inst, keyfun, catfun):
+    mean, cons = item_stats(inst)
+    texts = pd.read_csv(DATAP / f"{inst}_item_responses.csv", encoding="utf-8-sig").question_text.tolist()
+    out = []
+    for i, t in enumerate(texts):
+        k = f"{inst}:q{i+1}"
+        c = cons[k]
+        star = "$\\bigstar$" if c >= 0.999 else ""
+        out.append(f"\\rowcolor{{{catfun(i)}}} {i+1} & {tex_esc(t)} & {keyfun(i)} & {fmt_ans(mean[k])} & {100*c:.0f}\\%{star} \\\\")
+    return out
+
+
+def pct_key(i):
+    de = econv_[i, 3] - econv_[i, 0]
+    ds = socv_[i, 3] - socv_[i, 0]
+    if de == 0 and ds == 0:
+        return "unscored"
+    if de != 0:
+        return "Left" if de < 0 else "Right"
+    return "Lib." if ds < 0 else "Auth."
+
+
+def pct_cat(i):
+    n = i + 1
+    return ("catD" if n < 8 else "catA" if n < 22 else "catB" if n < 40 else "catC" if n < 52 else "catE" if n < 57 else "catF")
+
+
+def sap_key(i):
+    r = se_.iloc[i]
+    if r["right"] != 0: return "Right" if r["right"] > 0 else "Left"
+    if r["auth"] != 0: return "Auth." if r["auth"] > 0 else "Lib."
+    return "Prog." if r["prog"] > 0 else "Cons."
+
+
+def sap_cat(i):
+    r = se_.iloc[i]
+    return "catA" if r["right"] != 0 else "catB" if r["auth"] != 0 else "catC"
+
+
+EVLAB = {"econ": ("Equal.", "Mkt."), "dipl": ("Glob.", "Nat."), "govt": ("Lib.", "Auth."), "scty": ("Prog.", "Trad.")}
+
+
+def ev_key(i):
+    r = ee_.iloc[i]
+    parts = [EVLAB[a][0 if r[a] > 0 else 1] for a in ["econ", "dipl", "govt", "scty"] if r[a] != 0]
+    return ", ".join(parts)
+
+
+def ev_cat(i):
+    r = ee_.iloc[i].abs()
+    return {"econ": "catA", "dipl": "catD", "govt": "catB", "scty": "catC"}[r.idxmax()]
+
+
+for inst, kf, cf in [("pct", pct_key, pct_cat), ("sap", sap_key, sap_cat), ("8val", ev_key, ev_cat)]:
+    with open(TAB / f"tab_items_{inst}.tex", "w") as f:
+        f.write("\n".join(item_rows(inst, kf, cf)))
+N4 = {"PctUnscored": sum(1 for i in range(62) if pct_key(i) == "unscored")}
+with open(TAB / "numbers.tex", "a") as f:
+    for k, v in N4.items():
+        f.write(f"\\newcommand{{\\n{k}}}{{{v}}}\n")
+print("item tables done")
+_mean_all = pd.concat([item_stats(i)[0] for i in ["pct", "sap", "8val"]])
+N5 = {"ItemsAgreeShare": f"{100*(_mean_all > 0).mean():.0f}",
+      "ItemsStrongDisagree": int((_mean_all <= -1.0).sum()),
+      "ItemsStrongAgree": int((_mean_all >= 1.0).sum())}
+with open(TAB / "numbers.tex", "a") as f:
+    for k, v in N5.items():
+        f.write(f"\\newcommand{{\\n{k}}}{{{v}}}\n")
+print(N5)

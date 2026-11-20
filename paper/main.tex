@@ -47,7 +47,7 @@
 \maketitle
 
 \begin{abstract}
-Political questionnaires such as the Political Compass are the most common way to audit the ``political bias'' of large language models (LLMs), and their scores are increasingly cited in public debate about AI and democracy. We ask two measurement questions that such audits usually skip: \emph{what} do these instruments measure when the respondent is an LLM, and does it \emph{predict} how the same model behaves on a politically consequential task? We administer three multidimensional inventories (Political Compass, SapplyValues, 8Values; \nNItems{} items, nine axes) to \nNModels{} contemporary LLMs under one protocol, \nNRuns{} times each, and have these and two further models rate the political slant of \nNArticles{} news articles from \nNStories{} multi-outlet news stories. Scores are highly reliable across runs and prompt paraphrases, yet the nine axes collapse onto a single dimension (\nPCOneShare\% of variance), and a multitrait--multimethod analysis shows that ``libertarian'' and ``progressive'' scales are empirically inseparable ($\rho\approx\nRhoLibProgSap$), while the authority scales of different instruments do not agree with each other. On the news task, models rank outlets within the same story above chance but compress their ratings strongly toward the centre (slope \nMixSlope) with a small leftward offset. A model's questionnaire position does \emph{not} predict the direction or size of its offset ($\rho=\nRhoOffPC$), but does co-vary with how well it discriminates slant ($\rho=\nRhoConcPC$). We argue that single ideology scores for LLMs are a poor proxy for their behaviour in democratic information tasks, and we release data and code.
+Political questionnaires such as the Political Compass are the most common way to audit the ``political bias'' of large language models (LLMs), and their scores are increasingly cited in public debate about AI and democracy. We ask two measurement questions that such audits usually skip: \emph{what} do these instruments measure when the respondent is an LLM, and does it \emph{predict} how the same model behaves on a politically consequential task? We administer three multidimensional inventories (Political Compass, SapplyValues, 8Values; \nNItems{} items, nine axes) to \nNModels{} contemporary LLMs under one protocol, \nNRuns{} times each, and have these and two further models rate the political slant of \nNArticles{} news articles from \nNStories{} multi-outlet news stories. Scores are highly reliable across runs and prompt paraphrases, yet the nine axes collapse onto a single dimension (\nPCOneShare\% of variance), and a multitrait--multimethod analysis shows that ``libertarian'' and ``progressive'' scales are empirically inseparable ($\rho\approx\nRhoLibProgSap$), while the authority scales of different instruments do not agree with each other. Re-implementing the instruments' scoring shows that the familiar libertarian-left placement is not a scoring artifact, but it is concentrated in items that all models answer alike, such as rejecting racial superiority or astrology, while the same models unanimously endorse law and order. On the news task, models rank outlets within the same story above chance but compress their ratings strongly toward the centre (slope \nMixSlope) with a small leftward offset. A model's questionnaire position does \emph{not} predict the direction or size of its offset ($\rho=\nRhoOffPC$), but does co-vary with how well it discriminates slant ($\rho=\nRhoConcPC$). We argue that single ideology scores for LLMs are a poor proxy for their behaviour in democratic information tasks, and we release data and code.
 \end{abstract}
 
 % =====================================================================
@@ -66,7 +66,7 @@ LLMs now summarise the news, answer questions about candidates and policies, and
 
 Two assumptions sit underneath this practice. The first is \emph{construct validity}: that an instrument built to separate, for example, economic from social or authority from cultural attitudes in humans separates the same constructs when the respondent is an LLM. The second is \emph{predictive validity}: that a model's questionnaire position tells us something about how it behaves when it does political work, such as judging the slant of news coverage. Prior work has challenged the \emph{stability} of questionnaire answers under prompt changes \citep{rottger-etal-2024-political,ceron-etal-2024-beyond,dominguez2024questioning}, but these two validity assumptions have rarely been tested together, across many models and several instruments at once.
 
-We test both. We give three widely used multidimensional inventories (\pct, \sap, \ev; nine axes in total) to \nNModels{} LLMs, ten times each under one protocol, and ask the same models (plus two more, \nNModelsAll{} from 14 developers) to rate the slant of \nNArticles{} articles grouped into \nNStories{} stories, each covered by several outlets with different bias labels. We find that (\textit{i})~scores are reliable: model identity explains \nEtaMinOther--\nEtaMax{} of the variance across repeated runs on eight of nine axes, and prompt paraphrases explain at most \nPromptEtaMax{}, with one authority axis as the exception (\S\ref{sec:reliability}); (\textit{ii})~yet the nine axes measure essentially one thing, as a single component carries \nPCOneShare\% of between-model variance, is the only one that exceeds chance, and receives loadings in the same direction from every axis (\S\ref{sec:dimensionality}); (\textit{iii})~discriminant validity fails, since ``libertarian'' and ``progressive'' scales correlate more strongly across instruments ($\rho=\nRhoLibProgSap$) than any pair of same-trait scales, while the authority scales of different instruments do not agree (\S\ref{sec:mtmm}); and (\textit{iv})~questionnaire position does not predict directional bias in news slant rating: models compress their ratings toward the centre and lean slightly left, but how far a model leans is unrelated to its ideology score, which co-varies only with how \emph{well} the model ranks outlets (\S\ref{sec:news}--\S\ref{sec:link}). For auditing AI in democratic settings, the implication is that a single ideology coordinate is a reliable measurement of something narrow, not a general summary of political behaviour.
+We test both. We give three widely used multidimensional inventories (\pct, \sap, \ev; nine axes in total) to \nNModels{} LLMs, ten times each under one protocol, and ask the same models (plus two more, \nNModelsAll{} from 14 developers) to rate the slant of \nNArticles{} articles grouped into \nNStories{} stories, each covered by several outlets with different bias labels. We find that (\textit{i})~scores are reliable: model identity explains \nEtaMinOther--\nEtaMax{} of the variance across repeated runs on eight of nine axes, and prompt paraphrases explain at most \nPromptEtaMax{}, with one authority axis as the exception (\S\ref{sec:reliability}); (\textit{ii})~yet the nine axes measure essentially one thing, as a single component carries \nPCOneShare\% of between-model variance, is the only one that exceeds chance, and receives loadings in the same direction from every axis (\S\ref{sec:dimensionality}); (\textit{iii})~discriminant validity fails, since ``libertarian'' and ``progressive'' scales correlate more strongly across instruments ($\rho=\nRhoLibProgSap$) than any pair of same-trait scales, while the authority scales of different instruments do not agree (\S\ref{sec:mtmm}); (\textit{iv})~the libertarian-left placement is not built into the scoring, but a disproportionate share of it (e.g., \nShareUnanPctSoc\% on PCT social, from \nFracUnanPctSoc\% of its items) comes from items that all models answer the same way, which mix the rejection of discriminatory and pseudoscientific claims with endorsement of law and order (\S\ref{sec:location}); and (\textit{v})~questionnaire position does not predict directional bias in news slant rating: models compress their ratings toward the centre and lean slightly left, but how far a model leans is unrelated to its ideology score, which co-varies only with how \emph{well} the model ranks outlets (\S\ref{sec:news}--\S\ref{sec:link}). For auditing AI in democratic settings, the implication is that a single ideology coordinate is a reliable measurement of something narrow, not a general summary of political behaviour.
 
 % =====================================================================
 \section{Related Work}
@@ -88,7 +88,7 @@ Media-bias detection has a long history in NLP \citep{kiesel-etal-2019-semeval,b
 We evaluate \nNModelsAll{} instruction-tuned LLMs from 14 developers, released in 2024--2025 and all queried through one API gateway (OpenRouter) in 2025 (Table~\ref{tab:models}). For two of them (Grok~4 and Gemini~2.5 Pro), the questionnaires were collected under a different protocol: they were asked for their ``own beliefs'' and returned all ten ratings in one call at temperature 1.0. Because the elicitation protocol can change answers \citep{rottger-etal-2024-political}, we exclude these two models from all questionnaire analyses. The main questionnaire cohort is therefore \nNModels{} models (\nNClosed{} closed, \nNOpen{} open-weight). The news task used one protocol for all \nNModelsAll{} models. Results for the full 26 are reported as a sensitivity analysis (Appendix~\ref{app:sensitivity}) and lead to the same conclusions.
 
 \paragraph{Questionnaires.}
-\pct (62 items; economic and social axes), \sap (46 items; right, authority, progressive) and \ev (70 items; equality, globalism, liberty, progress) together give \nNItems{} items and nine axes. Each item is presented in a separate call with a fixed instruction framing the task as a standardised survey for academic research. The instruction asks the model to rate the statement as a neutral rater with exactly one Likert option (four for \pct, five for the others), returned as JSON. The default temperature is 0.6; reasoning models that rejected these settings used fallback configurations. Each model answers every item \nNRuns{} times, independently, and the answers are scored with the instruments' public scoring implementations. Neutral answers are rare (\nNeutralSap\% on \sap, \nNeutralEight\% on \ev). Prompts are given in Appendix~\ref{app:prompts}.
+\pct (62 items; economic and social axes), \sap (46 items; right, authority, progressive) and \ev (70 items; equality, globalism, liberty, progress) together give \nNItems{} items and nine axes. Each item is presented in a separate call with a fixed instruction framing the task as a standardised survey for academic research. The instruction asks the model to rate the statement as a neutral rater with exactly one Likert option (four for \pct, five for the others), returned as JSON. The default temperature is 0.6; reasoning models that rejected these settings used fallback configurations. Each model answers every item \nNRuns{} times, independently, and the answers are scored with the instruments' public scoring implementations. Neutral answers are rare (\nNeutralSap\% on \sap, \nNeutralEight\% on \ev). Prompts are given in Appendix~\ref{app:prompts}. We also re-implemented each instrument's scoring function from its public source code. Re-scoring all \nRescoreN{} run--axis scores reproduces the recorded values to within \nRescoreMaxDiff\% of the axis range, which lets us score hypothetical respondents and decompose scores item by item (\S\ref{sec:location}).
 
 \paragraph{News slant rating.}
 We use \nNArticles{} English news articles (full text, median 512 words) collected from \nNStories{} Ground News story clusters in August 2025. A cluster groups coverage of the same event by different outlets, and each article inherits its outlet's aggregated bias label (Far Left \dots{} Far Right; AllSides, Ad Fontes Media and Media Bias/Fact Check). Each model returns a continuous slant score in $[-3,+3]$. The instruction lists example left- and right-leaning cues and asks models not to default to exactly zero (Appendix~\ref{app:prompts}); \nFracZero\% of scores are nonetheless zero. Of \nNPredsPossible{} model--article pairs, \nNPreds{} yield valid scores (at least \nValidMin\% for every model).
@@ -195,7 +195,30 @@ The two progressivism scales agree well ($\rho=\nRhoProgConv$), and so do PCT-so
 Human ideological constraint makes social and cultural attitudes correlate, but instruments are built so that they remain distinguishable. In LLMs they do not. A headline like ``model X is more authoritarian than model Y'' therefore often restates ``model X answered fewer progressive items in agreement'', which is a different and narrower claim.
 
 % =====================================================================
-\section{RQ4: How do the same models rate news slant?}
+\section{RQ4: Where does the libertarian-left placement come from?}
+\label{sec:location}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/fig_itemmap.pdf}
+\vspace{-6mm}
+\caption{\textbf{Where the placement comes from.} Each dot is an item--axis pair (\nNPairs{} in total). \emph{Lean}: how far the \nNModels{} models' answers push that axis toward the left/libertarian/progressive pole, relative to a random respondent ($-1$ to $+1$). \emph{Consensus}: share of models answering on the majority side; the grey band marks items all models answer alike. The size of the lean necessarily grows with consensus; the informative feature is that the upper arm is much denser than the lower one.}
+\label{fig:itemmap}
+\vspace{-3mm}
+\end{figure}
+
+Almost every model lands in the libertarian-left quadrant (Figure~\ref{fig:teaser}). Because we re-implemented the scoring functions, we can ask where this placement comes from: from the instruments themselves, from how models answer, or from specific items.
+
+\paragraph{It is not built into the scoring.}
+A respondent who answers uniformly at random lands near the centre of every axis, and only \nRandLibLeft\% of random respondents fall in the PCT libertarian-left quadrant (Appendix Table~\ref{tab:reference}). A general tendency to agree would push the other way. Only \nKeyBalPctSoc\% of PCT-social item weight (\nKeyBalEvGovt\% for \ev-liberty) is keyed so that agreeing is libertarian, so a respondent who always agrees scores authoritarian (PCT $\nAllAgreeEcon, \nAllAgreeSoc$). Models do differ in how often they agree, consistently across instruments ($\rho=\nAcqRhoInst$ between \sap and \ev), and this tendency correlates with PC1 ($\rho=\nAcqRhoPC$). But removing each model's mean response before scoring leaves the structure unchanged (PC1 \nAcqCorrPCOne\%; liberty--progressive $\rho=\nAcqCorrLibProg$). The correlation therefore reflects \emph{what} models agree with, not a response style.
+
+\paragraph{It is concentrated in consensus items.}
+For each item--axis pair we compute a \emph{lean}: how far the models' answers move the axis toward its left, libertarian or progressive pole compared with a random respondent. Of the \nNPairs{} pairs, \nNUnanPairs{} (from \nNUnanItems{} items) are answered on the same side by all \nNModels{} models. These consensus items lean \nLeanUnan{} on average, against \nLeanCont{} for contested items. On \nNAxesOverShare{} of nine axes, they supply a larger share of the models' displacement than their share of items. On PCT social, for example, they are \nFracUnanPctSoc\% of the items but supply \nShareUnanPctSoc\% of the displacement; on PCT economic, \nFracUnanPctEcon\% and \nShareUnanPctEcon\%. Contested items still lean the same way on average (\nFracPosCont\% of them do), only more weakly (Figure~\ref{fig:itemmap}).
+
+\paragraph{What the consensus is about.}
+The consensus is not a partisan programme. All \nNModels{} models reject racial superiority, astrology and the claim that immigrants can never integrate, and endorse equal treatment regardless of sexuality. They are equally unanimous in endorsing law and order, national sovereignty and government surveillance against terrorism; \nUnanNeg{} of the \nNUnanPairs{} consensus pairs lean authoritarian, conservative or nationalist (Appendix Table~\ref{tab:unanimous}). On contested items such as a death-penalty option, most models take the authoritarian side. An exploratory analysis points to wording: models disagree, on average, with statements phrased in absolute terms (``always'', ``never'', ``only''; $n=\nNAbsItems$ items; mean answer $\nAgreeAbs$ vs.\ $\nAgreeNonAbs$ on a $-2$ to $+2$ scale, $p=\nPAbs$). Such statements are somewhat more often keyed so that agreeing is right-wing or authoritarian (\nAbsKeyedRight\% vs.\ \nNonAbsKeyedRight\%, $p=\nPAbsKey$). Part of the familiar placement therefore records a convergence on rejecting extreme or discriminatory claims, which instruments built for human respondents score as ideology.
+
+\section{RQ5: How do the same models rate news slant?}
 \label{sec:news}
 
 \begin{figure*}[t]
@@ -216,7 +239,7 @@ This analysis uses all \nNModelsAll{} models. Every model ranks same-story outle
 At the Center label the pooled prediction is \nMixInt{} [\nMixIntLo, \nMixIntHi], and \nNegOffsetCount{} of \nNModelsAll{} models have a negative offset (range \nOffsetMin{} to \nOffsetMax). In other words, centrist outlets are read as slightly left of centre. Because outlet labels encode an institutional consensus rather than ground truth, we interpret this as a systematic \emph{relative} shift against the aggregator scale, not as proof that models are biased.
 
 % =====================================================================
-\section{RQ5: Does questionnaire position predict task behaviour?}
+\section{RQ6: Does questionnaire position predict task behaviour?}
 \label{sec:link}
 
 \begin{figure*}[t]
@@ -259,7 +282,7 @@ Higher PC1 goes with better within-story concordance ($\rho=\nRhoConcPC$ [\nRhoC
 \section{Discussion: Auditing LLMs for Democracies}
 
 \paragraph{One coordinate is not a political profile.}
-Instruments with two to four named axes give the impression of a detailed political profile. For LLMs, most of the between-model variation lies on one gradient, and named axes such as ``authority'' do not track their constructs. Reports that place models on a compass therefore convey less information than they appear to, and claims about specific dimensions (``more authoritarian'', ``more nationalist'') should be checked for discriminant validity before they are made.
+Instruments with two to four named axes give the impression of a detailed political profile. For LLMs, most of the between-model variation lies on one gradient, and named axes such as ``authority'' do not track their constructs. Part of where models sit is also earned on items where the ``left'' answer coincides with rejecting discriminatory or pseudoscientific claims (\S\ref{sec:location}). Whether such answers count as ideology is a property of how an instrument was coded for its original (largely Western) audience, not of the model. Reports that place models on a compass therefore convey less information than they appear to, and claims about specific dimensions (``more authoritarian'', ``more nationalist'') should be checked for discriminant validity before they are made.
 
 \paragraph{Audit behaviour where it matters.}
 In our data, a model's questionnaire position was unrelated to the direction of its bias in a news-related task. Regulators, platforms and civil-society auditors who care about how models treat political content should evaluate that behaviour directly. They should use ranking-based metrics that do not assume the reference labels are exact, and hold the topic fixed, for example by comparing coverage of the same story, so that outlet framing is not confused with topic choice.
@@ -278,7 +301,7 @@ Across \nNModels{} LLMs answering under one protocol, three political questionna
 \textbf{Sample size.} Every cross-model analysis has $n=\nNModels$, and the models span a narrow ideological range, which limits both statistical power and the dimensional structure that can appear. Our null results bound only large effects.
 \textbf{Elicitation.} The main cohort answered in a forced-choice format under one fixed instruction that framed the task as academic survey research and asked for a neutral rating. Two further models were collected under a different (``own beliefs'') protocol and are excluded from the main questionnaire analyses. Paraphrase robustness was tested on a separate set of seven models. Open-ended answers can differ from forced choices \citep{rottger-etal-2024-political}, and our conclusions concern the forced-choice protocol used in typical audits.
 \textbf{News task.} Labels are outlet-level and come from US-centred aggregators. Far-left outlets are rare in the sample (\nNFarLeft{} articles). The rating instruction lists example left/right cues and discourages exactly-zero answers. These choices may inflate the magnitude of non-zero ratings, so we rely on ranking-based metrics and interpret offsets only relative to the aggregator scale. Models were run once per article at temperature 0.7, with fallback instructions used only when an answer could not be parsed.
-\textbf{Confounding.} We have no independent capability measure for all models, so the discrimination link (\S\ref{sec:link}) may reflect capability rather than ideology.
+\textbf{Wording analysis.} The list of absolute terms in \S\ref{sec:location} was assembled after inspecting the items, so that analysis is exploratory. \textbf{Confounding.} We have no independent capability measure for all models, so the discrimination link (\S\ref{sec:link}) may reflect capability rather than ideology.
 \textbf{Scope.} English only; models available in mid-2025.
 
 \section*{Ethical Considerations}
@@ -375,6 +398,39 @@ The paraphrase study (Table~\ref{tab:reliability}, right) fits a two-way ANOVA, 
 \end{tabular}
 \caption{All pairwise correlations between trait-oriented scales (\nNModels{} models). MT-HM: same trait, different instrument (convergent); HT-HM: different trait and instrument; HT-MM: different trait, same instrument. Econ = economic left, Lib = libertarian, Prog = progressive.}
 \label{tab:mtmm_full}
+\end{table}
+
+\section{Reference Respondents and Consensus Items}
+\label{app:location}
+
+\begin{table}[H]
+\centering
+\small
+\setlength{\tabcolsep}{3.2pt}
+\begin{tabular}{@{}lrr|rrr|rrrr@{}}
+\toprule
+& \multicolumn{2}{c|}{\pct} & \multicolumn{3}{c|}{\sap} & \multicolumn{4}{c}{\ev} \\
+\textbf{Respondent} & Econ & Soc & Right & Auth & Prog & Equal. & Glob. & Lib. & Progr. \\
+\midrule
+\tabinput{tables/tab_reference.tex}
+\bottomrule
+\end{tabular}
+\caption{Scores of hypothetical respondents under the re-implemented scoring functions. ``Uniform random'' averages 10{,}000 simulated respondents. The PCT has no neutral option. A respondent who always agrees is scored authoritarian on PCT and less libertarian on \ev, because these axes are keyed unevenly.}
+\label{tab:reference}
+\end{table}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{@{}lp{0.74\textwidth}r@{}}
+\toprule
+\textbf{Inst.} & \textbf{Item (answered on the same side by all \nNModels{} models)} & \textbf{Lean} \\
+\midrule
+\tabinput{tables/tab_unanimous.tex}
+\bottomrule
+\end{tabular}
+\caption{All \nNUnanItems{} consensus items, sorted by lean (shown for the item's most heavily weighted axis). Positive lean moves the score toward the left/libertarian/progressive pole; negative toward the right/authoritarian/conservative pole.}
+\label{tab:unanimous}
 \end{table}
 
 \section{Sensitivity: All 26 Models}

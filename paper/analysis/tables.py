@@ -227,3 +227,67 @@ for r in mt.sort_values(["relation", "rho"], ascending=[False, False]).itertuple
 with open(TAB / "tab_mtmm_full.tex", "w") as f:
     f.write("\n".join(lines))
 print(f"wrote {len(N)} number macros and tables")
+
+# ------------------------------------------------------------------ instrument-key analyses (items_deep.py)
+DQ = json.load(open(RES / "items_deep.json"))
+N2 = {}
+N2["RescoreMaxDiff"] = f"{DQ['rescore_max_abs_diff_pct_scale']:.2f}"
+N2["RescoreN"] = f"{DQ['rescore_n']:,}"
+N2["RandLibLeft"] = f"{100*DQ['random_libleft_share']:.0f}"
+N2["AllAgreeEcon"] = sgn(DQ["allagree_pct"][0])
+N2["AllAgreeSoc"] = sgn(DQ["allagree_pct"][1])
+N2["AllAgreeLib"] = f"{DQ['allagree_8v_govt']:.1f}"
+N2["KeyBalPctSoc"] = f"{100*DQ['key_balance']['pct_soc']:.0f}"
+N2["KeyBalEvGovt"] = f"{100*DQ['key_balance']['8val_govt']:.0f}"
+N2["AcqRhoPC"] = sgn(DQ["acq_rho_pc1"])
+N2["AcqRhoInst"] = f2(DQ["acq_rho_sap_8v"])
+N2["AcqCorrPCOne"] = f"{100*DQ['acqcorr_pc1_share']:.0f}"
+N2["AcqCorrLibProg"] = f2(DQ["acqcorr_rho_lib8v_progsap"])
+N2["NPairs"] = DQ["n_pairs"]
+N2["NUnanPairs"] = DQ["n_unan_pairs"]
+N2["NUnanItems"] = DQ["n_unan_items"]
+N2["UnanNeg"] = DQ["unan_neg_pairs"]
+N2["UnanPos"] = DQ["n_unan_pairs"] - DQ["unan_neg_pairs"]
+N2["LeanUnan"] = f2(DQ["lean_unan"])
+N2["LeanCont"] = f2(DQ["lean_cont"])
+N2["FracPosCont"] = f"{100*DQ['frac_pos_cont']:.0f}"
+su, fu = DQ["share_unan"], DQ["frac_items_unan"]
+N2["ShareUnanPctSoc"] = f"{100*su['pct_soc']:.0f}"
+N2["FracUnanPctSoc"] = f"{100*fu['pct_soc']:.0f}"
+N2["ShareUnanPctEcon"] = f"{100*su['pct_econ']:.0f}"
+N2["FracUnanPctEcon"] = f"{100*fu['pct_econ']:.0f}"
+N2["ShareUnanEvScty"] = f"{100*su['8val_scty']:.0f}"
+N2["NAxesOverShare"] = sum(1 for a in su if 0 <= su[a] <= 1 and su[a] > fu[a])
+N2["AgreeAbs"] = sgn(DQ["agree_abs"])
+N2["AgreeNonAbs"] = sgn(DQ["agree_nonabs"])
+N2["NAbsItems"] = DQ["n_abs_items"]
+N2["PAbs"] = f"{DQ['p_abs']:.3f}"
+N2["AbsKeyedRight"] = f"{100*DQ['abs_keyed_right']:.0f}"
+N2["NonAbsKeyedRight"] = f"{100*DQ['nonabs_keyed_right']:.0f}"
+N2["PAbsKey"] = f"{DQ['p_abs_key']:.2f}"
+with open(TAB / "numbers.tex", "a") as f:
+    for k, v in N2.items():
+        f.write(f"\\newcommand{{\\n{k}}}{{{v}}}\n")
+
+# reference respondents table
+RR = pd.read_csv(RES / "reference_respondents.csv", index_col=0)
+lines = []
+for lab, r in RR.iterrows():
+    lines.append(f"{lab} & {sgn(r.pct_econ)} & {sgn(r.pct_soc)} & {sgn(r.sap_right)} & {sgn(r.sap_auth)} & "
+                 f"{sgn(r.sap_prog)} & {r['8val_econ']:.1f} & {r['8val_dipl']:.1f} & {r['8val_govt']:.1f} & {r['8val_scty']:.1f} \\\\")
+with open(TAB / "tab_reference.tex", "w") as f:
+    f.write("\n".join(lines))
+
+# consensus (unanimous) items table: one row per item, its strongest-weight axis
+IL = pd.read_csv(RES / "item_lean.csv")
+U = IL[IL.unanimous].sort_values("w", ascending=False).drop_duplicates("item").sort_values("lean", ascending=False)
+inst_cmd = {"pct": "\\instPCT{PCT}", "sap": "\\instSAP{Sap}", "8val": "\\instEV{8V}"}
+def tex_esc(t):
+    t = t.replace("’", "'").replace("“", "``").replace("”", "''")
+    for a, b in [("&", "\\&"), ("%", "\\%"), ("$", "\\$"), ("#", "\\#"), ("_", "\\_")]:
+        t = t.replace(a, b)
+    return t
+lines = [f"{inst_cmd[r.inst]} & {tex_esc(r.text)} & {sgn(r.lean)} \\\\" for r in U.itertuples()]
+with open(TAB / "tab_unanimous.tex", "w") as f:
+    f.write("\n".join(lines))
+print("item tables written", len(U))

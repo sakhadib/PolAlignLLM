@@ -1,0 +1,224 @@
+inst,axis,item,text,w,lean,consensus,unanimous,absolutist
+pct,pct_soc,pct:q2,"I’d always support my country, whether it was right or wrong.",5.0,0.45833333333333326,0.8333333333333334,False,True
+pct,pct_soc,pct:q3,"No one chooses their country of birth, so it’s foolish to be proud of it.",4.5,0.06666666666666667,0.5416666666666666,False,True
+pct,pct_soc,pct:q4,"Our race has many superior qualities, compared with other races.",4.5,0.9092592592592593,1.0,True,True
+pct,pct_soc,pct:q5,The enemy of my enemy is my friend.,4.5,-0.06018518518518519,0.5416666666666666,False,False
+pct,pct_soc,pct:q6,Military action that defies international law is sometimes justified.,4.0,0.08958333333333333,0.5833333333333334,False,False
+pct,pct_soc,pct:q7,There is now a worrying fusion of information and entertainment.,4.5,0.5472222222222222,0.9166666666666666,False,False
+pct,pct_soc,pct:q22,"Abortion, when the woman’s life is not threatened, should always be illegal.",4.0,0.6520833333333333,0.9583333333333334,False,True
+pct,pct_soc,pct:q23,All authority should be questioned.,4.5,0.6907407407407404,1.0,True,True
+pct,pct_soc,pct:q24,An eye for an eye and a tooth for a tooth.,3.5,0.4392857142857144,0.8333333333333334,False,False
+pct,pct_soc,pct:q26,Schools should not make classroom attendance compulsory.,5.0,0.04166666666666666,0.5416666666666666,False,False
+pct,pct_soc,pct:q27,"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind.",4.5,0.674074074074074,0.9166666666666666,False,True
+pct,pct_soc,pct:q28,Good parents sometimes have to spank their children.,5.0,0.19916666666666666,0.6666666666666666,False,False
+pct,pct_soc,pct:q29,It’s natural for children to keep some secrets from their parents.,4.5,0.4055555555555557,1.0,True,False
+pct,pct_soc,pct:q30,Possessing marijuana for personal use should not be a criminal offence.,4.0,0.5458333333333333,1.0,True,False
+pct,pct_soc,pct:q31,The prime function of schooling should be to equip the future generation to find jobs.,5.0,0.005833333333333365,0.5,False,False
+pct,pct_soc,pct:q32,People with serious inheritable disabilities should not be allowed to reproduce.,5.5,0.8477272727272728,0.9166666666666666,False,True
+pct,pct_soc,pct:q33,The most important thing for children to learn is to accept discipline.,5.0,-0.22,0.7083333333333334,False,False
+pct,pct_soc,pct:q34,There are no savage and civilised peoples; there are only different cultures.,4.5,0.7685185185185184,1.0,True,True
+pct,pct_soc,pct:q35,"Those who are able to work, and refuse the opportunity, should not expect society’s support.",4.5,-0.43611111111111106,0.875,False,False
+pct,pct_soc,pct:q36,"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things.",4.0,-0.0020833333333333333,0.5416666666666666,False,False
+pct,pct_soc,pct:q37,First-generation immigrants can never be fully integrated within their new country.,4.5,0.8083333333333333,1.0,True,True
+pct,pct_soc,pct:q40,Our civil liberties are being excessively curbed in the name of counter-terrorism.,5.0,0.41083333333333344,0.9583333333333334,False,False
+pct,pct_soc,pct:q41,A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.,5.5,0.3674242424242424,0.7916666666666666,False,True
+pct,pct_soc,pct:q42,"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried.",5.0,0.505,0.875,False,True
+pct,pct_soc,pct:q43,The death penalty should be an option for the most serious crimes.,5.0,-0.2883333333333333,0.75,False,False
+pct,pct_soc,pct:q44,"In a civilised society, one must always have people above to be obeyed and people below to be commanded.",4.0,0.70625,0.9583333333333334,False,True
+pct,pct_soc,pct:q45,Abstract art that doesn’t represent anything shouldn’t be considered art at all.,5.0,0.5816666666666667,0.9166666666666666,False,True
+pct,pct_soc,pct:q46,"In criminal justice, punishment should be more important than rehabilitation.",4.5,0.4527777777777777,0.875,False,False
+pct,pct_soc,pct:q47,It is a waste of time to try to rehabilitate some criminals.,5.0,-0.010000000000000002,0.5,False,False
+pct,pct_soc,pct:q48,The businessperson and the manufacturer are more important than the writer and the artist.,3.5,0.4738095238095238,1.0,True,False
+pct,pct_soc,pct:q49,"Mothers may have careers, but their first duty is to be homemakers.",4.5,0.6888888888888888,1.0,True,False
+pct,pct_soc,pct:q50,"Almost all politicians promise economic growth, but we should heed the warnings of climate science that growth is detrimental to our efforts to curb global warming.",4.5,0.5166666666666666,0.9583333333333334,False,True
+pct,pct_soc,pct:q51,Making peace with the establishment is an important aspect of maturity.,4.0,-0.12708333333333333,0.625,False,False
+pct,pct_soc,pct:q52,Astrology accurately explains many things.,4.5,0.8722222222222221,1.0,True,False
+pct,pct_soc,pct:q53,You cannot be moral without being religious.,4.0,0.7145833333333333,1.0,True,True
+pct,pct_soc,pct:q55,Some people are naturally unlucky.,4.5,0.03518518518518519,0.5416666666666666,False,False
+pct,pct_soc,pct:q56,It is important that my child’s school instills religious values.,4.0,0.30833333333333335,0.7916666666666666,False,False
+pct,pct_soc,pct:q57,Sex outside marriage is usually immoral.,4.5,0.6712962962962962,0.9583333333333334,False,False
+pct,pct_soc,pct:q58,"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption.",4.5,0.8777777777777777,1.0,True,False
+pct,pct_soc,pct:q59,"Pornography, depicting consenting adults, should be legal for the adult population.",4.5,0.6870370370370369,1.0,True,False
+pct,pct_soc,pct:q60,What goes on in a private bedroom between consenting adults is no business of the state.,5.0,0.9,1.0,True,True
+pct,pct_soc,pct:q61,No one can feel naturally homosexual.,5.0,0.8399999999999999,0.9583333333333334,False,True
+pct,pct_soc,pct:q62,These days openness about sex has gone too far.,4.0,0.10833333333333334,0.625,False,False
+pct,pct_econ,pct:q1,"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.",4.5,0.7074074074074074,1.0,True,False
+pct,pct_econ,pct:q8,People are ultimately divided more by class than by nationality.,4.5,0.47037037037037027,0.9166666666666666,False,True
+pct,pct_econ,pct:q9,Controlling inflation is more important than controlling unemployment.,4.5,-0.3268518518518518,0.7916666666666666,False,False
+pct,pct_econ,pct:q10,"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.",4.0,0.59375,1.0,True,True
+pct,pct_econ,pct:q11,"“from each according to his ability, to each according to his need” is a fundamentally good idea.",4.5,0.4268518518518517,0.875,False,False
+pct,pct_econ,pct:q12,"The freer the market, the freer the people.",5.0,-0.3233333333333333,0.75,False,False
+pct,pct_econ,pct:q13,"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product.",5.0,0.6183333333333333,1.0,True,False
+pct,pct_econ,pct:q14,Land shouldn’t be a commodity to be bought and sold.,4.5,0.4583333333333333,0.7916666666666666,False,False
+pct,pct_econ,pct:q15,It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.,5.0,0.4883333333333334,1.0,True,False
+pct,pct_econ,pct:q16,Protectionism is sometimes necessary in trade.,4.5,0.7231481481481479,1.0,True,False
+pct,pct_econ,pct:q17,The only social responsibility of a company should be to deliver a profit to its shareholders.,4.5,0.4638888888888888,0.9166666666666666,False,True
+pct,pct_econ,pct:q18,The rich are too highly taxed.,4.0,0.3572916666666667,0.7916666666666666,False,False
+pct,pct_econ,pct:q19,Those with the ability to pay should have access to higher standards of medical care.,4.0,-0.30416666666666664,0.8333333333333334,False,False
+pct,pct_econ,pct:q20,Governments should penalise businesses that mislead the public.,3.5,0.6976190476190477,1.0,True,False
+pct,pct_econ,pct:q25,Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis.,4.5,-0.3361111111111112,0.7083333333333334,False,True
+pct,pct_econ,pct:q38,"What’s good for the most successful corporations is always, ultimately, good for all of us.",5.5,0.7924242424242423,1.0,True,True
+pct,pct_econ,pct:q39,"No broadcasting institution, however independent its content, should receive public funding.",3.0,0.5527777777777777,0.9583333333333334,False,False
+pct,pct_econ,pct:q54,Charity is better than social security as a means of helping the genuinely disadvantaged.,5.0,0.6791666666666667,0.9166666666666666,False,False
+8val,8val_econ,8val:q1,Oppression by corporations is more of a concern than oppression by governments.,10.0,0.09791666666666667,0.5416666666666666,False,False
+8val,8val_govt,8val:q1,Oppression by corporations is more of a concern than oppression by governments.,5.0,-0.09791666666666667,0.5416666666666666,False,False
+8val,8val_econ,8val:q2,It is necessary for the government to intervene in the economy to protect consumers.,10.0,0.5104166666666666,1.0,True,False
+8val,8val_econ,8val:q3,"The freer the markets, the freer the people.",10.0,-0.28125,0.7916666666666666,False,False
+8val,8val_econ,8val:q4,It is better to maintain a balanced budget than to ensure welfare for all citizens.,10.0,0.19791666666666666,0.7083333333333334,False,True
+8val,8val_econ,8val:q5,Publicly-funded research is more beneficial to the people than leaving it to the market.,10.0,0.5083333333333333,1.0,True,False
+8val,8val_scty,8val:q5,Publicly-funded research is more beneficial to the people than leaving it to the market.,10.0,0.5083333333333333,1.0,True,False
+8val,8val_econ,8val:q6,Tariffs on international trade are important to encourage local production.,5.0,0.4895833333333333,1.0,True,False
+8val,8val_govt,8val:q6,Tariffs on international trade are important to encourage local production.,10.0,-0.4895833333333333,1.0,True,False
+8val,8val_econ,8val:q7,"From each according to his ability, to each according to his needs.",10.0,0.46458333333333335,0.9166666666666666,False,False
+8val,8val_econ,8val:q8,It would be best if social programs were abolished in favor of private charity.,10.0,0.59375,0.9583333333333334,False,True
+8val,8val_econ,8val:q9,Taxes should be increased on the rich to provide for the poor.,10.0,0.4979166666666667,1.0,True,False
+8val,8val_econ,8val:q10,Inheritance is a legitimate form of wealth.,10.0,-0.4666666666666667,0.9583333333333334,False,False
+8val,8val_scty,8val:q10,Inheritance is a legitimate form of wealth.,5.0,-0.4666666666666667,0.9583333333333334,False,False
+8val,8val_econ,8val:q11,Basic utilities like roads and electricity should be publicly owned.,10.0,0.5145833333333333,1.0,True,False
+8val,8val_econ,8val:q12,Government intervention is a threat to the economy.,10.0,0.13958333333333334,0.625,False,False
+8val,8val_econ,8val:q13,Those with a greater ability to pay should receive better healthcare.,10.0,0.3625,0.75,False,False
+8val,8val_econ,8val:q14,Quality education is a right of all people.,10.0,0.8041666666666667,1.0,True,True
+8val,8val_scty,8val:q14,Quality education is a right of all people.,5.0,0.8041666666666667,1.0,True,True
+8val,8val_econ,8val:q15,The means of production should belong to the workers who use them.,10.0,0.5020833333333333,0.9583333333333334,False,False
+8val,8val_dipl,8val:q16,The United Nations should be abolished.,10.0,0.5416666666666666,0.9583333333333334,False,True
+8val,8val_govt,8val:q16,The United Nations should be abolished.,5.0,0.5416666666666666,0.9583333333333334,False,True
+8val,8val_dipl,8val:q17,Military action by our nation is often necessary to protect it.,10.0,-0.47708333333333336,1.0,True,False
+8val,8val_govt,8val:q17,Military action by our nation is often necessary to protect it.,10.0,-0.47708333333333336,1.0,True,False
+8val,8val_econ,8val:q18,"I support regional unions, such as the European Union.",5.0,-0.45,0.9583333333333334,False,False
+8val,8val_dipl,8val:q18,"I support regional unions, such as the European Union.",10.0,0.45,0.9583333333333334,False,False
+8val,8val_govt,8val:q18,"I support regional unions, such as the European Union.",10.0,0.45,0.9583333333333334,False,False
+8val,8val_scty,8val:q18,"I support regional unions, such as the European Union.",5.0,0.45,0.9583333333333334,False,False
+8val,8val_dipl,8val:q19,It is important to maintain our national sovereignty.,10.0,-0.5416666666666666,1.0,True,False
+8val,8val_govt,8val:q19,It is important to maintain our national sovereignty.,5.0,-0.5416666666666666,1.0,True,False
+8val,8val_dipl,8val:q20,A united world government would be beneficial to mankind.,10.0,0.06041666666666667,0.375,False,False
+8val,8val_dipl,8val:q21,It is more important to retain peaceful relations than to further our strength.,10.0,0.4166666666666667,0.9166666666666666,False,False
+8val,8val_dipl,8val:q22,Wars do not need to be justified to other countries.,10.0,0.34375,0.75,False,False
+8val,8val_govt,8val:q22,Wars do not need to be justified to other countries.,10.0,0.34375,0.75,False,False
+8val,8val_dipl,8val:q23,Military spending is a waste of money.,10.0,-0.28125,0.7916666666666666,False,False
+8val,8val_govt,8val:q23,Military spending is a waste of money.,10.0,-0.28125,0.7916666666666666,False,False
+8val,8val_econ,8val:q24,International aid is a waste of money.,5.0,0.5395833333333333,0.9583333333333334,False,False
+8val,8val_dipl,8val:q24,International aid is a waste of money.,10.0,0.5395833333333333,0.9583333333333334,False,False
+8val,8val_dipl,8val:q25,My nation is great.,10.0,-0.10416666666666667,0.3333333333333333,False,False
+8val,8val_dipl,8val:q26,Research should be conducted on an international scale.,10.0,0.5229166666666667,1.0,True,False
+8val,8val_scty,8val:q26,Research should be conducted on an international scale.,10.0,0.5229166666666667,1.0,True,False
+8val,8val_dipl,8val:q27,Governments should be accountable to the international community.,10.0,0.5041666666666667,1.0,True,False
+8val,8val_govt,8val:q27,Governments should be accountable to the international community.,5.0,0.5041666666666667,1.0,True,False
+8val,8val_dipl,8val:q28,"Even when protesting an authoritarian government, violence is not acceptable.",5.0,0.18958333333333333,0.6666666666666666,False,False
+8val,8val_govt,8val:q28,"Even when protesting an authoritarian government, violence is not acceptable.",5.0,-0.18958333333333333,0.6666666666666666,False,False
+8val,8val_dipl,8val:q29,My religious values should be spread as much as possible.,5.0,0.34791666666666665,0.8333333333333334,False,False
+8val,8val_govt,8val:q29,My religious values should be spread as much as possible.,10.0,0.34791666666666665,0.8333333333333334,False,False
+8val,8val_scty,8val:q29,My religious values should be spread as much as possible.,10.0,0.34791666666666665,0.8333333333333334,False,False
+8val,8val_dipl,8val:q30,Our nation's values should be spread as much as possible.,10.0,-0.2,0.7083333333333334,False,False
+8val,8val_govt,8val:q30,Our nation's values should be spread as much as possible.,5.0,-0.2,0.7083333333333334,False,False
+8val,8val_dipl,8val:q31,It is very important to maintain law and order.,5.0,-0.6604166666666667,1.0,True,False
+8val,8val_govt,8val:q31,It is very important to maintain law and order.,10.0,-0.6604166666666667,1.0,True,False
+8val,8val_scty,8val:q31,It is very important to maintain law and order.,5.0,-0.6604166666666667,1.0,True,False
+8val,8val_govt,8val:q32,The general populace makes poor decisions.,10.0,-0.03125,0.5,False,False
+8val,8val_govt,8val:q33,Physician-assisted suicide should be legal.,10.0,0.39791666666666664,0.9166666666666666,False,False
+8val,8val_govt,8val:q34,The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.,10.0,-0.30833333333333335,0.8333333333333334,False,False
+8val,8val_govt,8val:q35,Government surveillance is necessary in the modern world.,10.0,-0.3145833333333333,0.9166666666666666,False,False
+8val,8val_govt,8val:q36,The very existence of the state is a threat to our liberty.,10.0,-0.016666666666666666,0.5416666666666666,False,False
+8val,8val_dipl,8val:q37,"Regardless of political opinions, it is important to side with your country.",10.0,0.022916666666666665,0.5,False,False
+8val,8val_govt,8val:q37,"Regardless of political opinions, it is important to side with your country.",10.0,0.022916666666666665,0.5,False,False
+8val,8val_scty,8val:q37,"Regardless of political opinions, it is important to side with your country.",5.0,0.022916666666666665,0.5,False,False
+8val,8val_govt,8val:q38,All authority should be questioned.,10.0,0.575,1.0,True,True
+8val,8val_scty,8val:q38,All authority should be questioned.,5.0,0.575,1.0,True,True
+8val,8val_govt,8val:q39,A hierarchical state is best.,10.0,0.29791666666666666,0.7916666666666666,False,False
+8val,8val_govt,8val:q40,"It is important that the government follows the majority opinion, even if it is wrong.",10.0,-0.5625,0.9583333333333334,False,False
+8val,8val_dipl,8val:q41,"The stronger the leadership, the better.",10.0,0.016666666666666666,0.4583333333333333,False,False
+8val,8val_govt,8val:q41,"The stronger the leadership, the better.",10.0,0.016666666666666666,0.4583333333333333,False,False
+8val,8val_govt,8val:q42,Democracy is more than a decision-making process.,10.0,0.5395833333333333,1.0,True,False
+8val,8val_econ,8val:q43,Environmental regulations are essential.,5.0,0.65,1.0,True,False
+8val,8val_scty,8val:q43,Environmental regulations are essential.,10.0,0.65,1.0,True,False
+8val,8val_scty,8val:q44,"A better world will come from automation, science, and technology.",10.0,0.53125,1.0,True,False
+8val,8val_govt,8val:q45,Children should be educated in religious or traditional values.,5.0,-0.004166666666666667,0.4583333333333333,False,False
+8val,8val_scty,8val:q45,Children should be educated in religious or traditional values.,10.0,-0.004166666666666667,0.4583333333333333,False,False
+8val,8val_scty,8val:q46,Traditions are of no value on their own.,10.0,-0.25833333333333336,0.75,False,False
+8val,8val_govt,8val:q47,Religion should play a role in government.,10.0,0.39791666666666664,0.875,False,False
+8val,8val_scty,8val:q47,Religion should play a role in government.,10.0,0.39791666666666664,0.875,False,False
+8val,8val_econ,8val:q48,Churches should be taxed the same way other institutions are taxed.,5.0,0.43333333333333335,0.9166666666666666,False,False
+8val,8val_scty,8val:q48,Churches should be taxed the same way other institutions are taxed.,10.0,0.43333333333333335,0.9166666666666666,False,False
+8val,8val_scty,8val:q49,Climate change is currently one of the greatest threats to our way of life.,10.0,0.6604166666666667,1.0,True,False
+8val,8val_dipl,8val:q50,It is important that we work as a united world to combat climate change.,10.0,0.7083333333333334,1.0,True,False
+8val,8val_scty,8val:q50,It is important that we work as a united world to combat climate change.,10.0,0.7083333333333334,1.0,True,False
+8val,8val_scty,8val:q51,Society was better many years ago than it is now.,10.0,0.34375,0.75,False,False
+8val,8val_scty,8val:q52,It is important that we maintain the traditions of our past.,10.0,-0.48333333333333334,1.0,True,False
+8val,8val_scty,8val:q53,"It is important that we think in the long term, beyond our lifespans.",10.0,0.6770833333333334,1.0,True,False
+8val,8val_scty,8val:q54,Reason is more important than maintaining our culture.,10.0,0.28958333333333336,0.8333333333333334,False,False
+8val,8val_govt,8val:q55,Drug use should be legalized or decriminalized.,10.0,0.43333333333333335,0.9583333333333334,False,False
+8val,8val_scty,8val:q55,Drug use should be legalized or decriminalized.,2.0,0.43333333333333335,0.9583333333333334,False,False
+8val,8val_govt,8val:q56,Same-sex marriage should be legal.,10.0,0.63125,1.0,True,False
+8val,8val_scty,8val:q56,Same-sex marriage should be legal.,10.0,0.63125,1.0,True,False
+8val,8val_dipl,8val:q57,No cultures are superior to others.,10.0,0.54375,0.9583333333333334,False,True
+8val,8val_govt,8val:q57,No cultures are superior to others.,5.0,0.54375,0.9583333333333334,False,True
+8val,8val_scty,8val:q57,No cultures are superior to others.,10.0,0.54375,0.9583333333333334,False,True
+8val,8val_govt,8val:q58,Sex outside marriage is immoral.,5.0,0.35208333333333336,0.75,False,False
+8val,8val_scty,8val:q58,Sex outside marriage is immoral.,10.0,0.35208333333333336,0.75,False,False
+8val,8val_govt,8val:q59,"If we accept migrants at all, it is important that they assimilate into our culture.",5.0,-0.4375,0.9166666666666666,False,True
+8val,8val_scty,8val:q59,"If we accept migrants at all, it is important that they assimilate into our culture.",10.0,-0.4375,0.9166666666666666,False,True
+8val,8val_govt,8val:q60,Abortion should be prohibited in most or all cases.,10.0,0.4479166666666667,0.875,False,True
+8val,8val_scty,8val:q60,Abortion should be prohibited in most or all cases.,10.0,0.4479166666666667,0.875,False,True
+8val,8val_govt,8val:q61,Gun ownership should be prohibited for those without a valid reason.,10.0,-0.40625,0.9166666666666666,False,False
+8val,8val_econ,8val:q62,"I support single-payer, universal healthcare.",10.0,0.45208333333333334,0.9166666666666666,False,False
+8val,8val_govt,8val:q63,Prostitution should be illegal.,10.0,0.13541666666666666,0.5833333333333334,False,False
+8val,8val_scty,8val:q63,Prostitution should be illegal.,10.0,0.13541666666666666,0.5833333333333334,False,False
+8val,8val_scty,8val:q64,Maintaining family values is essential.,10.0,-0.375,0.875,False,False
+8val,8val_scty,8val:q65,To chase progress at all costs is dangerous.,10.0,-0.525,0.9583333333333334,False,True
+8val,8val_scty,8val:q66,"Genetic modification is a force for good, even on humans.",10.0,0.2791666666666667,0.875,False,False
+8val,8val_dipl,8val:q67,We should open our borders to immigration.,10.0,0.18541666666666667,0.625,False,False
+8val,8val_govt,8val:q67,We should open our borders to immigration.,10.0,0.18541666666666667,0.625,False,False
+8val,8val_dipl,8val:q68,Governments should be as concerned about foreigners as they are about their own citizens.,10.0,0.05625,0.5416666666666666,False,False
+8val,8val_econ,8val:q69,All people - regardless of factors like culture or sexuality - should be treated equally.,10.0,0.9208333333333333,1.0,True,True
+8val,8val_dipl,8val:q69,All people - regardless of factors like culture or sexuality - should be treated equally.,10.0,0.9208333333333333,1.0,True,True
+8val,8val_govt,8val:q69,All people - regardless of factors like culture or sexuality - should be treated equally.,10.0,0.9208333333333333,1.0,True,True
+8val,8val_scty,8val:q69,All people - regardless of factors like culture or sexuality - should be treated equally.,10.0,0.9208333333333333,1.0,True,True
+8val,8val_econ,8val:q70,It is important that we further my group's goals above all others.,10.0,0.6104166666666667,0.875,False,True
+8val,8val_dipl,8val:q70,It is important that we further my group's goals above all others.,10.0,0.6104166666666667,0.875,False,True
+8val,8val_govt,8val:q70,It is important that we further my group's goals above all others.,10.0,0.6104166666666667,0.875,False,True
+8val,8val_scty,8val:q70,It is important that we further my group's goals above all others.,10.0,0.6104166666666667,0.875,False,True
+sap,sap_right,sap:q1,Freedom of business is the best practical way a society can prosper.,1.0,-0.40208333333333335,0.9166666666666666,False,False
+sap,sap_right,sap:q2,Charity is a better way of helping those in need than social welfare.,1.0,0.225,0.7083333333333334,False,False
+sap,sap_right,sap:q3,"Wages are always fair, as employers know best what a worker's labour is worth.",1.0,0.7541666666666667,1.0,True,True
+sap,sap_right,sap:q4,It is human nature to be greedy.,1.0,0.029166666666666667,0.4583333333333333,False,False
+sap,sap_right,sap:q5,"Exploitation is an outdated term, as the struggles of 1800s capitalism don't exist anymore.",1.0,0.6833333333333333,1.0,True,False
+sap,sap_right,sap:q6,Communism is an ideal that can never work in practice.,1.0,-0.2520833333333333,0.75,False,True
+sap,sap_right,sap:q7,"Taxation of the wealthy is a bad idea, society would be better off without it.",1.0,0.6416666666666667,1.0,True,False
+sap,sap_right,sap:q8,"The harder you work, the more you progress up the social ladder.",1.0,0.06458333333333334,0.625,False,False
+sap,sap_right,sap:q9,Organisations and corporations cannot be trusted and need to be regulated by the government.,1.0,0.43333333333333335,0.9583333333333334,False,True
+sap,sap_right,sap:q10,A government that provides for everyone is an inherently good idea.,1.0,0.22916666666666666,0.75,False,True
+sap,sap_right,sap:q11,The current welfare system should be expanded to further combat inequality.,1.0,0.4479166666666667,0.9583333333333334,False,False
+sap,sap_right,sap:q12,Land should not be a commodity to be bought and sold.,1.0,0.19583333333333333,0.6666666666666666,False,False
+sap,sap_right,sap:q13,All industry and the bank should be nationalised.,1.0,-0.3229166666666667,0.75,False,True
+sap,sap_right,sap:q14,Class is the primary division of society.,1.0,0.22083333333333333,0.6666666666666666,False,False
+sap,sap_right,sap:q15,Economic inequality is too high in the world.,1.0,0.5166666666666667,0.9583333333333334,False,False
+sap,sap_auth,sap:q16,Sometimes it is right that the government may spy on its citizens to combat extremists and terrorists.,1.0,-0.5,1.0,True,False
+sap,sap_auth,sap:q17,"Authority figures, if morally correct, are a good thing for society.",1.0,-0.5041666666666667,1.0,True,False
+sap,sap_auth,sap:q18,Strength is necessary for any government to succeed.,1.0,-0.4375,0.9166666666666666,False,True
+sap,sap_auth,sap:q19,Only the government can fairly and effectively regulate organisations.,1.0,0.3,0.75,False,True
+sap,sap_auth,sap:q20,Society requires structure and bureaucracy in order to function.,1.0,-0.55,1.0,True,False
+sap,sap_auth,sap:q21,Mandatory IDs should be used to ensure public safety.,1.0,-0.39166666666666666,0.875,False,False
+sap,sap_auth,sap:q22,"In times of crisis, safety becomes more important than civil liberties.",1.0,-0.42291666666666666,0.9583333333333334,False,False
+sap,sap_auth,sap:q23,"If you have nothing to hide, you have nothing to fear.",1.0,0.4666666666666667,0.9166666666666666,False,False
+sap,sap_auth,sap:q24,The government should be less involved in the day to day life of its citizens.,1.0,0.41875,0.9583333333333334,False,False
+sap,sap_auth,sap:q25,"Without democracy, a society is nothing.",1.0,0.075,0.5,False,False
+sap,sap_auth,sap:q26,Jury nullification should be legal.,1.0,0.39375,0.875,False,False
+sap,sap_auth,sap:q27,"The smaller the government, the freer the people.",1.0,0.25625,0.75,False,False
+sap,sap_auth,sap:q28,"The government should, at most, provide emergency services and law enforcement.",1.0,-0.22291666666666668,0.6666666666666666,False,False
+sap,sap_auth,sap:q29,"The police were not created to protect the people, but to uphold the status quo by force.",1.0,0.09583333333333334,0.625,False,False
+sap,sap_auth,sap:q30,State schools are a bad idea because our state shouldn't be influencing our children.,1.0,-0.35833333333333334,0.7916666666666666,False,False
+sap,sap_prog,sap:q31,"Two consenting individuals should be able to do whatever they want with each other, even if it makes me uncomfortable.",1.0,0.4791666666666667,0.875,False,False
+sap,sap_prog,sap:q32,"An individual's body is their own property, and they should be able to do anything they desire to it.",1.0,0.30833333333333335,0.75,False,False
+sap,sap_prog,sap:q33,A person should be able to worship whomever or whatever they want.,1.0,0.8791666666666667,1.0,True,False
+sap,sap_prog,sap:q34,Nudism is perfectly natural.,1.0,0.29583333333333334,0.7083333333333334,False,False
+sap,sap_prog,sap:q35,Animals deserve certain universal rights.,1.0,0.4979166666666667,1.0,True,False
+sap,sap_prog,sap:q36,"Gender is a social construct, not a natural state of affairs.",1.0,0.5270833333333333,1.0,True,False
+sap,sap_prog,sap:q37,"Laws based on cultural values, rather than ethical ones, aren't justice.",1.0,0.2520833333333333,0.75,False,False
+sap,sap_prog,sap:q38,"Autonomy of body extends even to minors, the mentally ill, and serious criminals.",1.0,-0.26666666666666666,0.6666666666666666,False,False
+sap,sap_prog,sap:q39,Homosexuality is against my values.,1.0,0.26458333333333334,0.625,False,False
+sap,sap_prog,sap:q40,Transgender individuals should not be able to adopt children.,1.0,0.6895833333333333,0.9583333333333334,False,False
+sap,sap_prog,sap:q41,Drugs are harmful and should be banned.,1.0,-0.19583333333333333,0.6666666666666666,False,True
+sap,sap_prog,sap:q42,The death penalty should exist for certain crimes.,1.0,-0.33958333333333335,0.8333333333333334,False,False
+sap,sap_prog,sap:q43,Victimless crimes should still be punished.,1.0,0.22291666666666668,0.7083333333333334,False,False
+sap,sap_prog,sap:q44,One cannot be moral without religion.,1.0,0.6770833333333334,1.0,True,True
+sap,sap_prog,sap:q45,"Parents should hold absolute power over their children, as they are older and more experienced.",1.0,0.6,0.9166666666666666,False,False
+sap,sap_prog,sap:q46,Multiculturalism is bad.,1.0,0.5583333333333333,0.9583333333333334,False,False

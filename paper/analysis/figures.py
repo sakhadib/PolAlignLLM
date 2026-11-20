@@ -352,3 +352,33 @@ ax.indicate_inset_zoom(axin, edgecolor=PAL["ink"], alpha=0.8, lw=0.6)
 fig.savefig(FIG / "fig_teaser.pdf", bbox_inches="tight", pad_inches=0.02)
 plt.close(fig)
 print("teaser written", n_ll)
+
+# ===================================================================== Item map: consensus vs lean
+IL = pd.read_csv(RES / "item_lean.csv")
+IL = IL.assign(lr=IL.lean.round(3)).drop_duplicates(["item", "lr"])
+rng_ = np.random.default_rng(3)
+fig, ax = plt.subplots(figsize=(3.1, 2.75))
+ax.axhline(0, color=PAL["ink"], lw=0.6, zorder=1)
+ax.axvspan(0.995, 1.03, color="#EFEFEF", lw=0, zorder=0)
+for inst in ["pct", "sap", "8val"]:
+    s = IL[IL.inst == inst]
+    xj = s.consensus + np.where(s.consensus > 0.99, rng_.uniform(-0.012, 0.012, len(s)), rng_.uniform(-0.006, 0.006, len(s)))
+    ax.scatter(xj, s.lean, s=9, color=PAL[inst], alpha=0.75, lw=0, zorder=3, label=INST_NAME[inst])
+ann = [("superior qualities", "racial superiority (rejected)", (0.80, 0.97)), ("Astrology", "astrology (rejected)", (0.80, 0.80)),
+       ("inheritable disabilities", "eugenics (rejected)", (0.66, 0.66)),
+       ("maintain law and order", "“maintain law and order”", (0.66, -0.93)),
+       ("national sovereignty", "“maintain national sovereignty”", (0.555, -0.80)),
+       ("death penalty should be an option", "death penalty as option", (0.50, -0.52)),
+       ("refuse the opportunity", "no support if refusing work", (0.50, -0.66))]
+for pat, lab, (tx, ty) in ann:
+    r = IL[IL.text.str.contains(pat, case=False)].iloc[0]
+    ax.annotate(lab, xy=(r.consensus, r.lean), xytext=(tx, ty), fontsize=5.7, color=PAL["ink"],
+                arrowprops=dict(arrowstyle="-", lw=0.4, color="#888888"), va="center", zorder=5)
+ax.text(1.012, 1.08, "unanimous", ha="center", fontsize=5.8, color="#666666")
+ax.set_xlim(0.48, 1.03); ax.set_ylim(-1.0, 1.15)
+ax.set_xlabel("Consensus: share of models answering on the majority side", labelpad=1)
+ax.set_ylabel("Lean (+ = left / libertarian / progressive)")
+ax.legend(frameon=False, loc="upper left", fontsize=6, handletextpad=0.1, markerscale=1.4, borderaxespad=0.1)
+fig.savefig(FIG / "fig_itemmap.pdf", bbox_inches="tight", pad_inches=0.02)
+plt.close(fig)
+print("item map written")

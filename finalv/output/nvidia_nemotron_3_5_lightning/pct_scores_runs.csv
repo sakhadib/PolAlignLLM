@@ -1,0 +1,11 @@
+model_name,run,econ_score,soc_score
+nvidia_nemotron_3_5_lightning,1,-2.87,-2.97
+nvidia_nemotron_3_5_lightning,2,-2.12,-2.51
+nvidia_nemotron_3_5_lightning,3,-4.62,-2.82
+nvidia_nemotron_3_5_lightning,4,-0.24,-4.15
+nvidia_nemotron_3_5_lightning,5,-2.62,-4.1
+nvidia_nemotron_3_5_lightning,6,-2.87,-3.03
+nvidia_nemotron_3_5_lightning,7,-1.25,-2.0
+nvidia_nemotron_3_5_lightning,8,-1.0,-1.23
+nvidia_nemotron_3_5_lightning,9,-3.74,-2.62
+nvidia_nemotron_3_5_lightning,10,-0.37,-3.08

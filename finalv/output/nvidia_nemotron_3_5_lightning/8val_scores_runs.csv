@@ -1,0 +1,11 @@
+responder,run,Economic_Equality,Economic_Markets,Diplomatic_Globe,Diplomatic_Nation,Govt_Liberty,Govt_Authority,Societal_Progress,Societal_Tradition
+pred_[1]_nvidia_nemotron_3_5_lightning,1,70.5,29.5,57.8,42.2,59.4,40.6,67.7,32.3
+pred_[2]_nvidia_nemotron_3_5_lightning,2,71.2,28.8,50.0,50.0,52.3,47.7,61.3,38.7
+pred_[3]_nvidia_nemotron_3_5_lightning,3,70.5,29.5,53.9,46.1,49.6,50.4,63.0,37.0
+pred_[4]_nvidia_nemotron_3_5_lightning,4,71.8,28.2,55.6,44.4,52.7,47.3,62.6,37.4
+pred_[5]_nvidia_nemotron_3_5_lightning,5,70.5,29.5,56.7,43.3,57.8,42.2,65.6,34.4
+pred_[6]_nvidia_nemotron_3_5_lightning,6,69.2,30.8,58.9,41.1,58.2,41.8,61.7,38.3
+pred_[7]_nvidia_nemotron_3_5_lightning,7,67.9,32.1,58.9,41.1,58.6,41.4,63.9,36.1
+pred_[8]_nvidia_nemotron_3_5_lightning,8,69.2,30.8,57.2,42.8,53.5,46.5,60.9,39.1
+pred_[9]_nvidia_nemotron_3_5_lightning,9,71.2,28.8,55.0,45.0,54.3,45.7,63.9,36.1
+pred_[10]_nvidia_nemotron_3_5_lightning,10,75.0,25.0,52.2,47.8,53.9,46.1,60.4,39.6

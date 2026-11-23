@@ -9,6 +9,7 @@ data/        instruments/ (scoring source of PCT, SapplyValues, 8Values)
              single_run/  4 chat models added Nov 2026 (same prompt, one run; from ../finalv)
              decision/    29 OpenRouter decision models, answer probabilities per item,
                           choice and yes/no formats (from ../finald)
+             decision_news/  22 decision models rating the news articles (from ../finalb)
 analysis/    common.py (models, palette, loaders) · analyze.py (all statistics)
              keys.py (instrument keys + exact scoring re-implementations) · items_deep.py (RQ4) · tsne.py (App. E)
              figures.py (all figures) · tables.py (LaTeX tables + tables/numbers.tex macros)
@@ -23,7 +24,7 @@ main.tex custom.bib acl.sty acl_natbib.bst
 Rebuild:
 ```
 python analysis/analyze.py && COHORT=24 python analysis/analyze.py && COHORT=24 python analysis/items_deep.py && COHORT=24 python analysis/tsne.py && COHORT=24 python analysis/similarity.py
-COHORT=24 python analysis/decision.py && COHORT=24 python analysis/decision_out.py
+COHORT=24 python analysis/decision.py && COHORT=24 python analysis/decision_out.py && COHORT=24 python analysis/decision_news.py
 python analysis/tables.py && python analysis/figures.py
 latexmk -pdf main.tex
 ```

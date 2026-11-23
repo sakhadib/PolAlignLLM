@@ -12,7 +12,7 @@ python3 finalv/run.py --model nemotron
 ```
 
 `--model` takes a file in `models/`, its name, or a raw OpenRouter id. Other flags: `--max-tokens N` (default 30; use ~4000 for reasoning models with a raw id), `--effort off|minimal|low|medium|high` (reasoning budget; the main cost driver for thinking models), `--runs`, `--limit`,
-`--concurrency` (default 8), `--max-cost USD`, `--mock` (offline test).
+`--concurrency` (default 32), `--max-cost USD`, `--mock` (offline test).
 
 **Saving.** Each answer is appended to `output/<model>/answers.jsonl` (fsynced) as soon as it arrives.
 Ctrl-C or a crash loses nothing; rerun the same command to continue. Unparsable answers (NA) are re-asked

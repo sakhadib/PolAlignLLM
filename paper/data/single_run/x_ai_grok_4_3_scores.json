@@ -1,0 +1,17 @@
+{
+ "model_name": "x_ai_grok_4_3",
+ "run": 1,
+ "pct:econ_score": -2.37,
+ "pct:soc_score": -4.92,
+ "8val:Economic_Equality": 46.8,
+ "8val:Economic_Markets": 53.2,
+ "8val:Diplomatic_Globe": 54.4,
+ "8val:Diplomatic_Nation": 45.6,
+ "8val:Govt_Liberty": 55.1,
+ "8val:Govt_Authority": 44.9,
+ "8val:Societal_Progress": 55.1,
+ "8val:Societal_Tradition": 44.9,
+ "sap:right_score": 0.0,
+ "sap:auth_score": 1.33,
+ "sap:prog_score": 1.25
+}

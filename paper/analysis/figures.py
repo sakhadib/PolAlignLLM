@@ -53,9 +53,9 @@ def panel(ax, s):
 
 
 pcs = pd.read_csv(RES / "model_pcs.csv", index_col=0).loc[KEYS]
-PN = pd.read_csv(RESN / "news_per_model.csv", index_col=0).loc[KEYS_ALL]
+PN = (lambda _d: _d.loc[[k for k in KEYS_ALL if k in _d.index]])(pd.read_csv(RESN / "news_per_model.csv", index_col=0))
 load = pd.read_csv(RES / "axis_loadings.csv", index_col=0)
-P = pd.read_csv(RES / "news_per_model.csv", index_col=0).loc[KEYS]
+P = (lambda _d: _d.loc[[k for k in KEYS if k in _d.index]])(pd.read_csv(RES / "news_per_model.csv", index_col=0))
 
 # ===================================================================== Dimensionality: three separate figures
 sh = np.array(R["axis_pca"]["share"]) * 100
@@ -198,7 +198,7 @@ panel(b1, "a")
 
 b2.axvline(0, color=PAL["muted"], lw=0.5, zorder=0)
 b2.axhline(0.5, color=PAL["muted"], lw=0.5, ls=":", zorder=0)
-for kk in KEYS_ALL:
+for kk in PN.index:
     put_logo(b2, PN.loc[kk, "offset"], PN.loc[kk, "conc_ws"], kk, zoom=0.034)
 for kk, dx, dy, ha in [("microsoft_phi_3_5_mini_128k_instruct", 0, -0.016, "center"), ("openai_gpt_5_nano", 0.045, 0, "left"),
                        ("openai_gpt_4_1_nano", -0.045, 0, "right"), ("openai_gpt_5", 0.04, 0.004, "left"),
@@ -222,7 +222,8 @@ L = pd.read_csv(RES / "link.csv")
 fig, axs = plt.subplots(1, 2, figsize=(6.3, 2.2))
 for ax, yv, ttl, ylab in [(axs[0], "offset", "Questionnaire position does not predict lean", "Directional offset at Center"),
                           (axs[1], "conc_ws", "…but co-varies with discrimination", "Within-story concordance")]:
-    xv = pcs.PC1.values
+    KN = list(P.index)                                   # models with news ratings
+    xv = pcs.loc[KN, "PC1"].values
     yy = P[yv].values
     b = np.polyfit(xv, yy, 1)
     xx = np.linspace(xv.min() - .3, xv.max() + .3, 50)
@@ -235,10 +236,10 @@ for ax, yv, ttl, ylab in [(axs[0], "offset", "Questionnaire position does not pr
     c = PAL["muted"] if yv == "offset" else PAL["8val"]
     ax.fill_between(xx, lo, hi, color=c, alpha=0.22, lw=0)
     ax.plot(xx, np.polyval(b, xx), color=c if yv != "offset" else "#9E9E9E", lw=1.1)
-    for kk, xi, yi in zip(KEYS, xv, yy):
+    for kk, xi, yi in zip(KN, xv, yy):
         put_logo(ax, xi, yi, kk, zoom=0.03)
     for kk in ["microsoft_phi_3_5_mini_128k_instruct", "openai_gpt_5_nano", "openai_gpt_4_1_nano"]:
-        i = KEYS.index(kk)
+        i = KN.index(kk)
         d = 0.075 if yv == "offset" else 0.0125
         ax.text(xv[i], yy[i] - d, short(kk), fontsize=5.6, color="#555555", va="top", ha="center")
     row = L[(L.y == yv) & (L.x == "PC1")].iloc[0]
@@ -304,6 +305,9 @@ for v in range(-10, 11):
     ax.axhline(v, color="white", lw=0.5, zorder=1)
 ax.axvline(0, color=PAL["ink"], lw=1.2, zorder=2)
 ax.axhline(0, color=PAL["ink"], lw=1.2, zorder=2)
+DMx = pd.read_csv(RES / "decision_models.csv", index_col=0).dropna(subset=["hard_pct_econ"])
+ax.scatter(DMx.hard_pct_econ, DMx.hard_pct_soc, s=13, marker="D", facecolor="#1F7A8C", edgecolor="white", lw=0.4,
+           alpha=0.85, zorder=3)
 for kk in KEYS_ALL:
     mx, sx = pct.loc[kk, ("pct_econ", "mean")], pct.loc[kk, ("pct_econ", "std")]
     my, sy = pct.loc[kk, ("pct_soc", "mean")], pct.loc[kk, ("pct_soc", "std")]
@@ -328,14 +332,20 @@ ax.text(0, -10.35, "Libertarian", ha="center", va="top", **kw)
 ax.text(-9.7, 0.3, "Left", ha="left", va="bottom", **kw)
 ax.text(9.7, 0.3, "Right", ha="right", va="bottom", **kw)
 n_ll = int(((pct[("pct_econ", "mean")] < 0) & (pct[("pct_soc", "mean")] < 0)).sum())
-ax.text(5, 5, f"{n_ll} of {len(KEYS_ALL)} models\nin the libertarian-\nleft quadrant", ha="center", va="center",
-        fontsize=6.8, color=PAL["ink"], style="italic")
+n_dl = int(((DMx.hard_pct_econ < 0) & (DMx.hard_pct_soc < 0)).sum())
+ax.text(5, 5, f"libertarian-left:\n{n_ll} of {len(KEYS_ALL)} chat LLMs\n{n_dl} of {len(DMx)} decision models", ha="center",
+        va="center", fontsize=6.6, color=PAL["ink"], style="italic")
+ax.scatter([2.0], [1.6], s=13, marker="D", facecolor="#1F7A8C", edgecolor="white", lw=0.4)
+ax.text(2.5, 1.6, "decision model", fontsize=5.8, va="center", color=PAL["ink"])
 # magnified inset of the dense cluster, placed in the empty libertarian-right quadrant
 x0, x1, y0, y1 = -6.5, -1.5, -6.6, -2.1
 axin = ax.inset_axes([0.515, 0.025, 0.46, 0.44])
 axin.add_patch(Rectangle((x0, y0), x1 - x0, y1 - y0, color="#E3F3E0", lw=0, zorder=0))
 for v in range(-7, 0):
     axin.axvline(v, color="white", lw=0.6, zorder=1); axin.axhline(v, color="white", lw=0.6, zorder=1)
+insd = DMx[(DMx.hard_pct_econ > x0) & (DMx.hard_pct_econ < x1) & (DMx.hard_pct_soc > y0) & (DMx.hard_pct_soc < y1)]
+axin.scatter(insd.hard_pct_econ, insd.hard_pct_soc, s=10, marker="D", facecolor="#1F7A8C", edgecolor="white", lw=0.3,
+             alpha=0.8, zorder=3)
 for kk in KEYS_ALL:
     mx, my = pct.loc[kk, ("pct_econ", "mean")], pct.loc[kk, ("pct_soc", "mean")]
     if x0 < mx < x1 and y0 < my < y1:

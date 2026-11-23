@@ -13,7 +13,7 @@ import json, re
 import numpy as np
 import pandas as pd
 from scipy import stats
-from common import KEYS, MODELS, DATA, RESULTS
+from common import KEYS, MODELS, DATA, RESULTS, read_items_wide
 
 OUT = RESULTS
 rng = np.random.default_rng(5)
@@ -21,7 +21,7 @@ LIK = {"sd": -2, "d": -1, "n": 0, "a": 1, "sa": 2}
 
 
 def runvecs(inst):
-    d = pd.read_csv(DATA / f"{inst}_item_responses.csv", encoding="utf-8-sig")
+    d = read_items_wide(inst)
     cols = [c for c in d.columns if c.startswith("pred_")]
     V = d[cols].apply(lambda s: s.astype(str).str.strip().str.lower().map(LIK)).T
     m = [re.match(r"pred_\[(\d+)\]_(.+)$", c) for c in cols]

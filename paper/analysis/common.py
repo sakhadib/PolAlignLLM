@@ -54,13 +54,21 @@ MODELS = {
     "cohere_command_r_08_2024": ("Command R", "Cohere", "cohere", "open"),
     "ibm_granite_granite_3_3_8b_instruct": ("Granite 3.3 8B", "IBM", "ibm", "open"),
     "microsoft_phi_3_5_mini_128k_instruct": ("Phi-3.5 mini", "Microsoft", "microsoft", "open"),
+    # added Nov 2026, same questionnaire prompt and settings, answered once (single run)
+    "x_ai_grok_4_3": ("Grok 4.3", "xAI", "grok", "closed"),
+    "nvidia_nemotron_3_5_lightning": ("Nemotron 3.5 Lightning", "NVIDIA", "nvidia", "open"),
+    "amazon_nova_micro_v1": ("Nova Micro", "Amazon", "nova", "closed"),
+    "gryphe_mythomax_l2_13b": ("MythoMax L2 13B", "Gryphe", "gryphe", "open"),
 }
+SINGLE_RUN = ["x_ai_grok_4_3", "nvidia_nemotron_3_5_lightning", "amazon_nova_micro_v1", "gryphe_mythomax_l2_13b"]
 import os
 # Grok 4 and Gemini 2.5 Pro answered the questionnaires under a different elicitation protocol
 # ("your own beliefs", 10 ratings per call, T=1.0). Set COHORT=24 to exclude them.
 DIFF_PROTOCOL = ["x_ai_grok_4", "google_gemini_2_5_pro"]
 COHORT = os.environ.get("COHORT", "26")
 KEYS = [k for k in MODELS if COHORT == "26" or k not in DIFF_PROTOCOL]
+MULTI = [k for k in KEYS if k not in SINGLE_RUN]          # models with 10 runs (reliability, run-level t-SNE)
+SINGLE = DATA / "single_run"
 
 GOLD_ORDER = ["Far Left", "Left", "Lean Left", "Center", "Lean Right", "Right", "Far Right"]
 GOLD_VAL = dict(zip(GOLD_ORDER, range(-3, 4)))
@@ -83,6 +91,14 @@ def load_scores() -> pd.DataFrame:
                             "Govt_Liberty": "8val_govt", "Societal_Progress": "8val_scty"})
     ev = ev[["model_name", "run", "8val_econ", "8val_dipl", "8val_govt", "8val_scty"]]
     df = pct.merge(sap, on=["model_name", "run"]).merge(ev, on=["model_name", "run"])
+    extra = []
+    for k in SINGLE_RUN:
+        j = __import__("json").load(open(SINGLE / f"{k}_scores.json"))
+        extra.append({"model_name": k, "run": 1, "pct_econ": j["pct:econ_score"], "pct_soc": j["pct:soc_score"],
+                      "sap_right": j["sap:right_score"], "sap_auth": j["sap:auth_score"], "sap_prog": j["sap:prog_score"],
+                      "8val_econ": j["8val:Economic_Equality"], "8val_dipl": j["8val:Diplomatic_Globe"],
+                      "8val_govt": j["8val:Govt_Liberty"], "8val_scty": j["8val:Societal_Progress"]})
+    df = pd.concat([df, pd.DataFrame(extra)], ignore_index=True)
     return df[df.model_name.isin(KEYS)].reset_index(drop=True)
 
 
@@ -99,9 +115,17 @@ AXIS_INST = {a: a.split("_")[0] for a in AXES}
 LIKERT = {"sd": -2, "d": -1, "n": 0, "a": 1, "sa": 2}
 
 
+def read_items_wide(inst: str) -> pd.DataFrame:
+    """Wide item answers (question_id, question_text, pred_[run]_model ...), including single-run models."""
+    d = pd.read_csv(DATA / f"{inst}_item_responses.csv", encoding="utf-8-sig")
+    for k in SINGLE_RUN:
+        d = d.merge(pd.read_csv(SINGLE / f"{k}_{inst}_items.csv"), on="question_id", how="left")
+    return d
+
+
 def load_items(inst: str) -> pd.DataFrame:
     """Long item responses: model, run, item, value in {-2..2}."""
-    d = pd.read_csv(DATA / f"{inst}_item_responses.csv", encoding="utf-8-sig")
+    d = read_items_wide(inst)
     cols = [c for c in d.columns if c.startswith("pred_")]
     long = d.melt(id_vars=["question_id"], value_vars=cols, var_name="col", value_name="resp")
     mr = long["col"].map(_model_from_pred)
@@ -120,3 +144,61 @@ def load_news() -> pd.DataFrame:
                   var_name="col", value_name="pred")
     long["model"] = long["col"].str[5:]
     return long[long.model.isin(KEYS)].drop(columns="col")
+
+
+# ---------------------------------------------------------------- decision models (OpenRouter Decisions API)
+# OpenRouter id -> (display name, developer, logo file). One request per statement; answers are probabilities.
+DMODELS = {
+    "baseten/elephant-1": ("Elephant-1", "Baseten", "baseten"),
+    "baseten/groundhog-1": ("Groundhog-1", "Baseten", "baseten"),
+    "baseten/joey-1": ("Joey-1", "Baseten", "baseten"),
+    "baseten/mammoth-1": ("Mammoth-1", "Baseten", "baseten"),
+    "cloudflare/clef": ("Clef", "Cloudflare", "cloudflare"),
+    "cloudflare/clef-flash": ("Clef Flash", "Cloudflare", "cloudflare"),
+    "google/gemini-decision-1": ("Gemini Decision-1", "Google", "gemini"),
+    "heygen/heygen-decision-1-turbo": ("HeyGen Decision-1 Turbo", "HeyGen", "heygen"),
+    "jaredpalmer/kev-4b": ("Kev-4B", "Jared Palmer", "kev"),
+    "liquid/d1.1": ("D1.1", "Liquid AI", "liquid"),
+    "liquid/d1.2": ("D1.2", "Liquid AI", "liquid"),
+    "liquid/d1-ultra": ("D1 Ultra", "Liquid AI", "liquid"),
+    "liquid/d1.2-ultra": ("D1.2 Ultra", "Liquid AI", "liquid"),
+    "microsoft/microsoft-decision-1.1": ("Microsoft Decision-1.1", "Microsoft", "microsoft"),
+    "morph/reflex": ("Reflex", "Morph", "morph"),
+    "nace-ai/drex-max": ("DREX Max", "Nace.AI", "nace"),
+    "nace-ai/drex-max-finance": ("DREX Max Finance", "Nace.AI", "nace"),
+    "nace-ai/drex-v1.5": ("DREX v1.5", "Nace.AI", "nace"),
+    "openai/gpt-6-luna-decisions": ("GPT-6 Luna Decisions", "OpenAI", "openai"),
+    "perplexity/pplx-decider-flash-v1.2": ("Decider Flash 1.2", "Perplexity", "perplexity"),
+    "perplexity/pplx-decider-v1.2": ("Decider 1.2", "Perplexity", "perplexity"),
+    "respan/span-01": ("Span-01", "Respan", "respan"),
+    "respan/span-02": ("Span-02", "Respan", "respan"),
+    "scaledown/classify-1": ("Classify-1", "ScaleDown", "scaledown"),
+    "togethercomputer/tev1-4b-experimental": ("TEV1 4B (exp.)", "Together AI", "together"),
+    "typesafe/jev-1.13": ("Jev-1.13", "TypeSafe", "typesafe"),
+    "typesafe/jev-1.14": ("Jev-1.14", "TypeSafe", "typesafe"),
+    "upstage/solar-decide": ("Solar Decide", "Upstage", "upstage"),
+    "upstage/solar-decide-flash": ("Solar Decide Flash", "Upstage", "upstage"),
+}
+DECISION = DATA / "decision"
+
+
+def load_decision():
+    """Long table: model, fmt ('choice' | 'noul'), item ('pct:q1'), p_sd..p_sa (NaN if not offered); refusals listed."""
+    import json, glob
+    rows, refused = [], []
+    for f in sorted(DECISION.glob("*.jsonl")):
+        mid = (DECISION / (f.stem + ".model.txt")).read_text().strip()
+        fmt = "noul" if f.stem.endswith("__noul") else "choice"
+        last = {}
+        for line in open(f, encoding="utf-8"):
+            try:
+                x = json.loads(line)
+            except ValueError:
+                continue
+            last[(x["test"], x["qid"])] = x
+        for (t, q), x in last.items():
+            if x.get("probs"):
+                rows.append({"model": mid, "fmt": fmt, "item": f"{t}:{q}", **{f"p_{c}": v for c, v in x["probs"].items()}})
+            else:
+                refused.append({"model": mid, "fmt": fmt, "item": f"{t}:{q}"})
+    return pd.DataFrame(rows), pd.DataFrame(refused)

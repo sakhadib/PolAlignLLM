@@ -1,4 +1,4 @@
-"""t-SNE as a non-linear check on the PCA result (24 same-protocol models, 10 runs each).
+"""t-SNE as a non-linear check on the PCA result (the same-protocol models with 10 runs each).
 
 Two feature sets per run: (A) the nine axis scores, standardised; (B) raw answers to all 178 items
 (-2..+2, no scoring keys). For each: 2-D t-SNE for the figure, plus stability over seeds/perplexities of
@@ -11,7 +11,7 @@ import pandas as pd
 from scipy import stats
 from sklearn.manifold import TSNE
 from sklearn.neighbors import NearestNeighbors
-from common import KEYS, RESULTS, AXES, load_scores, DATA
+from common import MULTI as KEYS, RESULTS, AXES, load_scores, DATA, read_items_wide
 
 OUT = RESULTS
 runs = load_scores().set_index(["model_name", "run"]).loc[KEYS]
@@ -22,7 +22,7 @@ XA = (XA - XA.mean()) / XA.std()
 LIK = {"sd": -2, "d": -1, "n": 0, "a": 1, "sa": 2}
 parts = []
 for inst in ["pct", "sap", "8val"]:
-    d = pd.read_csv(DATA / f"{inst}_item_responses.csv", encoding="utf-8-sig")
+    d = read_items_wide(inst)
     cols = [c for c in d.columns if c.startswith("pred_")]
     v = d[cols].apply(lambda s: s.astype(str).str.strip().str.lower().map(LIK)).T
     v.columns = [f"{inst}:{q}" for q in d.question_id]

@@ -11,7 +11,7 @@ from sklearn.metrics import roc_auc_score, f1_score
 import statsmodels.formula.api as smf
 from statsmodels.stats.multitest import multipletests
 
-from common import (ROOT, KEYS, MODELS, AXES, load_scores, load_items, load_news, GOLD_ORDER, DATA, RESULTS)
+from common import (ROOT, KEYS, MULTI, MODELS, AXES, load_scores, load_items, load_news, GOLD_ORDER, DATA, RESULTS)
 
 OUT = RESULTS
 OUT.mkdir(exist_ok=True)
@@ -33,17 +33,20 @@ def boot_ci(f, n, B=5000):
 # =========================================================== 1. reliability
 runs = load_scores()
 R["n_models"] = int(runs.model_name.nunique())
-R["n_runs"] = int(runs.groupby("model_name").size().min())
+R["n_models_multi"] = len(MULTI)
+R["n_models_single"] = R["n_models"] - len(MULTI)
+runs_m = runs[runs.model_name.isin(MULTI)]                 # reliability needs repeated runs
+R["n_runs"] = int(runs_m.groupby("model_name").size().min())
 rel = {}
 for a in AXES:
-    groups = [g[a].values for _, g in runs.groupby("model_name")]
+    groups = [g[a].values for _, g in runs_m.groupby("model_name")]
     F, p = stats.f_oneway(*groups)
-    grand = runs[a].mean()
+    grand = runs_m[a].mean()
     ssb = sum(len(g) * (g.mean() - grand) ** 2 for g in groups)
-    sst = ((runs[a] - grand) ** 2).sum()
+    sst = ((runs_m[a] - grand) ** 2).sum()
     k = len(groups[0])
     msb = ssb / (len(groups) - 1)
-    msw = (sst - ssb) / (len(runs) - len(groups))
+    msw = (sst - ssb) / (len(runs_m) - len(groups))
     icc1 = (msb - msw) / (msb + (k - 1) * msw)
     rel[a] = dict(eta2=float(ssb / sst), F=float(F), p=float(p), icc1=float(icc1))
 R["reliability_axes"] = rel
@@ -54,7 +57,7 @@ for inst, d in items.items():
     # share of runs that give the model's modal answer to an item
     def modal_share(s):
         return s.value_counts().iloc[0] / len(s)
-    ms = d.dropna().groupby(["model", "item"])["value"].apply(modal_share)
+    ms = d[d.model.isin(MULTI)].dropna().groupby(["model", "item"])["value"].apply(modal_share)
     agree[inst] = dict(mean=float(ms.mean()),
                        per_model_min=float(ms.groupby("model").mean().min()),
                        per_model_max=float(ms.groupby("model").mean().max()))
@@ -255,7 +258,8 @@ for m, g in nv.groupby("model"):
                     center_mean=g[g.ground_truth == 0].pred.mean(),
                     mae=(g.pred - g.ground_truth).abs().mean(),
                     acc_rounded=(g.pred.round().clip(-3, 3) == g.ground_truth).mean()))
-P = pd.DataFrame(per).set_index("model").loc[KEYS]
+P = pd.DataFrame(per).set_index("model")
+P = P.loc[[k for k in KEYS if k in P.index]]                   # single-run additions have no news ratings
 P.to_csv(OUT / "news_per_model.csv")
 R["news_per_model_summary"] = P.describe().round(3).to_dict()
 
@@ -297,14 +301,14 @@ for prov in sorted(set(v[1] for v in MODELS.values())):
         lopo[prov] = float(stats.spearmanr(J.loc[keep, "PC1"], J.loc[keep, "conc_ws"])[0])
 R["link_conc_pc1_leave_one_provider_out"] = lopo
 # minimum detectable |rho| at 80% power, alpha .05, n=26 (Fisher z approximation)
-n = len(J)
+n = len(pcs)                                   # questionnaire analyses (link analyses have n=len(J))
 z = (stats.norm.ppf(.975) + stats.norm.ppf(.8)) / np.sqrt(n - 3)
 R["mdes_rho_80"] = float(np.tanh(z))
 # open vs closed (model level)
-acc = np.array([MODELS[k][3] for k in J.index])
-u_ = stats.mannwhitneyu(J.PC1[acc == "closed"], J.PC1[acc == "open"])
-R["open_closed_pc1"] = dict(closed_median=float(J.PC1[acc == "closed"].median()),
-                            open_median=float(J.PC1[acc == "open"].median()),
+acc = np.array([MODELS[k][3] for k in pcs.index])
+u_ = stats.mannwhitneyu(pcs.PC1[acc == "closed"], pcs.PC1[acc == "open"])
+R["open_closed_pc1"] = dict(closed_median=float(pcs.PC1[acc == "closed"].median()),
+                            open_median=float(pcs.PC1[acc == "open"].median()),
                             n_closed=int((acc == "closed").sum()), n_open=int((acc == "open").sum()),
                             U=float(u_.statistic), p=float(u_.pvalue))
 J.to_csv(OUT / "model_table.csv")

@@ -1,0 +1,17 @@
+{
+ "model_name": "nvidia_nemotron_3_5_lightning",
+ "run": 1,
+ "pct:econ_score": -2.87,
+ "pct:soc_score": -2.97,
+ "8val:Economic_Equality": 70.5,
+ "8val:Economic_Markets": 29.5,
+ "8val:Diplomatic_Globe": 57.8,
+ "8val:Diplomatic_Nation": 42.2,
+ "8val:Govt_Liberty": 59.4,
+ "8val:Govt_Authority": 40.6,
+ "8val:Societal_Progress": 67.7,
+ "8val:Societal_Tradition": 32.3,
+ "sap:right_score": -3.0,
+ "sap:auth_score": 3.67,
+ "sap:prog_score": 4.69
+}

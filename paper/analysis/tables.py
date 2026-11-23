@@ -28,7 +28,7 @@ def mlogo(k):
 # ------------------------------------------------------------------ number macros
 L = pd.read_csv(RES / "link.csv")
 mt = pd.read_csv(RES / "mtmm_pairs.csv")
-P = pd.read_csv(RESN / "news_per_model.csv", index_col=0).loc[KEYS]
+P = (lambda _d: _d.loc[[k for k in KEYS if k in _d.index]])(pd.read_csv(RESN / "news_per_model.csv", index_col=0))
 rel = R["reliability_axes"]
 
 
@@ -43,7 +43,11 @@ def lk(y, x):
 
 N = {}
 N["NModels"] = R["n_models"]
+N["NModelsMulti"] = R["n_models_multi"]
+N["NModelsSingle"] = R["n_models_single"]
+N["NModelsLink"] = len(pd.read_csv(RES / "news_per_model.csv"))
 N["NModelsAll"] = RN["n_models"]
+N["NModelsNews"] = len(pd.read_csv(RESN / "news_per_model.csv"))
 N["NRuns"] = R["n_runs"]
 N["EtaMin"] = f2(min(v["eta2"] for v in rel.values()))
 N["EtaMax"] = f2(max(v["eta2"] for v in rel.values()))
@@ -312,7 +316,8 @@ for k in order + ["google_gemini_2_5_pro", "x_ai_grok_4"]:
     m = M26.loc[k]
     if k == "google_gemini_2_5_pro":
         lines.append("\\midrule")
-    nm = mlogo(k) + ("$^{\\dagger}$" if k not in pcs24.index else "")
+    from common import SINGLE_RUN
+    nm = mlogo(k) + ("$^{\\dagger}$" if k not in pcs24.index else "") + ("$^{\\star}$" if k in SINGLE_RUN else "")
     pc = sgn(pcs24.loc[k, "PC1"]) if k in pcs24.index else "--"
     if k in top3: pc = hl("hlLeft", pc)
     if k in bot3: pc = hl("hlRight", pc)
@@ -323,8 +328,10 @@ for k in order + ["google_gemini_2_5_pro", "x_ai_grok_4"]:
     sa = hl("hlAuth", sa) if m.sap_auth > 0 else sa
     g = f"{m['8val_govt']:.0f}"
     if m["8val_govt"] < 50: g = hl("hlAuth", g)
+    ee = f"{m['8val_econ']:.0f}"
+    if m["8val_econ"] < 50: ee = hl("hlWarn", ee)
     lines.append(f"{nm} & {prov} & {acc} & {pc} & {pe} & {ps} & {sr} & {sa} & {sgn(m.sap_prog)} & "
-                 f"{m['8val_econ']:.0f} & {m['8val_dipl']:.0f} & {g} & {m['8val_scty']:.0f} \\\\")
+                 f"{ee} & {m['8val_dipl']:.0f} & {g} & {m['8val_scty']:.0f} \\\\")
 with open(TAB / "tab_models.tex", "w") as f:
     f.write("\n".join(lines))
 M24 = M26.loc[KEYS24]
@@ -421,8 +428,8 @@ rows_s = [("PC1 share of variance (\\%)", f"{100*R['axis_pca']['share'][0]:.0f}"
           ("PC2 share of variance (\\%)", f"{100*R['axis_pca']['share'][1]:.0f}", hl("hlWarn", f"{100*RN['axis_pca']['share'][1]:.0f}")),
           ("Components above random threshold", str(R["axis_pca"]["n_retained"]), hl("hlWarn", str(RN["axis_pca"]["n_retained"]))),
           ("$\\rho$(\\ev liberty, \\sap progressive)", f2(mtr("Lib|8val", "Prog|sap").rho), f2(mt26[(mt26.a == "Lib|8val") & (mt26.b == "Prog|sap")].iloc[0].rho)),
-          ("Mean same-trait $\\rho$ (convergent)", f2(R["mtmm_summary"]["mean"]["monotrait-heteromethod"]), hl("hlWarn", f2(RN["mtmm_summary"]["mean"]["monotrait-heteromethod"]))),
-          ("Mean different-trait $\\rho$ (across instruments)", f2(R["mtmm_summary"]["mean"]["heterotrait-heteromethod"]), hl("hlWarn", f2(RN["mtmm_summary"]["mean"]["heterotrait-heteromethod"]))),
+          ("Mean same-trait $\\rho$ (convergent)", f2(R["mtmm_summary"]["mean"]["monotrait-heteromethod"]), f2(RN["mtmm_summary"]["mean"]["monotrait-heteromethod"])),
+          ("Mean different-trait $\\rho$ (across instruments)", f2(R["mtmm_summary"]["mean"]["heterotrait-heteromethod"]), f2(RN["mtmm_summary"]["mean"]["heterotrait-heteromethod"])),
           ("$\\rho$(PC1, directional offset)", sgn(lk2(L, "offset", "PC1")), sgn(lk2(L26, "offset", "PC1"))),
           ("$\\rho$(PC1, within-story concordance)", sgn(lk2(L, "conc_ws", "PC1")), sgn(lk2(L26, "conc_ws", "PC1")))]
 with open(TAB / "tab_sensitivity.tex", "w") as f:

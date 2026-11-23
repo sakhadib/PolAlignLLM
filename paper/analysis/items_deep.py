@@ -14,7 +14,7 @@ import pandas as pd
 from scipy import stats
 
 import keys as K
-from common import DATA, KEYS, RESULTS, load_scores, load_items
+from common import DATA, KEYS, RESULTS, load_scores, load_items, read_items_wide
 
 rng = np.random.default_rng(11)
 OUT = RESULTS
@@ -25,7 +25,7 @@ st, se = K.sap_keys()
 
 
 def raw(inst):
-    d = pd.read_csv(DATA / f"{inst}_item_responses.csv", encoding="utf-8-sig")
+    d = read_items_wide(inst)
     cols = [c for c in d.columns if c.startswith("pred_")]
     meta = [re.match(r"pred_\[(\d+)\]_(.+)$", c) for c in cols]
     keep = [i for i, m in enumerate(meta) if m.group(2) in KEYS]
@@ -173,7 +173,7 @@ D["rho_consensus_lean"] = float(stats.spearmanr(IL.consensus, IL.lean)[0])
 # ------------------------------------------------------------- 5. exploratory: wording
 txt = {}
 for inst in ["pct", "sap", "8val"]:
-    d = pd.read_csv(DATA / f"{inst}_item_responses.csv", encoding="utf-8-sig")
+    d = read_items_wide(inst)
     txt.update({f"{inst}:{q}": t for q, t in zip(d.question_id, d.question_text)})
 ag = pd.concat([d.groupby("item").value.mean() for d in items.values()])
 W_ = pd.DataFrame({"agree": ag, "abs": [bool(re.search(ABS, txt[i].lower())) for i in ag.index]})

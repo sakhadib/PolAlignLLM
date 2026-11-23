@@ -1,0 +1,63 @@
+question_id,question_text,p_sd,p_d,p_a,p_sa,top_p
+q1,"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.",0.01,0.01,0.2,0.78,0.78
+q2,"I’d always support my country, whether it was right or wrong.",,,,,
+q3,"No one chooses their country of birth, so it’s foolish to be proud of it.",0.33,0.34,0.23,0.1,0.34
+q4,"Our race has many superior qualities, compared with other races.",0.89,0.08,0.02,0.01,0.89
+q5,The enemy of my enemy is my friend.,0.08,0.37,0.29,0.26,0.37
+q6,Military action that defies international law is sometimes justified.,0.12,0.4,0.42,0.06,0.42
+q7,There is now a worrying fusion of information and entertainment.,0.02,0.05,0.61,0.32,0.61
+q8,People are ultimately divided more by class than by nationality.,,,,,
+q9,Controlling inflation is more important than controlling unemployment.,0.36,0.47,0.14,0.03,0.47
+q10,"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.",0.07,0.13,0.68,0.12,0.68
+q11,"“from each according to his ability, to each according to his need” is a fundamentally good idea.",,,,,
+q12,"The freer the market, the freer the people.",0.05,0.11,0.67,0.17,0.67
+q13,"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product.",0.03,0.1,0.7,0.17,0.7
+q14,Land shouldn’t be a commodity to be bought and sold.,0.05,0.13,0.73,0.09,0.73
+q15,It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.,0.03,0.09,0.71,0.17,0.71
+q16,Protectionism is sometimes necessary in trade.,0.12,0.21,0.61,0.06,0.61
+q17,The only social responsibility of a company should be to deliver a profit to its shareholders.,0.46,0.39,0.1,0.05,0.46
+q18,The rich are too highly taxed.,,,,,
+q19,Those with the ability to pay should have access to higher standards of medical care.,,,,,
+q20,Governments should penalise businesses that mislead the public.,0.01,0.05,0.63,0.31,0.63
+q21,A genuine free market requires restrictions on the ability of predator multinationals to create monopolies.,0.05,0.11,0.72,0.12,0.72
+q22,"Abortion, when the woman’s life is not threatened, should always be illegal.",,,,,
+q23,All authority should be questioned.,0.02,0.06,0.38,0.54,0.54
+q24,An eye for an eye and a tooth for a tooth.,0.42,0.38,0.15,0.05,0.42
+q25,Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis.,0.39,0.37,0.17,0.07,0.39
+q26,Schools should not make classroom attendance compulsory.,0.21,0.34,0.34,0.11,0.34
+q27,"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind.",,,,,
+q28,Good parents sometimes have to spank their children.,0.59,0.36,0.03,0.02,0.59
+q29,It’s natural for children to keep some secrets from their parents.,0.02,0.04,0.85,0.09,0.85
+q30,Possessing marijuana for personal use should not be a criminal offence.,,,,,
+q31,The prime function of schooling should be to equip the future generation to find jobs.,0.35,0.4,0.19,0.06,0.4
+q32,People with serious inheritable disabilities should not be allowed to reproduce.,0.86,0.13,0.01,0.0,0.86
+q33,The most important thing for children to learn is to accept discipline.,0.39,0.36,0.2,0.05,0.39
+q34,There are no savage and civilised peoples; there are only different cultures.,,,,,
+q35,"Those who are able to work, and refuse the opportunity, should not expect society’s support.",,,,,
+q36,"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things.",0.46,0.38,0.14,0.02,0.46
+q37,First-generation immigrants can never be fully integrated within their new country.,0.78,0.21,0.01,0.0,0.78
+q38,"What’s good for the most successful corporations is always, ultimately, good for all of us.",0.61,0.26,0.11,0.02,0.61
+q39,"No broadcasting institution, however independent its content, should receive public funding.",0.54,0.42,0.03,0.01,0.54
+q40,Our civil liberties are being excessively curbed in the name of counter-terrorism.,,,,,
+q41,A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.,0.8,0.18,0.01,0.01,0.8
+q42,"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried.",0.75,0.24,0.01,0.0,0.75
+q43,The death penalty should be an option for the most serious crimes.,,,,,
+q44,"In a civilised society, one must always have people above to be obeyed and people below to be commanded.",0.7,0.26,0.02,0.02,0.7
+q45,Abstract art that doesn’t represent anything shouldn’t be considered art at all.,0.69,0.28,0.02,0.01,0.69
+q46,"In criminal justice, punishment should be more important than rehabilitation.",0.49,0.49,0.01,0.01,0.49
+q47,It is a waste of time to try to rehabilitate some criminals.,0.77,0.22,0.01,0.0,0.77
+q48,The businessperson and the manufacturer are more important than the writer and the artist.,0.63,0.34,0.02,0.01,0.63
+q49,"Mothers may have careers, but their first duty is to be homemakers.",0.63,0.25,0.09,0.03,0.63
+q50,"Almost all politicians promise economic growth, but we should heed the warnings of climate science that growth is detrimental to our efforts to curb global warming.",,,,,
+q51,Making peace with the establishment is an important aspect of maturity.,0.46,0.44,0.08,0.02,0.46
+q52,Astrology accurately explains many things.,0.75,0.25,0.0,0.0,0.75
+q53,You cannot be moral without being religious.,0.7,0.27,0.02,0.01,0.7
+q54,Charity is better than social security as a means of helping the genuinely disadvantaged.,0.45,0.51,0.03,0.01,0.51
+q55,Some people are naturally unlucky.,0.36,0.39,0.21,0.04,0.39
+q56,It is important that my child’s school instills religious values.,,,,,
+q57,Sex outside marriage is usually immoral.,,,,,
+q58,"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption.",0.0,0.01,0.27,0.72,0.72
+q59,"Pornography, depicting consenting adults, should be legal for the adult population.",,,,,
+q60,What goes on in a private bedroom between consenting adults is no business of the state.,0.01,0.01,0.29,0.69,0.69
+q61,No one can feel naturally homosexual.,0.96,0.03,0.0,0.01,0.96
+q62,These days openness about sex has gone too far.,,,,,

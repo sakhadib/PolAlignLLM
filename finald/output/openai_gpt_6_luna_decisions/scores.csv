@@ -1,0 +1,7 @@
+model,test,kind,axis,value
+openai_gpt_6_luna_decisions,sap,hard,right_score,-3.0
+openai_gpt_6_luna_decisions,sap,hard,auth_score,-1.33
+openai_gpt_6_luna_decisions,sap,hard,prog_score,7.19
+openai_gpt_6_luna_decisions,sap,soft,right_score,-3.357
+openai_gpt_6_luna_decisions,sap,soft,auth_score,-1.153
+openai_gpt_6_luna_decisions,sap,soft,prog_score,6.647

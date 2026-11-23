@@ -1,0 +1,47 @@
+question_id,question_text,p_sd,p_d,p_n,p_a,p_sa,top_p
+q1,Freedom of business is the best practical way a society can prosper.,0.01,0.21,0.07,0.57,0.14,0.57
+q2,Charity is a better way of helping those in need than social welfare.,0.12,0.87,0.0,0.01,0.0,0.87
+q3,"Wages are always fair, as employers know best what a worker's labour is worth.",0.88,0.11,0.0,0.0,0.01,0.88
+q4,It is human nature to be greedy.,0.26,0.68,0.02,0.03,0.01,0.68
+q5,"Exploitation is an outdated term, as the struggles of 1800s capitalism don't exist anymore.",0.85,0.15,0.0,0.0,0.0,0.85
+q6,Communism is an ideal that can never work in practice.,0.22,0.56,0.02,0.17,0.03,0.56
+q7,"Taxation of the wealthy is a bad idea, society would be better off without it.",0.47,0.49,0.01,0.02,0.01,0.49
+q8,"The harder you work, the more you progress up the social ladder.",0.06,0.91,0.01,0.02,0.0,0.91
+q9,Organisations and corporations cannot be trusted and need to be regulated by the government.,0.05,0.16,0.26,0.42,0.11,0.42
+q10,A government that provides for everyone is an inherently good idea.,0.1,0.56,0.06,0.25,0.03,0.56
+q11,The current welfare system should be expanded to further combat inequality.,0.03,0.02,0.58,0.29,0.08,0.58
+q12,Land should not be a commodity to be bought and sold.,0.03,0.06,0.2,0.52,0.19,0.52
+q13,All industry and the bank should be nationalised.,0.38,0.25,0.15,0.13,0.09,0.38
+q14,Class is the primary division of society.,0.08,0.33,0.11,0.4,0.08,0.4
+q15,Economic inequality is too high in the world.,0.01,0.03,0.11,0.53,0.32,0.53
+q16,Sometimes it is right that the government may spy on its citizens to combat extremists and terrorists.,0.04,0.25,0.12,0.54,0.05,0.54
+q17,"Authority figures, if morally correct, are a good thing for society.",0.01,0.03,0.02,0.76,0.18,0.76
+q18,Strength is necessary for any government to succeed.,0.12,0.71,0.03,0.11,0.03,0.71
+q19,Only the government can fairly and effectively regulate organisations.,0.43,0.57,0.0,0.0,0.0,0.57
+q20,Society requires structure and bureaucracy in order to function.,0.0,0.01,0.01,0.92,0.06,0.92
+q21,Mandatory IDs should be used to ensure public safety.,0.19,0.74,0.02,0.04,0.01,0.74
+q22,"In times of crisis, safety becomes more important than civil liberties.",0.15,0.75,0.02,0.06,0.02,0.75
+q23,"If you have nothing to hide, you have nothing to fear.",0.89,0.11,0.0,0.0,0.0,0.89
+q24,The government should be less involved in the day to day life of its citizens.,0.05,0.04,0.35,0.44,0.12,0.44
+q25,"Without democracy, a society is nothing.",0.03,0.23,0.02,0.35,0.37,0.37
+q26,Jury nullification should be legal.,0.03,0.03,0.04,0.6,0.3,0.6
+q27,"The smaller the government, the freer the people.",0.14,0.79,0.01,0.05,0.01,0.79
+q28,"The government should, at most, provide emergency services and law enforcement.",0.5,0.36,0.01,0.04,0.09,0.5
+q29,"The police were not created to protect the people, but to uphold the status quo by force.",0.06,0.19,0.11,0.47,0.17,0.47
+q30,State schools are a bad idea because our state shouldn't be influencing our children.,0.36,0.49,0.01,0.12,0.02,0.49
+q31,"Two consenting individuals should be able to do whatever they want with each other, even if it makes me uncomfortable.",0.0,0.01,0.0,0.15,0.84,0.84
+q32,"An individual's body is their own property, and they should be able to do anything they desire to it.",0.01,0.01,0.01,0.27,0.7,0.7
+q33,A person should be able to worship whomever or whatever they want.,0.0,0.0,0.0,0.16,0.84,0.84
+q34,Nudism is perfectly natural.,0.01,0.01,0.05,0.7,0.23,0.7
+q35,Animals deserve certain universal rights.,0.0,0.0,0.01,0.67,0.32,0.67
+q36,"Gender is a social construct, not a natural state of affairs.",0.02,0.04,0.02,0.42,0.5,0.5
+q37,"Laws based on cultural values, rather than ethical ones, aren't justice.",0.01,0.01,0.01,0.53,0.44,0.53
+q38,"Autonomy of body extends even to minors, the mentally ill, and serious criminals.",0.05,0.06,0.06,0.47,0.36,0.47
+q39,Homosexuality is against my values.,0.11,0.06,0.78,0.03,0.02,0.78
+q40,Transgender individuals should not be able to adopt children.,0.95,0.04,0.0,0.0,0.01,0.95
+q41,Drugs are harmful and should be banned.,0.49,0.5,0.0,0.0,0.01,0.5
+q42,The death penalty should exist for certain crimes.,0.09,0.04,0.76,0.07,0.04,0.76
+q43,Victimless crimes should still be punished.,0.33,0.25,0.21,0.15,0.06,0.33
+q44,One cannot be moral without religion.,0.91,0.08,0.0,0.0,0.01,0.91
+q45,"Parents should hold absolute power over their children, as they are older and more experienced.",0.96,0.03,0.0,0.0,0.01,0.96
+q46,Multiculturalism is bad.,0.7,0.29,0.0,0.0,0.01,0.7

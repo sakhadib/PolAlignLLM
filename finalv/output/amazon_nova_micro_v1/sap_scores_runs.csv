@@ -1,0 +1,6 @@
+model_name,run,right_score,auth_score,prog_score
+amazon_nova_micro_v1,1,-0.67,2.67,2.81
+amazon_nova_micro_v1,2,-2.33,2.0,1.88
+amazon_nova_micro_v1,3,-0.33,1.0,2.19
+amazon_nova_micro_v1,4,0.33,-0.33,2.81
+amazon_nova_micro_v1,5,0.0,1.67,2.81

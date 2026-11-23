@@ -1,0 +1,11 @@
+model_name,run,right_score,auth_score,prog_score
+gryphe_mythomax_l2_13b,1,-1.67,2.67,4.38
+gryphe_mythomax_l2_13b,2,-1.0,1.33,3.44
+gryphe_mythomax_l2_13b,3,-4.0,2.0,5.62
+gryphe_mythomax_l2_13b,4,-0.67,2.67,3.44
+gryphe_mythomax_l2_13b,5,0.0,2.33,3.75
+gryphe_mythomax_l2_13b,6,-1.67,2.33,3.44
+gryphe_mythomax_l2_13b,7,-3.33,2.33,4.38
+gryphe_mythomax_l2_13b,8,-1.33,1.67,0.62
+gryphe_mythomax_l2_13b,9,-1.33,3.0,3.75
+gryphe_mythomax_l2_13b,10,-1.33,0.0,4.06

@@ -1,0 +1,6 @@
+model_name,run,econ_score,soc_score
+amazon_nova_micro_v1,1,-2.37,-4.1
+amazon_nova_micro_v1,2,-2.62,-3.8
+amazon_nova_micro_v1,3,-3.12,-3.44
+amazon_nova_micro_v1,4,-0.87,-4.41
+amazon_nova_micro_v1,5,-2.12,-4.15

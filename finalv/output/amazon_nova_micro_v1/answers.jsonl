@@ -1,0 +1,890 @@
+{"test": "pct", "run": 1, "qid": "q32", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:31"}
+{"test": "pct", "run": 1, "qid": "q23", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q29", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q7", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q2", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.001e-05, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q4", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q20", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q17", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q3", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.001e-05, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q14", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q5", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.67e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q24", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q30", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.026e-05, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q15", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.012e-05, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q22", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q21", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q16", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.63e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q18", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q10", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.88e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q11", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.008e-05, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q8", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q12", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q25", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.012e-05, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q28", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q9", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q6", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q19", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q1", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.008e-05, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q26", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.67e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q27", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.039e-05, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q31", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q13", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.022e-05, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q33", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q37", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.98e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q40", "code": "sd", "raw": "{\n  \"rating\": \"sd\"\n}", "cost": 1.046e-05, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q39", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q47", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q45", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q35", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q53", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q49", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:32"}
+{"test": "pct", "run": 1, "qid": "q56", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.98e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q41", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.022e-05, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q54", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q61", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.6e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q36", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.033e-05, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q58", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.008e-05, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q57", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q55", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.56e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q43", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 2, "qid": "q4", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q50", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.033e-05, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q51", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 2, "qid": "q1", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.008e-05, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 2, "qid": "q3", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.015e-05, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q44", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.026e-05, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q34", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q38", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 2, "qid": "q10", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.88e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 2, "qid": "q14", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q59", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.88e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q42", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.98e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 2, "qid": "q11", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.008e-05, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q48", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q62", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q46", "code": "sd", "raw": "{\n  \"rating\": \"sd\"\n}", "cost": 1.033e-05, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q52", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 2, "qid": "q13", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.022e-05, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 2, "qid": "q16", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.63e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 2, "qid": "q17", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 2, "qid": "q21", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 2, "qid": "q22", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.008e-05, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 2, "qid": "q23", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.56e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 1, "qid": "q60", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 2, "qid": "q19", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:33"}
+{"test": "pct", "run": 2, "qid": "q2", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.88e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q26", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.67e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q7", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q24", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q30", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.026e-05, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q29", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q8", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q9", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q32", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q15", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.012e-05, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q6", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q5", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.67e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q35", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q34", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.033e-05, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q33", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q12", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q36", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.019e-05, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q39", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.026e-05, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q40", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q27", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.026e-05, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q43", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q41", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.036e-05, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q45", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q44", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.026e-05, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q18", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q20", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q25", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.012e-05, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q50", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.033e-05, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q51", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q53", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.63e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q47", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q54", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q28", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q42", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.98e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q48", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q46", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q31", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q61", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 3, "qid": "q2", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.001e-05, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 2, "qid": "q57", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:34"}
+{"test": "pct", "run": 3, "qid": "q3", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.001e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q4", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 2, "qid": "q62", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 2, "qid": "q58", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.008e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q6", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q8", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 2, "qid": "q59", "code": "sd", "raw": "{\n  \"rating\": \"sd\"\n}", "cost": 1.043e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 2, "qid": "q38", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q1", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.05e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 2, "qid": "q37", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.98e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q10", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.88e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q9", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 2, "qid": "q55", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.56e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q5", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.67e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q7", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q15", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.012e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q14", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q17", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q12", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q19", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q16", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.63e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 2, "qid": "q52", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q21", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q13", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.022e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 2, "qid": "q56", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.98e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q11", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.008e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q22", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 2, "qid": "q49", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q20", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q18", "code": "sd", "raw": "{\n  \"rating\": \"sd\"\n}", "cost": 1.015e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 2, "qid": "q60", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q27", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.039e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q23", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.56e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q30", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.026e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q25", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.012e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q32", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q31", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q29", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q24", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q34", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q26", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.67e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q36", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.019e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q28", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q40", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q39", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q35", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.046e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q38", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q42", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.98e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q46", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q33", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q45", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:35"}
+{"test": "pct", "run": 3, "qid": "q48", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q43", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q44", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.026e-05, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q47", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q49", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q56", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.98e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q51", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q55", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q57", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q60", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q3", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.001e-05, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q54", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q5", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.67e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q61", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.6e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q8", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q58", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.008e-05, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q1", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.008e-05, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q2", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.88e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q59", "code": "sd", "raw": "{\n  \"rating\": \"sd\"\n}", "cost": 1.043e-05, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q50", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.033e-05, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q10", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.88e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q37", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.98e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q12", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q9", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q13", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.036e-05, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q16", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.63e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q62", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q41", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.022e-05, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q20", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q11", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.008e-05, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q6", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q21", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q14", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q17", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q23", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q24", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q18", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.001e-05, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q19", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q52", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 3, "qid": "q53", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q22", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q26", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.67e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q25", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.012e-05, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q28", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:36"}
+{"test": "pct", "run": 4, "qid": "q36", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.033e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q37", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.98e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q4", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q31", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q27", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.039e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q7", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q30", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q32", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q29", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q33", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q38", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q41", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.036e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q40", "code": "sd", "raw": "{\n  \"rating\": \"sd\"\n}", "cost": 1.046e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q39", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q35", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q34", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q42", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.98e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q15", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.012e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q45", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q49", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q53", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q52", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q54", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q44", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.026e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q43", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q55", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q48", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q56", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.98e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q51", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q50", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.033e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q46", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q58", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.008e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q47", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q59", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.029e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q62", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q7", "code": "d", "raw": "{\n    \"rating\": \"d\"\n}", "cost": 1.015e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q1", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.05e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q3", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.001e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q9", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q6", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q57", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q10", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.88e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q2", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.001e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 4, "qid": "q60", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q5", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.67e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q4", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q12", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q13", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.036e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q11", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.008e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q8", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q15", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.012e-05, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q16", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.63e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q18", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:37"}
+{"test": "pct", "run": 5, "qid": "q21", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q17", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q24", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q14", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q25", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.012e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q23", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.56e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 4, "qid": "q61", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q20", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q29", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q22", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q27", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.039e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q30", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q28", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q31", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q33", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q34", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q38", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q32", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q41", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.022e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q44", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.026e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q35", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q42", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.98e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q37", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q39", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q49", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q36", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.033e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q40", "code": "sd", "raw": "{\n  \"rating\": \"sd\"\n}", "cost": 1.046e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q48", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q51", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q53", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q50", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.033e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q19", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.91e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q52", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q54", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.005e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q26", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.67e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q55", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.7e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q57", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.74e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q56", "code": "sd", "raw": "{\n  \"rating\": \"sd\"\n}", "cost": 1.039e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q62", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 9.84e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q60", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q58", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.008e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q43", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q61", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 9.6e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q45", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.94e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "8val", "run": 1, "qid": "q4", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "8val", "run": 1, "qid": "q2", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.59e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "pct", "run": 5, "qid": "q46", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.77e-06, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "8val", "run": 1, "qid": "q1", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.545e-05, "attempts": 1, "ts": "2026-11-23 09:40:38"}
+{"test": "8val", "run": 1, "qid": "q5", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.601e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q7", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.545e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q6", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "pct", "run": 5, "qid": "q47", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.81e-06, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "pct", "run": 5, "qid": "q59", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 9.88e-06, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q9", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.587e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q3", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q11", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q8", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q15", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q12", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q16", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q18", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q13", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q17", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q10", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q14", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q19", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q21", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.587e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q25", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.514e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q27", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q22", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q23", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q20", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q26", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q37", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.594e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q32", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q35", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q38", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q33", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q29", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q24", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q40", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q28", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q31", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q34", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.594e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q36", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q30", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q42", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q39", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q43", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.514e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q41", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q44", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q47", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q46", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q50", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q48", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q49", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.59e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q45", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q54", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:39"}
+{"test": "8val", "run": 1, "qid": "q52", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q51", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q59", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.597e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q57", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q53", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.594e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q58", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q55", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q64", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.563e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q62", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q67", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q56", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.566e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q61", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q69", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q63", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q60", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q65", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q8", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q3", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q70", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q7", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.545e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q68", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.594e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 1, "qid": "q66", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q4", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.594e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q1", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.545e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q2", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.59e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q13", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q5", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.601e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q10", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q14", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q6", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q9", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.545e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q12", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q15", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q11", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q16", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.563e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q18", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q20", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q21", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.587e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q22", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q17", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q19", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q23", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q28", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q30", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q25", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.514e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q32", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q24", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:40"}
+{"test": "8val", "run": 2, "qid": "q35", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q37", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.594e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q31", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q34", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q41", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q46", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q48", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q40", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.597e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q50", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.59e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q42", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q52", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q54", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q53", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q38", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q56", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.566e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q51", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q55", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q27", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q36", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q57", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.563e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q64", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q66", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q29", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q39", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q61", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q33", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q62", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q26", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q43", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q70", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q58", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q44", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q47", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.566e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q45", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 3, "qid": "q1", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.587e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q59", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q65", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:41"}
+{"test": "8val", "run": 2, "qid": "q63", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 2, "qid": "q60", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 2, "qid": "q49", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q9", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.587e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q5", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.601e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q7", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.587e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q12", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 2, "qid": "q69", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q14", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q15", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q19", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 2, "qid": "q68", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q4", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 2, "qid": "q67", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q21", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.587e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q8", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q26", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q22", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q23", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q11", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q24", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q3", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q25", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.514e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q29", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q13", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q2", "code": "a", "raw": "{\n    \"rating\": \"a\"\n}", "cost": 1.59e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q10", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q34", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.594e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q33", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q18", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q6", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q30", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q37", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.594e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q35", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q39", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q16", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q27", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q41", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q36", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:42"}
+{"test": "8val", "run": 3, "qid": "q17", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q38", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q28", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q40", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q20", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q45", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q50", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.59e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q43", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q48", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q49", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.59e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q51", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q52", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q46", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q47", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.566e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q54", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q55", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q61", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q58", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q31", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q42", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q32", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q60", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q56", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.566e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q59", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q57", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q44", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q62", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q67", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q64", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q65", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q68", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q63", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q2", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.59e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q66", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q1", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.545e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q5", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.601e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q6", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q4", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.594e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q69", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q3", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q7", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.587e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q8", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.59e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q10", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q11", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 3, "qid": "q53", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q12", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q13", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q14", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q21", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.587e-05, "attempts": 1, "ts": "2026-11-23 09:40:43"}
+{"test": "8val", "run": 4, "qid": "q9", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.587e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q16", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q22", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q20", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q18", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q17", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q23", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.566e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q26", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q27", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q19", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q15", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q30", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q31", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q24", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.566e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q28", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q25", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 3, "qid": "q70", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q32", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q29", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q37", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q36", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q43", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.514e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q40", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q42", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q45", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q46", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q44", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q39", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q38", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q50", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q47", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.566e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q41", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q48", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q58", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q51", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q53", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q57", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.563e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q54", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q49", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q59", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q60", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q33", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q56", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.566e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q52", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q64", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q34", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.594e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q63", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:44"}
+{"test": "8val", "run": 4, "qid": "q69", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 4, "qid": "q70", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.59e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 4, "qid": "q35", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 4, "qid": "q62", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q1", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.545e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 4, "qid": "q66", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q6", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 4, "qid": "q65", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q2", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 4, "qid": "q67", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q3", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q7", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.545e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 4, "qid": "q61", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q4", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.594e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q5", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.601e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q12", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q14", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q15", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q9", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.587e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q8", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q13", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 4, "qid": "q55", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q21", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.587e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q16", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 4, "qid": "q68", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q17", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q24", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q18", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q19", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q28", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q32", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q20", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q26", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q23", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.566e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q29", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q25", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.514e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q27", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q10", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q35", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q34", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q33", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q11", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q31", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q38", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q22", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q36", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q40", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q39", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q37", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:45"}
+{"test": "8val", "run": 5, "qid": "q41", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.566e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q42", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q44", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q30", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q46", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q47", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q49", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.59e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q45", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q43", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.514e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q48", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q52", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q55", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q58", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q50", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q54", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q51", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q53", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q56", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.566e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q57", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q60", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q64", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.563e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q69", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q61", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q62", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q63", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q67", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q68", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q66", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q2", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.545e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q6", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q1", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q8", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q59", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q7", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q5", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "8val", "run": 5, "qid": "q70", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q3", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q9", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q12", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q17", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q11", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q14", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q15", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q18", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q13", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q10", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q21", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q16", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q23", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q20", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q25", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q19", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:46"}
+{"test": "sap", "run": 1, "qid": "q29", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q24", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q22", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q26", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q33", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "8val", "run": 5, "qid": "q65", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q35", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q28", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q4", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q32", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q31", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q30", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q34", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q38", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q39", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q40", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q27", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q43", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q45", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q37", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q1", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q41", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q3", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q5", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q46", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.514e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q2", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.545e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q44", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q42", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 1, "qid": "q36", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q9", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q4", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q8", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q6", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q7", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q11", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q12", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q10", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q13", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q14", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q15", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q17", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q21", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q18", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q16", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.597e-05, "attempts": 1, "ts": "2026-11-23 09:40:47"}
+{"test": "sap", "run": 2, "qid": "q20", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q22", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q26", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q25", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q29", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q34", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q24", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q28", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q23", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q30", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q37", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q27", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q40", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q32", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q31", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q36", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q42", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q33", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q35", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q39", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q44", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q38", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q46", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.514e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q41", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q19", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q1", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q43", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q2", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.545e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 2, "qid": "q45", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q3", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q4", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q7", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q5", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q12", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q11", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q8", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q6", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q10", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q13", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q9", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.59e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q22", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.58e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q16", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q17", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q19", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q15", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q14", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q18", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q20", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q25", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q26", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q27", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q29", "code": "sa", "raw": "{\n  \"rating\": \"sa\"\n}", "cost": 1.601e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q32", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q24", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q23", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q28", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q33", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q21", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q34", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q35", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:48"}
+{"test": "sap", "run": 3, "qid": "q30", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 3, "qid": "q36", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 3, "qid": "q38", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 3, "qid": "q31", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 3, "qid": "q41", "code": "d", "raw": "{\n  \"rating\": \"d\"\n}", "cost": 1.566e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 3, "qid": "q45", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 3, "qid": "q39", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 3, "qid": "q37", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 3, "qid": "q42", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 3, "qid": "q40", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q3", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q4", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 3, "qid": "q44", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 3, "qid": "q46", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.514e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q2", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.545e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 3, "qid": "q43", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q5", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q1", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q7", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q15", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q12", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q10", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q22", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q13", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q21", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q19", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q9", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.59e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q11", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q17", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q16", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q14", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q6", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q28", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q27", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q30", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q25", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q24", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q23", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q26", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.563e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q8", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q29", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q36", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q37", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q33", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q18", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:49"}
+{"test": "sap", "run": 4, "qid": "q31", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 4, "qid": "q34", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 4, "qid": "q35", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 4, "qid": "q40", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 4, "qid": "q38", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 4, "qid": "q41", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 4, "qid": "q32", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q1", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q3", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 4, "qid": "q42", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 4, "qid": "q39", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q2", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.545e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q4", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 4, "qid": "q46", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.514e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 4, "qid": "q44", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 4, "qid": "q43", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 4, "qid": "q45", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q5", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q10", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 4, "qid": "q20", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q9", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q11", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q6", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q14", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.563e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q13", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q8", "code": "sa", "raw": "{\n    \"rating\": \"sa\"\n}", "cost": 1.584e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q7", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q17", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q18", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q12", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.535e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q15", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q21", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.577e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q16", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.556e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q19", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q26", "code": "a", "raw": "{\n  \"rating\": \"a\"\n}", "cost": 1.563e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q20", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q28", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.542e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q30", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q22", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q24", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.549e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q23", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q33", "code": "sa", "raw": "{\"rating\": \"sa\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q25", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.521e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q34", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q36", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.538e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q31", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q35", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q27", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q29", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.559e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q39", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:50"}
+{"test": "sap", "run": 5, "qid": "q42", "code": "n", "raw": "{\n  \"rating\": \"n\"\n}", "cost": 1.566e-05, "attempts": 1, "ts": "2026-11-23 09:40:51"}
+{"test": "sap", "run": 5, "qid": "q32", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.573e-05, "attempts": 1, "ts": "2026-11-23 09:40:51"}
+{"test": "sap", "run": 5, "qid": "q40", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.532e-05, "attempts": 1, "ts": "2026-11-23 09:40:51"}
+{"test": "sap", "run": 5, "qid": "q38", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:51"}
+{"test": "sap", "run": 5, "qid": "q37", "code": "a", "raw": "{\"rating\": \"a\"}", "cost": 1.552e-05, "attempts": 1, "ts": "2026-11-23 09:40:51"}
+{"test": "sap", "run": 5, "qid": "q44", "code": "n", "raw": "{\"rating\": \"n\"}", "cost": 1.518e-05, "attempts": 1, "ts": "2026-11-23 09:40:51"}
+{"test": "sap", "run": 5, "qid": "q41", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:51"}
+{"test": "sap", "run": 5, "qid": "q45", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.57e-05, "attempts": 1, "ts": "2026-11-23 09:40:51"}
+{"test": "sap", "run": 5, "qid": "q46", "code": "sd", "raw": "{\"rating\": \"sd\"}", "cost": 1.528e-05, "attempts": 1, "ts": "2026-11-23 09:40:51"}
+{"test": "sap", "run": 5, "qid": "q43", "code": "d", "raw": "{\"rating\": \"d\"}", "cost": 1.525e-05, "attempts": 1, "ts": "2026-11-23 09:40:51"}

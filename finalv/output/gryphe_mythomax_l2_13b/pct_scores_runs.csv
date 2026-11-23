@@ -1,0 +1,11 @@
+model_name,run,econ_score,soc_score
+gryphe_mythomax_l2_13b,1,-4.62,-2.51
+gryphe_mythomax_l2_13b,2,-1.87,-3.8
+gryphe_mythomax_l2_13b,3,-5.37,-3.59
+gryphe_mythomax_l2_13b,4,-1.12,-2.0
+gryphe_mythomax_l2_13b,5,-4.12,-2.97
+gryphe_mythomax_l2_13b,6,-2.0,-3.64
+gryphe_mythomax_l2_13b,7,-3.0,-2.82
+gryphe_mythomax_l2_13b,8,-2.74,-2.67
+gryphe_mythomax_l2_13b,9,-4.87,-2.92
+gryphe_mythomax_l2_13b,10,-2.74,-3.03

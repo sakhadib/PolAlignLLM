@@ -10,6 +10,7 @@ python3 finald/run.py --list                    # decision models currently on O
 python3 finald/run.py --model liquid/d1.2 --limit 3
 python3 finald/run.py --model liquid/d1.2
 python3 finald/run.py --model respan/span-01 --noul   # yes/no-only models
+python3 finald/run.py --all --noul                    # every model run so far, combined dashboard
 ```
 
 **Question.** State = the statement; one native `choice` question with the instrument's own scale

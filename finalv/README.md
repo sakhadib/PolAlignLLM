@@ -11,7 +11,7 @@ python3 finalv/run.py --model grok_4
 python3 finalv/run.py --model nemotron
 ```
 
-`--model` takes a file in `models/`, its name, or a raw OpenRouter id. Other flags: `--runs`, `--limit`,
+`--model` takes a file in `models/`, its name, or a raw OpenRouter id. Other flags: `--max-tokens N` (default 30; use ~4000 for reasoning models with a raw id), `--runs`, `--limit`,
 `--concurrency` (default 8), `--max-cost USD`, `--mock` (offline test).
 
 **Saving.** Each answer is appended to `output/<model>/answers.jsonl` (fsynced) as soon as it arrives.

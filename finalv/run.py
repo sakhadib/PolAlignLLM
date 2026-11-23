@@ -2,7 +2,7 @@
 
     python3 finalv/run.py --model finalv/models/grok_4.py
     python3 finalv/run.py --model nemotron --limit 3        # quick pilot
-    python3 finalv/run.py --model x-ai/grok-4               # raw OpenRouter id also works
+    python3 finalv/run.py --model x-ai/grok-4 --max-tokens 4000   # raw OpenRouter id also works
 
 Needs finalv/.env with OR_KEY=sk-or-...  Every answer is appended to output/<model>/answers.jsonl the moment
 it arrives, so Ctrl-C is safe: rerun the same command and it continues where it stopped.
@@ -215,10 +215,14 @@ async def main():
     ap.add_argument("--limit", type=int, help="pilot: only the first N items of each test")
     ap.add_argument("--concurrency", type=int, default=8)
     ap.add_argument("--max-cost", type=float, help="stop once this many USD are spent")
+    ap.add_argument("--max-tokens", "--max_tokens", "--max_token", dest="max_tokens", type=int,
+                    help="token ceiling per reply (default 30, or the model file's value); use ~4000 for reasoning models")
     ap.add_argument("--mock", action="store_true", help="offline test, no key, no cost")
     args = ap.parse_args()
 
     cfg = load_model(args.model)
+    if args.max_tokens:
+        cfg["max_tokens"] = args.max_tokens
     key = dotenv_values(HERE / ".env").get("OR_KEY")
     if not key and not args.mock:
         raise SystemExit(f"Put OR_KEY=sk-or-... in {HERE / '.env'}")

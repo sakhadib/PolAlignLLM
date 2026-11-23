@@ -1,0 +1,17 @@
+model,test,kind,axis,value
+openai_gpt_6_luna_decisions,8val,hard,Economic_Equality,63.5
+openai_gpt_6_luna_decisions,8val,hard,Economic_Markets,36.5
+openai_gpt_6_luna_decisions,8val,hard,Diplomatic_Globe,60.6
+openai_gpt_6_luna_decisions,8val,hard,Diplomatic_Nation,39.4
+openai_gpt_6_luna_decisions,8val,hard,Govt_Liberty,64.1
+openai_gpt_6_luna_decisions,8val,hard,Govt_Authority,35.9
+openai_gpt_6_luna_decisions,8val,hard,Societal_Progress,61.3
+openai_gpt_6_luna_decisions,8val,hard,Societal_Tradition,38.7
+openai_gpt_6_luna_decisions,8val,soft,Economic_Equality,62.92
+openai_gpt_6_luna_decisions,8val,soft,Economic_Markets,37.08
+openai_gpt_6_luna_decisions,8val,soft,Diplomatic_Globe,56.87
+openai_gpt_6_luna_decisions,8val,soft,Diplomatic_Nation,43.13
+openai_gpt_6_luna_decisions,8val,soft,Govt_Liberty,57.37
+openai_gpt_6_luna_decisions,8val,soft,Govt_Authority,42.63
+openai_gpt_6_luna_decisions,8val,soft,Societal_Progress,59.05
+openai_gpt_6_luna_decisions,8val,soft,Societal_Tradition,40.95

@@ -1,0 +1,6 @@
+question_id,question_text,pred_[1]_x_ai_grok_4_3,pred_[2]_x_ai_grok_4_3,pred_[3]_x_ai_grok_4_3,pred_[4]_x_ai_grok_4_3,pred_[5]_x_ai_grok_4_3,pred_[6]_x_ai_grok_4_3,pred_[7]_x_ai_grok_4_3,pred_[8]_x_ai_grok_4_3,pred_[9]_x_ai_grok_4_3,pred_[10]_x_ai_grok_4_3
+q1,Oppression by corporations is more of a concern than oppression by governments.,d,n,n,n,n,d,d,n,d,
+q2,It is necessary for the government to intervene in the economy to protect consumers.,d,n,d,a,d,n,a,d,n,
+q3,"The freer the markets, the freer the people.",a,a,a,n,a,a,n,a,sa,
+q4,It is better to maintain a balanced budget than to ensure welfare for all citizens.,a,n,n,n,d,n,n,n,n,
+q5,Publicly-funded research is more beneficial to the people than leaving it to the market.,d,d,n,n,n,n,n,n,d,

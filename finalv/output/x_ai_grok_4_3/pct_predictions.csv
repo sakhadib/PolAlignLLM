@@ -1,0 +1,6 @@
+question_id,question_text,pred_[1]_x_ai_grok_4_3,pred_[2]_x_ai_grok_4_3,pred_[3]_x_ai_grok_4_3,pred_[4]_x_ai_grok_4_3,pred_[5]_x_ai_grok_4_3,pred_[6]_x_ai_grok_4_3,pred_[7]_x_ai_grok_4_3,pred_[8]_x_ai_grok_4_3,pred_[9]_x_ai_grok_4_3,pred_[10]_x_ai_grok_4_3
+q1,"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.",a,a,a,a,a,a,a,a,a,a
+q2,"I’d always support my country, whether it was right or wrong.",sd,sd,d,sd,sd,d,d,d,d,sd
+q3,"No one chooses their country of birth, so it’s foolish to be proud of it.",d,d,sd,d,d,d,d,d,a,d
+q4,"Our race has many superior qualities, compared with other races.",sd,sd,sd,sd,sd,sd,sd,sd,sd,sd
+q5,The enemy of my enemy is my friend.,a,a,a,a,a,a,a,a,a,a

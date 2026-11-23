@@ -1,0 +1,63 @@
+question_id,question_text,p_sd,p_d,p_a,p_sa,top_p
+q1,"If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.",0.03511,0.088659,0.518818,0.357413,0.518818
+q2,"I’d always support my country, whether it was right or wrong.",0.261847,0.276956,0.266838,0.194359,0.276956
+q3,"No one chooses their country of birth, so it’s foolish to be proud of it.",0.421309,0.385419,0.100876,0.092396,0.421309
+q4,"Our race has many superior qualities, compared with other races.",0.352938,0.316832,0.162098,0.168132,0.352938
+q5,The enemy of my enemy is my friend.,0.077661,0.179835,0.506672,0.235832,0.506672
+q6,Military action that defies international law is sometimes justified.,0.197316,0.317558,0.348732,0.136393,0.348732
+q7,There is now a worrying fusion of information and entertainment.,0.091716,0.168856,0.443282,0.296147,0.443282
+q8,People are ultimately divided more by class than by nationality.,0.245681,0.325043,0.287197,0.14208,0.325043
+q9,Controlling inflation is more important than controlling unemployment.,0.296589,0.254455,0.243466,0.205489,0.296589
+q10,"Because corporations cannot be trusted to voluntarily protect the environment, they require regulation.",0.083868,0.131232,0.399988,0.384912,0.399988
+q11,"“from each according to his ability, to each according to his need” is a fundamentally good idea.",0.106481,0.161657,0.436327,0.295535,0.436327
+q12,"The freer the market, the freer the people.",0.178009,0.18531,0.361031,0.27565,0.361031
+q13,"It’s a sad reflection on our society that something as basic as drinking water is now a bottled, branded consumer product.",0.074216,0.13335,0.443223,0.349211,0.443223
+q14,Land shouldn’t be a commodity to be bought and sold.,0.094465,0.242657,0.359262,0.303616,0.359262
+q15,It is regrettable that many personal fortunes are made by people who simply manipulate money and contribute nothing to their society.,0.088404,0.102182,0.504977,0.304437,0.504977
+q16,Protectionism is sometimes necessary in trade.,0.100568,0.205461,0.549648,0.144323,0.549648
+q17,The only social responsibility of a company should be to deliver a profit to its shareholders.,0.38827,0.350353,0.155464,0.105914,0.38827
+q18,The rich are too highly taxed.,0.199915,0.255865,0.275203,0.269017,0.275203
+q19,Those with the ability to pay should have access to higher standards of medical care.,0.161027,0.171801,0.378429,0.288743,0.378429
+q20,Governments should penalise businesses that mislead the public.,0.046637,0.100839,0.443433,0.409091,0.443433
+q21,A genuine free market requires restrictions on the ability of predator multinationals to create monopolies.,0.132742,0.176734,0.375542,0.314982,0.375542
+q22,"Abortion, when the woman’s life is not threatened, should always be illegal.",0.261234,0.258922,0.207545,0.272299,0.272299
+q23,All authority should be questioned.,0.198456,0.329254,0.23443,0.237861,0.329254
+q24,An eye for an eye and a tooth for a tooth.,0.171805,0.382129,0.285796,0.160271,0.382129
+q25,Taxpayers should not be expected to prop up any theatres or museums that cannot survive on a commercial basis.,0.160797,0.174218,0.347528,0.317457,0.347528
+q26,Schools should not make classroom attendance compulsory.,0.374582,0.361047,0.138019,0.126352,0.374582
+q27,"All people have their rights, but it is better for all of us that different sorts of people should keep to their own kind.",0.386881,0.397975,0.127774,0.087371,0.397975
+q28,Good parents sometimes have to spank their children.,0.123146,0.136867,0.542244,0.197743,0.542244
+q29,It’s natural for children to keep some secrets from their parents.,0.014703,0.02048,0.545423,0.419394,0.545423
+q30,Possessing marijuana for personal use should not be a criminal offence.,0.114298,0.20365,0.38252,0.299531,0.38252
+q31,The prime function of schooling should be to equip the future generation to find jobs.,0.220612,0.256441,0.300016,0.222931,0.300016
+q32,People with serious inheritable disabilities should not be allowed to reproduce.,0.415214,0.386321,0.109107,0.089357,0.415214
+q33,The most important thing for children to learn is to accept discipline.,0.174344,0.264478,0.277653,0.283526,0.283526
+q34,There are no savage and civilised peoples; there are only different cultures.,0.083457,0.13884,0.415515,0.362189,0.415515
+q35,"Those who are able to work, and refuse the opportunity, should not expect society’s support.",0.09132,0.087594,0.421871,0.399215,0.421871
+q36,"When you are troubled, it’s better not to think about it, but to keep busy with more cheerful things.",0.186892,0.232878,0.309073,0.271157,0.309073
+q37,First-generation immigrants can never be fully integrated within their new country.,0.411342,0.42889,0.108351,0.051418,0.42889
+q38,"What’s good for the most successful corporations is always, ultimately, good for all of us.",0.370404,0.363537,0.164195,0.101865,0.370404
+q39,"No broadcasting institution, however independent its content, should receive public funding.",0.416031,0.392879,0.08011,0.11098,0.416031
+q40,Our civil liberties are being excessively curbed in the name of counter-terrorism.,0.071974,0.102729,0.46427,0.361027,0.46427
+q41,A significant advantage of a one-party state is that it avoids all the arguments that delay progress in a democratic political system.,0.205077,0.347137,0.299424,0.148362,0.347137
+q42,"Although the electronic age makes official surveillance easier, only wrongdoers need to be worried.",0.446761,0.449639,0.046846,0.056753,0.449639
+q43,The death penalty should be an option for the most serious crimes.,0.245866,0.287824,0.309951,0.156359,0.309951
+q44,"In a civilised society, one must always have people above to be obeyed and people below to be commanded.",0.398245,0.386808,0.111402,0.103545,0.398245
+q45,Abstract art that doesn’t represent anything shouldn’t be considered art at all.,0.428753,0.389176,0.076176,0.105895,0.428753
+q46,"In criminal justice, punishment should be more important than rehabilitation.",0.275102,0.296443,0.249271,0.179184,0.296443
+q47,It is a waste of time to try to rehabilitate some criminals.,0.259172,0.27198,0.253915,0.214933,0.27198
+q48,The businessperson and the manufacturer are more important than the writer and the artist.,0.468558,0.431689,0.0689,0.030852,0.468558
+q49,"Mothers may have careers, but their first duty is to be homemakers.",0.38345,0.360743,0.17594,0.079868,0.38345
+q50,"Almost all politicians promise economic growth, but we should heed the warnings of climate science that growth is detrimental to our efforts to curb global warming.",0.142531,0.183209,0.366163,0.308097,0.366163
+q51,Making peace with the establishment is an important aspect of maturity.,0.325482,0.319867,0.218545,0.136106,0.325482
+q52,Astrology accurately explains many things.,0.464982,0.464178,0.052452,0.018388,0.464982
+q53,You cannot be moral without being religious.,0.427051,0.427196,0.09533,0.050423,0.427196
+q54,Charity is better than social security as a means of helping the genuinely disadvantaged.,0.360801,0.382005,0.16705,0.090144,0.382005
+q55,Some people are naturally unlucky.,0.084332,0.120728,0.596094,0.198846,0.596094
+q56,It is important that my child’s school instills religious values.,0.124636,0.155489,0.372223,0.347653,0.372223
+q57,Sex outside marriage is usually immoral.,0.20278,0.199031,0.335371,0.262818,0.335371
+q58,"A same sex couple in a stable, loving relationship should not be excluded from the possibility of child adoption.",0.050711,0.070177,0.462441,0.416671,0.462441
+q59,"Pornography, depicting consenting adults, should be legal for the adult population.",0.101692,0.215251,0.407538,0.275519,0.407538
+q60,What goes on in a private bedroom between consenting adults is no business of the state.,0.094903,0.14713,0.385483,0.372484,0.385483
+q61,No one can feel naturally homosexual.,0.435701,0.394144,0.073858,0.096297,0.435701
+q62,These days openness about sex has gone too far.,0.15917,0.210871,0.358091,0.271867,0.358091

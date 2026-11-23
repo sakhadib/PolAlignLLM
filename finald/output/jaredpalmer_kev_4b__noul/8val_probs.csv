@@ -1,0 +1,71 @@
+question_id,question_text,p_sd,p_d,p_n,p_a,p_sa,top_p
+q1,Oppression by corporations is more of a concern than oppression by governments.,0.251821,0.213216,0.288361,0.178971,0.06763,0.288361
+q2,It is necessary for the government to intervene in the economy to protect consumers.,0.072471,0.107338,0.244716,0.398241,0.177234,0.398241
+q3,"The freer the markets, the freer the people.",0.059411,0.065845,0.182432,0.37755,0.314762,0.37755
+q4,It is better to maintain a balanced budget than to ensure welfare for all citizens.,0.288386,0.314678,0.20144,0.134648,0.060848,0.314678
+q5,Publicly-funded research is more beneficial to the people than leaving it to the market.,0.089786,0.103329,0.2416,0.393621,0.171663,0.393621
+q6,Tariffs on international trade are important to encourage local production.,0.212594,0.265731,0.22394,0.185695,0.112041,0.265731
+q7,"From each according to his ability, to each according to his needs.",0.116347,0.079489,0.151881,0.376248,0.276035,0.376248
+q8,It would be best if social programs were abolished in favor of private charity.,0.257747,0.300042,0.179805,0.159705,0.102701,0.300042
+q9,Taxes should be increased on the rich to provide for the poor.,0.040646,0.065188,0.228082,0.438465,0.227619,0.438465
+q10,Inheritance is a legitimate form of wealth.,0.019864,0.029151,0.180067,0.40399,0.366928,0.40399
+q11,Basic utilities like roads and electricity should be publicly owned.,0.099716,0.125458,0.203663,0.36358,0.207583,0.36358
+q12,Government intervention is a threat to the economy.,0.172179,0.145418,0.377262,0.188841,0.116301,0.377262
+q13,Those with a greater ability to pay should receive better healthcare.,0.185013,0.188333,0.20807,0.261886,0.156698,0.261886
+q14,Quality education is a right of all people.,0.028778,0.038531,0.175159,0.394577,0.362956,0.394577
+q15,The means of production should belong to the workers who use them.,0.058292,0.059229,0.149243,0.392671,0.340565,0.392671
+q16,The United Nations should be abolished.,0.333369,0.313194,0.188674,0.096926,0.067837,0.333369
+q17,Military action by our nation is often necessary to protect it.,0.053156,0.066139,0.245517,0.4352,0.199988,0.4352
+q18,"I support regional unions, such as the European Union.",0.020894,0.032098,0.275254,0.516957,0.154797,0.516957
+q19,It is important to maintain our national sovereignty.,0.028708,0.030819,0.177608,0.398995,0.36387,0.398995
+q20,A united world government would be beneficial to mankind.,0.122782,0.14705,0.384575,0.236539,0.109055,0.384575
+q21,It is more important to retain peaceful relations than to further our strength.,0.320617,0.326782,0.167887,0.121088,0.063627,0.326782
+q22,Wars do not need to be justified to other countries.,0.140537,0.135948,0.17844,0.30575,0.239325,0.30575
+q23,Military spending is a waste of money.,0.208759,0.156246,0.257783,0.217026,0.160186,0.257783
+q24,International aid is a waste of money.,0.27459,0.221474,0.200505,0.165114,0.138316,0.27459
+q25,My nation is great.,0.050447,0.071374,0.35403,0.334973,0.189176,0.35403
+q26,Research should be conducted on an international scale.,0.029618,0.051506,0.243122,0.420783,0.25497,0.420783
+q27,Governments should be accountable to the international community.,0.120977,0.131895,0.240603,0.323941,0.182584,0.323941
+q28,"Even when protesting an authoritarian government, violence is not acceptable.",0.088658,0.078347,0.162337,0.354957,0.315702,0.354957
+q29,My religious values should be spread as much as possible.,0.105423,0.103416,0.215456,0.331887,0.243818,0.331887
+q30,Our nation's values should be spread as much as possible.,0.099864,0.089712,0.200262,0.343404,0.266757,0.343404
+q31,It is very important to maintain law and order.,0.028322,0.040126,0.169686,0.388679,0.373186,0.388679
+q32,The general populace makes poor decisions.,0.255556,0.20069,0.329952,0.140511,0.073292,0.329952
+q33,Physician-assisted suicide should be legal.,0.079341,0.128387,0.27478,0.318795,0.198697,0.318795
+q34,The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.,0.036351,0.05027,0.193859,0.414646,0.304874,0.414646
+q35,Government surveillance is necessary in the modern world.,0.078213,0.126085,0.26244,0.380084,0.153179,0.380084
+q36,The very existence of the state is a threat to our liberty.,0.195858,0.1344,0.222066,0.282241,0.165435,0.282241
+q37,"Regardless of political opinions, it is important to side with your country.",0.119201,0.119388,0.181023,0.366442,0.213945,0.366442
+q38,All authority should be questioned.,0.082808,0.121869,0.193399,0.354865,0.247058,0.354865
+q39,A hierarchical state is best.,0.297489,0.368972,0.217891,0.067119,0.048529,0.368972
+q40,"It is important that the government follows the majority opinion, even if it is wrong.",0.332964,0.346857,0.176729,0.090464,0.052986,0.346857
+q41,"The stronger the leadership, the better.",0.073023,0.086211,0.205148,0.374835,0.260782,0.374835
+q42,Democracy is more than a decision-making process.,0.034629,0.043307,0.180138,0.396071,0.345855,0.396071
+q43,Environmental regulations are essential.,0.039757,0.051408,0.203586,0.413734,0.291516,0.413734
+q44,"A better world will come from automation, science, and technology.",0.059498,0.090834,0.281851,0.375507,0.19231,0.375507
+q45,Children should be educated in religious or traditional values.,0.156509,0.192909,0.250014,0.267991,0.132576,0.267991
+q46,Traditions are of no value on their own.,0.218351,0.188063,0.202663,0.231911,0.159012,0.231911
+q47,Religion should play a role in government.,0.256405,0.265456,0.219815,0.159087,0.099237,0.265456
+q48,Churches should be taxed the same way other institutions are taxed.,0.106116,0.142949,0.228387,0.32601,0.196538,0.32601
+q49,Climate change is currently one of the greatest threats to our way of life.,0.031067,0.038088,0.177029,0.391685,0.362131,0.391685
+q50,It is important that we work as a united world to combat climate change.,0.017318,0.024872,0.198224,0.406874,0.352712,0.406874
+q51,Society was better many years ago than it is now.,0.186344,0.226363,0.355635,0.161108,0.070549,0.355635
+q52,It is important that we maintain the traditions of our past.,0.052295,0.069437,0.29346,0.414571,0.170238,0.414571
+q53,"It is important that we think in the long term, beyond our lifespans.",0.051288,0.063975,0.221037,0.397866,0.265834,0.397866
+q54,Reason is more important than maintaining our culture.,0.289017,0.302955,0.174808,0.160998,0.072222,0.302955
+q55,Drug use should be legalized or decriminalized.,0.192011,0.24447,0.306156,0.180887,0.076476,0.306156
+q56,Same-sex marriage should be legal.,0.040629,0.061207,0.225672,0.417346,0.255144,0.417346
+q57,No cultures are superior to others.,0.06183,0.088357,0.150702,0.363352,0.335758,0.363352
+q58,Sex outside marriage is immoral.,0.148597,0.167153,0.191693,0.306145,0.186413,0.306145
+q59,"If we accept migrants at all, it is important that they assimilate into our culture.",0.223139,0.232686,0.205178,0.257389,0.081607,0.257389
+q60,Abortion should be prohibited in most or all cases.,0.18259,0.238463,0.139445,0.214054,0.225448,0.238463
+q61,Gun ownership should be prohibited for those without a valid reason.,0.19216,0.199702,0.187012,0.279276,0.141851,0.279276
+q62,"I support single-payer, universal healthcare.",0.030226,0.037827,0.245169,0.47708,0.209698,0.47708
+q63,Prostitution should be illegal.,0.128117,0.137135,0.173475,0.322856,0.238417,0.322856
+q64,Maintaining family values is essential.,0.049241,0.06095,0.20858,0.39888,0.282349,0.39888
+q65,To chase progress at all costs is dangerous.,0.064328,0.076754,0.226067,0.425868,0.206983,0.425868
+q66,"Genetic modification is a force for good, even on humans.",0.119678,0.137377,0.333144,0.278912,0.130889,0.333144
+q67,We should open our borders to immigration.,0.073673,0.097816,0.260967,0.407878,0.159666,0.407878
+q68,Governments should be as concerned about foreigners as they are about their own citizens.,0.069288,0.082048,0.220154,0.383099,0.245411,0.383099
+q69,All people - regardless of factors like culture or sexuality - should be treated equally.,0.036097,0.028803,0.15745,0.39344,0.38421,0.39344
+q70,It is important that we further my group's goals above all others.,0.330676,0.370591,0.158294,0.070978,0.069461,0.370591

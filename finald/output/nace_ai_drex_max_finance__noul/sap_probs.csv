@@ -1,0 +1,47 @@
+question_id,question_text,p_sd,p_d,p_n,p_a,p_sa,top_p
+q1,Freedom of business is the best practical way a society can prosper.,0.152507,0.147526,0.06531,0.307902,0.326756,0.326756
+q2,Charity is a better way of helping those in need than social welfare.,0.192073,0.220791,0.091667,0.262821,0.232648,0.262821
+q3,"Wages are always fair, as employers know best what a worker's labour is worth.",0.333529,0.274243,0.062014,0.180574,0.14964,0.333529
+q4,It is human nature to be greedy.,0.129889,0.164312,0.097186,0.323523,0.285089,0.323523
+q5,"Exploitation is an outdated term, as the struggles of 1800s capitalism don't exist anymore.",0.483428,0.34092,0.023429,0.064243,0.08798,0.483428
+q6,Communism is an ideal that can never work in practice.,0.189617,0.1466,0.057106,0.290251,0.316426,0.316426
+q7,"Taxation of the wealthy is a bad idea, society would be better off without it.",0.380433,0.301264,0.039887,0.146218,0.132199,0.380433
+q8,"The harder you work, the more you progress up the social ladder.",0.154311,0.164707,0.083662,0.285774,0.311546,0.311546
+q9,Organisations and corporations cannot be trusted and need to be regulated by the government.,0.146262,0.166902,0.081557,0.315697,0.289582,0.315697
+q10,A government that provides for everyone is an inherently good idea.,0.229068,0.234604,0.061521,0.251259,0.223548,0.251259
+q11,The current welfare system should be expanded to further combat inequality.,0.180263,0.196823,0.075399,0.285847,0.261668,0.285847
+q12,Land should not be a commodity to be bought and sold.,0.275091,0.233576,0.09314,0.204693,0.193501,0.275091
+q13,All industry and the bank should be nationalised.,0.374756,0.27623,0.063223,0.125801,0.159991,0.374756
+q14,Class is the primary division of society.,0.182351,0.209615,0.120422,0.261058,0.226554,0.261058
+q15,Economic inequality is too high in the world.,0.115211,0.106948,0.052365,0.342015,0.383462,0.383462
+q16,Sometimes it is right that the government may spy on its citizens to combat extremists and terrorists.,0.129699,0.158093,0.104972,0.341569,0.265667,0.341569
+q17,"Authority figures, if morally correct, are a good thing for society.",0.127392,0.127392,0.088104,0.341403,0.315709,0.341403
+q18,Strength is necessary for any government to succeed.,0.092301,0.099548,0.076058,0.38147,0.350623,0.38147
+q19,Only the government can fairly and effectively regulate organisations.,0.188876,0.210947,0.097879,0.274306,0.227993,0.274306
+q20,Society requires structure and bureaucracy in order to function.,0.11169,0.133567,0.070549,0.364596,0.319599,0.364596
+q21,Mandatory IDs should be used to ensure public safety.,0.153186,0.168389,0.105018,0.301615,0.271792,0.301615
+q22,"In times of crisis, safety becomes more important than civil liberties.",0.207547,0.173377,0.092681,0.269549,0.256846,0.269549
+q23,"If you have nothing to hide, you have nothing to fear.",0.230612,0.214996,0.108783,0.230612,0.214996,0.230612
+q24,The government should be less involved in the day to day life of its citizens.,0.198696,0.161344,0.049618,0.286402,0.30394,0.30394
+q25,"Without democracy, a society is nothing.",0.112832,0.117057,0.053449,0.328052,0.38861,0.38861
+q26,Jury nullification should be legal.,0.187957,0.230761,0.130502,0.241681,0.209099,0.241681
+q27,"The smaller the government, the freer the people.",0.202325,0.21319,0.074966,0.251978,0.257542,0.257542
+q28,"The government should, at most, provide emergency services and law enforcement.",0.260208,0.242959,0.056528,0.220152,0.220152,0.260208
+q29,"The police were not created to protect the people, but to uphold the status quo by force.",0.221196,0.226657,0.076846,0.254105,0.221196,0.254105
+q30,State schools are a bad idea because our state shouldn't be influencing our children.,0.331932,0.296056,0.062797,0.172052,0.137163,0.331932
+q31,"Two consenting individuals should be able to do whatever they want with each other, even if it makes me uncomfortable.",0.108011,0.100264,0.057867,0.320643,0.413214,0.413214
+q32,"An individual's body is their own property, and they should be able to do anything they desire to it.",0.18534,0.19606,0.08594,0.26349,0.26917,0.26917
+q33,A person should be able to worship whomever or whatever they want.,0.054468,0.052245,0.038881,0.340157,0.514249,0.514249
+q34,Nudism is perfectly natural.,0.201319,0.242174,0.113014,0.242174,0.201319,0.242174
+q35,Animals deserve certain universal rights.,0.115829,0.152222,0.076832,0.327559,0.327559,0.327559
+q36,"Gender is a social construct, not a natural state of affairs.",0.240698,0.191522,0.064141,0.240698,0.26294,0.26294
+q37,"Laws based on cultural values, rather than ethical ones, aren't justice.",0.145388,0.150297,0.091379,0.290915,0.322021,0.322021
+q38,"Autonomy of body extends even to minors, the mentally ill, and serious criminals.",0.300368,0.238859,0.082128,0.178689,0.199955,0.300368
+q39,Homosexuality is against my values.,0.359364,0.223411,0.037853,0.15596,0.223411,0.359364
+q40,Transgender individuals should not be able to adopt children.,0.428282,0.244352,0.039252,0.13672,0.151394,0.428282
+q41,Drugs are harmful and should be banned.,0.145648,0.160709,0.05486,0.303983,0.334799,0.334799
+q42,The death penalty should exist for certain crimes.,0.200745,0.200745,0.068029,0.285008,0.245473,0.285008
+q43,Victimless crimes should still be punished.,0.226326,0.232149,0.065498,0.243878,0.232149,0.243878
+q44,One cannot be moral without religion.,0.315578,0.25235,0.072714,0.200793,0.158564,0.315578
+q45,"Parents should hold absolute power over their children, as they are older and more experienced.",0.305803,0.266196,0.068988,0.192629,0.166385,0.305803
+q46,Multiculturalism is bad.,0.410914,0.299662,0.025355,0.125235,0.138833,0.410914

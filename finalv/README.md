@@ -1,12 +1,12 @@
 # finalv — questionnaire runs for new models
 
 Runs the Political Compass (62 items), 8Values (70) and SapplyValues (46) on one model through OpenRouter,
-10 runs each (1,780 answers), with the same prompts as the paper's cohort.
+one run each by default (178 answers per model; `--runs N` for more), with the same prompts as the paper's cohort.
 
 ```bash
 pip install -r finalv/requirements.txt
 # finalv/.env must contain:  OR_KEY=sk-or-...
-python3 finalv/run.py --model finalv/models/grok_4.py --limit 3   # pilot: 3 items x 10 runs x 3 tests
+python3 finalv/run.py --model finalv/models/grok_4.py --limit 3   # pilot: 3 items per test
 python3 finalv/run.py --model grok_4
 python3 finalv/run.py --model nemotron
 ```

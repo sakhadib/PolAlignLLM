@@ -1,7 +1,7 @@
 """Run the PCT, 8Values and SapplyValues questionnaires on one model via OpenRouter.
 
     python3 finalv/run.py --model finalv/models/grok_4.py
-    python3 finalv/run.py --model nemotron --limit 3        # quick pilot
+    python3 finalv/run.py --model nemotron --limit 3        # quick pilot (one run is the default)
     python3 finalv/run.py --model x-ai/grok-4 --max-tokens 4000   # raw OpenRouter id also works
 
 Needs finalv/.env with OR_KEY=sk-or-...  Every answer is appended to output/<model>/answers.jsonl the moment
@@ -213,7 +213,7 @@ class Run:
 async def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--model", required=True, help="finalv/models/<name>.py, its name, or an OpenRouter id")
-    ap.add_argument("--runs", type=int, default=10, help="repeats per test (paper: 10)")
+    ap.add_argument("--runs", type=int, default=1, help="repeats per test (default 1: one answer per item)")
     ap.add_argument("--limit", type=int, help="pilot: only the first N items of each test")
     ap.add_argument("--concurrency", type=int, default=8)
     ap.add_argument("--max-cost", type=float, help="stop once this many USD are spent")

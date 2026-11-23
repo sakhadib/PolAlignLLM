@@ -213,7 +213,7 @@ class Run:
 async def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--model", required=True, help="finalv/models/<name>.py, its name, or an OpenRouter id")
-    ap.add_argument("--runs", type=int, default=1, help="repeats per test (default 1: one answer per item)")
+    ap.add_argument("--t", "--runs", dest="runs", type=int, default=1, help="how many runs per test (default 1: one answer per item)")
     ap.add_argument("--limit", type=int, help="pilot: only the first N items of each test")
     ap.add_argument("--concurrency", type=int, default=32, help="parallel requests (default 32)")
     ap.add_argument("--max-cost", type=float, help="stop once this many USD are spent")

@@ -1,7 +1,7 @@
 # finalv — questionnaire runs for new models
 
 Runs the Political Compass (62 items), 8Values (70) and SapplyValues (46) on one model through OpenRouter,
-one run each by default (178 answers per model; `--runs N` for more), with the same prompts as the paper's cohort.
+one run each by default (178 answers per model; `--t N` for N runs), with the same prompts as the paper's cohort.
 
 ```bash
 pip install -r finalv/requirements.txt
@@ -11,7 +11,7 @@ python3 finalv/run.py --model grok_4
 python3 finalv/run.py --model nemotron
 ```
 
-`--model` takes a file in `models/`, its name, or a raw OpenRouter id. Other flags: `--max-tokens N` (default 30; use ~4000 for reasoning models with a raw id), `--effort off|minimal|low|medium|high` (reasoning budget; the main cost driver for thinking models), `--runs`, `--limit`,
+`--model` takes a file in `models/`, its name, or a raw OpenRouter id. Other flags: `--max-tokens N` (default 30; use ~4000 for reasoning models with a raw id), `--effort off|minimal|low|medium|high` (reasoning budget; the main cost driver for thinking models), `--t N` (runs per test, default 1), `--limit`,
 `--concurrency` (default 32), `--max-cost USD`, `--mock` (offline test).
 
 **Saving.** Each answer is appended to `output/<model>/answers.jsonl` (fsynced) as soon as it arrives.

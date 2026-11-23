@@ -185,7 +185,9 @@ class Run:
         info.add_row("Model", f"[bold]{self.cfg['id']}[/]", "Spent (total)", f"[bold yellow]${self.cost:.4f}[/]")
         info.add_row("Runs", f"{self.args.runs} per test" + (f", first {self.args.limit} items" if self.args.limit else ""),
                      "This session", f"${spent:.4f}")
-        info.add_row("Settings", f"T={self.cfg.get('temperature', 0.6)}, max_tokens={self.cfg.get('max_tokens', 30)}",
+        eff = (self.cfg.get("extra") or {}).get("reasoning")
+        info.add_row("Settings", f"T={self.cfg.get('temperature', 0.6)}, max_tokens={self.cfg.get('max_tokens', 30)}"
+                     + (f", reasoning={eff}" if eff else ""),
                      "Per answer", f"${per:.5f}")
         info.add_row("Elapsed / ETA", f"{el / 60:.1f} min / " + (f"{left / rate / 60:.1f} min" if rate else "-"),
                      "Projected total", f"${self.cost + per * left:.3f}" if per else "-")
@@ -217,12 +219,18 @@ async def main():
     ap.add_argument("--max-cost", type=float, help="stop once this many USD are spent")
     ap.add_argument("--max-tokens", "--max_tokens", "--max_token", dest="max_tokens", type=int,
                     help="token ceiling per reply (default 30, or the model file's value); use ~4000 for reasoning models")
+    ap.add_argument("--effort", choices=["off", "minimal", "low", "medium", "high"],
+                    help="reasoning budget sent to OpenRouter; 'off' disables thinking where the model allows it "
+                         "(cuts cost a lot; Grok 4 cannot turn it off, use 'low')")
     ap.add_argument("--mock", action="store_true", help="offline test, no key, no cost")
     args = ap.parse_args()
 
     cfg = load_model(args.model)
     if args.max_tokens:
         cfg["max_tokens"] = args.max_tokens
+    if args.effort:
+        cfg.setdefault("extra", {})["reasoning"] = ({"enabled": False} if args.effort == "off"
+                                                    else {"effort": args.effort})
     key = dotenv_values(HERE / ".env").get("OR_KEY")
     if not key and not args.mock:
         raise SystemExit(f"Put OR_KEY=sk-or-... in {HERE / '.env'}")
